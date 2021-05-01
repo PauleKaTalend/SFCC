@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:tx7wAHrgSDg+NnJOneSKLI1Jjpe0ogCG8wWNj43Rxke8fs/3BTI="/>
+    <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
+    <contextParameter comment="ORD" name="FILE_SFCC_ORDER" prompt="FILE_SFCC_ORDER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ORD"/>
+    <contextParameter comment="ITM_SFCC" name="FILE_SFCC_CATALOG" prompt="FILE_SFCC_CATALOG?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ITM_SFCC"/>
+    <contextParameter comment="PLI_SFCC" name="FILE_SFCC_PRICE" prompt="FILE_SFCC_PRICE?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="PLI_SFCC"/>
+    <contextParameter comment="CAT_SFCC" name="FILE_SFCC_CATEGORY" prompt="FILE_SFCC_CATEGORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CAT_SFCC"/>
+    <contextParameter comment="CLI_SFCC" name="FILE_SFCC_CUSTOMER" prompt="FILE_SFCC_CUSTOMER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CLI_SFCC"/>
+    <contextParameter comment="INV_SFCC" name="FILE_SFCC_INVENTORY" prompt="FILE_SFCC_INVENTORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="INV_SFCC"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="D:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT/"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE/"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT/"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT/"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG/"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP/"/>
+    <contextParameter comment="" name="FTP_INTEGRATION_SFCC_IN" prompt="FTP_INTEGRATION_SFCC_IN?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/INTEGRATION/SFCC/input/"/>
+    <contextParameter comment="" name="FTP_INTEGRATION_SFCC_OUT" prompt="FTP_INTEGRATION_SFCC_OUT?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/INTEGRATION/SFCC/output/"/>
+    <contextParameter comment="" name="FTP_STAGING_SFCC_IN" prompt="FTP_STAGING_SFCC_IN?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/STAGING/SFCC/input/"/>
+    <contextParameter comment="" name="FTP_STAGING_SFCC_OUT" prompt="FTP_STAGING_SFCC_OUT?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/STAGING/SFCC/output/"/>
+    <contextParameter comment="" name="FTP_SFCC_DIR_OUT" prompt="FTP_SFCC_DIR_OUT?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/SFCC/output/"/>
+    <contextParameter comment="" name="FTP_SFCC_DIR_IN" prompt="FTP_SFCC_DIR_IN?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/SFCC/input/"/>
+    <contextParameter comment="" name="FTP_LOGIN" prompt="FTP_LOGIN?" promptNeeded="false" repositoryContextId="_Ks8LoEy-Eemc-dtBBvVzLg" type="id_String" value="PKCATEST"/>
+    <contextParameter comment="" name="FTP_HOST" prompt="FTP_HOST?" promptNeeded="false" repositoryContextId="_Ks8LoEy-Eemc-dtBBvVzLg" type="id_String" value="62.23.163.233"/>
+    <contextParameter comment="" name="FTP_PASSWD" prompt="FTP_PASSWD?" promptNeeded="false" repositoryContextId="_Ks8LoEy-Eemc-dtBBvVzLg" type="id_Password" value="enc:system.encryption.key.v1:kIbGW0whRfYegmnejTOffH1gbpbWxCOtj6d4A+NQW1cycFUr"/>
+    <contextParameter comment="" name="FTP_PORT" prompt="FTP_PORT?" promptNeeded="false" repositoryContextId="_Ks8LoEy-Eemc-dtBBvVzLg" type="id_Integer" value="22"/>
+  </context>
+  <context confirmationNeeded="false" name="RECETTE">
+    <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:iTQMZE2h0iYEnyGymf2CVCa7sV1qa39aGVt+l5jL+WkLj4RISfs="/>
+    <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
+    <contextParameter comment="ORD" name="FILE_SFCC_ORDER" prompt="FILE_SFCC_ORDER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ORD"/>
+    <contextParameter comment="ITM_SFCC" name="FILE_SFCC_CATALOG" prompt="FILE_SFCC_CATALOG?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ITM_SFCC"/>
+    <contextParameter comment="PLI_SFCC" name="FILE_SFCC_PRICE" prompt="FILE_SFCC_PRICE?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="PLI_SFCC"/>
+    <contextParameter comment="CAT_SFCC" name="FILE_SFCC_CATEGORY" prompt="FILE_SFCC_CATEGORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CAT_SFCC"/>
+    <contextParameter comment="CLI_SFCC" name="FILE_SFCC_CUSTOMER" prompt="FILE_SFCC_CUSTOMER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CLI_SFCC"/>
+    <contextParameter comment="INV_SFCC" name="FILE_SFCC_INVENTORY" prompt="FILE_SFCC_INVENTORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="INV_SFCC"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="F:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT/"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE/"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT/"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT/"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG/"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP/"/>
+    <contextParameter comment="" name="FTP_INTEGRATION_SFCC_IN" prompt="FTP_INTEGRATION_SFCC_IN?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/INTEGRATION/SFCC/input/"/>
+    <contextParameter comment="" name="FTP_INTEGRATION_SFCC_OUT" prompt="FTP_INTEGRATION_SFCC_OUT?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/INTEGRATION/SFCC/output/"/>
+    <contextParameter comment="" name="FTP_STAGING_SFCC_IN" prompt="FTP_STAGING_SFCC_IN?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/STAGING/SFCC/input/"/>
+    <contextParameter comment="" name="FTP_STAGING_SFCC_OUT" prompt="FTP_STAGING_SFCC_OUT?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/STAGING/SFCC/output/"/>
+    <contextParameter comment="" name="FTP_SFCC_DIR_OUT" prompt="FTP_SFCC_DIR_OUT?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/SFCC/output/"/>
+    <contextParameter comment="" name="FTP_SFCC_DIR_IN" prompt="FTP_SFCC_DIR_IN?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/SFCC/input/"/>
+    <contextParameter comment="" name="FTP_LOGIN" prompt="FTP_LOGIN?" promptNeeded="false" repositoryContextId="_Ks8LoEy-Eemc-dtBBvVzLg" type="id_String" value="PKCATEST"/>
+    <contextParameter comment="" name="FTP_HOST" prompt="FTP_HOST?" promptNeeded="false" repositoryContextId="_Ks8LoEy-Eemc-dtBBvVzLg" type="id_String" value="62.23.163.233"/>
+    <contextParameter comment="" name="FTP_PASSWD" prompt="FTP_PASSWD?" promptNeeded="false" repositoryContextId="_Ks8LoEy-Eemc-dtBBvVzLg" type="id_Password" value="enc:system.encryption.key.v1:3yi8N55P32LcC5TFMN2h3tJMsWZydSLExsoncl5LuYCn1hBy"/>
+    <contextParameter comment="" name="FTP_PORT" prompt="FTP_PORT?" promptNeeded="false" repositoryContextId="_Ks8LoEy-Eemc-dtBBvVzLg" type="id_Integer" value="22"/>
+  </context>
+  <context confirmationNeeded="false" name="PRODUCTION">
+    <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:0tYxjgZ5F5w94Ieaz+gQF8S32lj40sVqxYB/g+Zy9tkAFbOIf9A="/>
+    <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
+    <contextParameter comment="ORD" name="FILE_SFCC_ORDER" prompt="FILE_SFCC_ORDER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ORD"/>
+    <contextParameter comment="ITM_SFCC" name="FILE_SFCC_CATALOG" prompt="FILE_SFCC_CATALOG?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ITM_SFCC"/>
+    <contextParameter comment="PLI_SFCC" name="FILE_SFCC_PRICE" prompt="FILE_SFCC_PRICE?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="PLI_SFCC"/>
+    <contextParameter comment="CAT_SFCC" name="FILE_SFCC_CATEGORY" prompt="FILE_SFCC_CATEGORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CAT_SFCC"/>
+    <contextParameter comment="CLI_SFCC" name="FILE_SFCC_CUSTOMER" prompt="FILE_SFCC_CUSTOMER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CLI_SFCC"/>
+    <contextParameter comment="INV_SFCC" name="FILE_SFCC_INVENTORY" prompt="FILE_SFCC_INVENTORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="INV_SFCC"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="F:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT/"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE/"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT/"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT/"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG/"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP/"/>
+    <contextParameter comment="" name="FTP_INTEGRATION_SFCC_IN" prompt="FTP_INTEGRATION_SFCC_IN?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/INTEGRATION/SFCC/input/"/>
+    <contextParameter comment="" name="FTP_INTEGRATION_SFCC_OUT" prompt="FTP_INTEGRATION_SFCC_OUT?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/INTEGRATION/SFCC/output/"/>
+    <contextParameter comment="" name="FTP_STAGING_SFCC_IN" prompt="FTP_STAGING_SFCC_IN?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/STAGING/SFCC/input/"/>
+    <contextParameter comment="" name="FTP_STAGING_SFCC_OUT" prompt="FTP_STAGING_SFCC_OUT?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/STAGING/SFCC/output/"/>
+    <contextParameter comment="" name="FTP_SFCC_DIR_OUT" prompt="FTP_SFCC_DIR_OUT?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/SFCC/output/"/>
+    <contextParameter comment="" name="FTP_SFCC_DIR_IN" prompt="FTP_SFCC_DIR_IN?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/SFCC/input/"/>
+    <contextParameter comment="" name="FTP_LOGIN" prompt="FTP_LOGIN?" promptNeeded="false" repositoryContextId="_Ks8LoEy-Eemc-dtBBvVzLg" type="id_String" value="PKCATEST"/>
+    <contextParameter comment="" name="FTP_HOST" prompt="FTP_HOST?" promptNeeded="false" repositoryContextId="_Ks8LoEy-Eemc-dtBBvVzLg" type="id_String" value="62.23.163.233"/>
+    <contextParameter comment="" name="FTP_PASSWD" prompt="FTP_PASSWD?" promptNeeded="false" repositoryContextId="_Ks8LoEy-Eemc-dtBBvVzLg" type="id_Password" value="enc:system.encryption.key.v1:k5KaI36/W3fy139GcFXiUH+rcYdEfBJlffkNF9yoRkMjByAY"/>
+    <contextParameter comment="" name="FTP_PORT" prompt="FTP_PORT?" promptNeeded="false" repositoryContextId="_Ks8LoEy-Eemc-dtBBvVzLg" type="id_Integer" value="22"/>
+  </context>
+  <context confirmationNeeded="false" name="DEV">
+    <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:ieXECvblxa85C1OpGPipyVkWibch3/E//ffZN6jAkLJyb/g0x2c="/>
+    <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
+    <contextParameter comment="ORD" name="FILE_SFCC_ORDER" prompt="FILE_SFCC_ORDER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ORD"/>
+    <contextParameter comment="ITM_SFCC" name="FILE_SFCC_CATALOG" prompt="FILE_SFCC_CATALOG?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ITM_SFCC"/>
+    <contextParameter comment="PLI_SFCC" name="FILE_SFCC_PRICE" prompt="FILE_SFCC_PRICE?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="PLI_SFCC"/>
+    <contextParameter comment="CAT_SFCC" name="FILE_SFCC_CATEGORY" prompt="FILE_SFCC_CATEGORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CAT_SFCC"/>
+    <contextParameter comment="CLI_SFCC" name="FILE_SFCC_CUSTOMER" prompt="FILE_SFCC_CUSTOMER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CLI_SFCC"/>
+    <contextParameter comment="INV_SFCC" name="FILE_SFCC_INVENTORY" prompt="FILE_SFCC_INVENTORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="INV_SFCC"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="D:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT/"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE/"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT/"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT/"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG/"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP/"/>
+    <contextParameter comment="" name="FTP_INTEGRATION_SFCC_IN" prompt="FTP_INTEGRATION_SFCC_IN?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/INTEGRATION/SFCC/input/"/>
+    <contextParameter comment="" name="FTP_INTEGRATION_SFCC_OUT" prompt="FTP_INTEGRATION_SFCC_OUT?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/INTEGRATION/SFCC/output/"/>
+    <contextParameter comment="" name="FTP_STAGING_SFCC_IN" prompt="FTP_STAGING_SFCC_IN?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/STAGING/SFCC/input/"/>
+    <contextParameter comment="" name="FTP_STAGING_SFCC_OUT" prompt="FTP_STAGING_SFCC_OUT?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/STAGING/SFCC/output/"/>
+    <contextParameter comment="" name="FTP_SFCC_DIR_OUT" prompt="FTP_SFCC_DIR_OUT?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/SFCC/output/"/>
+    <contextParameter comment="" name="FTP_SFCC_DIR_IN" prompt="FTP_SFCC_DIR_IN?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/SFCC/input/"/>
+    <contextParameter comment="" name="FTP_LOGIN" prompt="FTP_LOGIN?" promptNeeded="false" repositoryContextId="_Ks8LoEy-Eemc-dtBBvVzLg" type="id_String" value="PKCATEST"/>
+    <contextParameter comment="" name="FTP_HOST" prompt="FTP_HOST?" promptNeeded="false" repositoryContextId="_Ks8LoEy-Eemc-dtBBvVzLg" type="id_String" value="62.23.163.233"/>
+    <contextParameter comment="" name="FTP_PASSWD" prompt="FTP_PASSWD?" promptNeeded="false" repositoryContextId="_Ks8LoEy-Eemc-dtBBvVzLg" type="id_Password" value="enc:system.encryption.key.v1:azIl+/q1pq93506poOnn6YL2KfnYz7OiQR55J90FzFQ3wjCJ"/>
+    <contextParameter comment="" name="FTP_PORT" prompt="FTP_PORT?" promptNeeded="false" repositoryContextId="_Ks8LoEy-Eemc-dtBBvVzLg" type="id_Integer" value="22"/>
+  </context>
+  <context confirmationNeeded="false" name="PROD">
+    <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:F2za+YJ8mda1FoKSesivM7FEiRersNR8RVME0q9A0sXpFAHCEWE="/>
+    <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
+    <contextParameter comment="ORD" name="FILE_SFCC_ORDER" prompt="FILE_SFCC_ORDER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ORD"/>
+    <contextParameter comment="ITM_SFCC" name="FILE_SFCC_CATALOG" prompt="FILE_SFCC_CATALOG?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ITM_SFCC"/>
+    <contextParameter comment="PLI_SFCC" name="FILE_SFCC_PRICE" prompt="FILE_SFCC_PRICE?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="PLI_SFCC"/>
+    <contextParameter comment="CAT_SFCC" name="FILE_SFCC_CATEGORY" prompt="FILE_SFCC_CATEGORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CAT_SFCC"/>
+    <contextParameter comment="CLI_SFCC" name="FILE_SFCC_CUSTOMER" prompt="FILE_SFCC_CUSTOMER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CLI_SFCC"/>
+    <contextParameter comment="INV_SFCC" name="FILE_SFCC_INVENTORY" prompt="FILE_SFCC_INVENTORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="INV_SFCC"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="D:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT/"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE/"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT/"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT/"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG/"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP/"/>
+    <contextParameter comment="" name="FTP_INTEGRATION_SFCC_IN" prompt="FTP_INTEGRATION_SFCC_IN?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/INTEGRATION/SFCC/input/"/>
+    <contextParameter comment="" name="FTP_INTEGRATION_SFCC_OUT" prompt="FTP_INTEGRATION_SFCC_OUT?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/INTEGRATION/SFCC/output/"/>
+    <contextParameter comment="" name="FTP_STAGING_SFCC_IN" prompt="FTP_STAGING_SFCC_IN?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/STAGING/SFCC/input/"/>
+    <contextParameter comment="" name="FTP_STAGING_SFCC_OUT" prompt="FTP_STAGING_SFCC_OUT?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/STAGING/SFCC/output/"/>
+    <contextParameter comment="" name="FTP_SFCC_DIR_OUT" prompt="FTP_SFCC_DIR_OUT?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/SFCC/output/"/>
+    <contextParameter comment="" name="FTP_SFCC_DIR_IN" prompt="FTP_SFCC_DIR_IN?" promptNeeded="false" repositoryContextId="_mHgekDypEeqitb4kf88rzQ" type="id_String" value="/SFCC/input/"/>
+    <contextParameter comment="" name="FTP_LOGIN" prompt="FTP_LOGIN?" promptNeeded="false" repositoryContextId="_Ks8LoEy-Eemc-dtBBvVzLg" type="id_String" value="PKCATEST"/>
+    <contextParameter comment="" name="FTP_HOST" prompt="FTP_HOST?" promptNeeded="false" repositoryContextId="_Ks8LoEy-Eemc-dtBBvVzLg" type="id_String" value="62.23.163.233"/>
+    <contextParameter comment="" name="FTP_PASSWD" prompt="FTP_PASSWD?" promptNeeded="false" repositoryContextId="_Ks8LoEy-Eemc-dtBBvVzLg" type="id_Password" value="enc:system.encryption.key.v1:dBFqqA7rMNC4CT7XyK70aGsdEZNI8INOXM1QmRxmdv8/aEqC"/>
+    <contextParameter comment="" name="FTP_PORT" prompt="FTP_PORT?" promptNeeded="false" repositoryContextId="_Ks8LoEy-Eemc-dtBBvVzLg" type="id_Integer" value="22"/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:8L7NMhJX2YpUgJmG6lU9OzyG/1NF+HMzA1VAt8lZ"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="true"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="context.WORKSPACE + context.PROJECT + &quot;/&quot; + context.FLOW + &quot;/&quot; +context.DIR_LOG"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tMysqlOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
+    <elementParameter field="TEXT" name="URL" show="false" value=""/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="context.DB_TECH_HOST"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="context.DB_TECH_PORT"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="context.DB_TECH_DATABASE"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.DB_TECH_DATABASE"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="context.DB_TECH_ADD_PARAM"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="context.DB_TECH_LOGIN"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:S4MNKXd2u6PYSsKVsU6zHXiNQqWFJzgMd0WS0rVPVVxDG7v+laXYddSRMwDda6evZiMoJQ=="/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;TALEND_LOG_SFCC&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_tS7NxmVgEemqNKEVUBqnkA" name="DataOperation"/>
+    <routinesParameter id="_tTq0pGVgEemqNKEVUBqnkA" name="Mathematical"/>
+    <routinesParameter id="_tVA4cGVgEemqNKEVUBqnkA" name="Numeric"/>
+    <routinesParameter id="_tVA4emVgEemqNKEVUBqnkA" name="Relational"/>
+    <routinesParameter id="_tVmuUGVgEemqNKEVUBqnkA" name="SQLike"/>
+    <routinesParameter id="_tVKCaWVgEemqNKEVUBqnkA" name="StringHandling"/>
+    <routinesParameter id="_tVTzYGVgEemqNKEVUBqnkA" name="TalendDataGenerator"/>
+    <routinesParameter id="_tVTzamVgEemqNKEVUBqnkA" name="TalendDate"/>
+    <routinesParameter id="_tVdkamVgEemqNKEVUBqnkA" name="TalendStringUtil"/>
+    <routinesParameter id="_tVdkYGVgEemqNKEVUBqnkA" name="TalendString"/>
+  </parameters>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_1"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="REF_TOOLS:SFTP_GET_FILES"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_G9MQkGbiEem1urie7Bnz5w"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="SFTP_FILE_MASK"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.SUFFIX_FILE + context.FILE_SFCC_ORDER + &quot;*&quot;"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="SFTP_DIR_LOCAL"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.WORKSPACE +context.PROJECT + &quot;/&quot; +context.FLOW +&quot;/&quot; + context.DIR_OUTPUT"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="SFTP_DIR_REMOTE"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.FTP_INTEGRATION_SFCC_OUT"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="GET_ORDER"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_1"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_2"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="REF_TOOLS:SFTP_PUT_FILES"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_ITvMwGbiEem1urie7Bnz5w"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="SFTP_DIR_REMOTE"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.FTP_SFCC_DIR_OUT"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="SFTP_DIR_LOCAL"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.WORKSPACE +context.PROJECT + &quot;/&quot; +context.FLOW +&quot;/&quot; +  context.DIR_OUTPUT"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="SFTP_FILE_MASK"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.SUFFIX_FILE + context.FILE_SFCC_ORDER + &quot;*&quot;"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="PUT_ORDER"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_2"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_3"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="REF_TOOLS:SFTP_GET_FILES"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_G9MQkGbiEem1urie7Bnz5w"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="SFTP_FILE_MASK"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.SUFFIX_FILE + context.FILE_SFCC_CUSTOMER+ &quot;*&quot;"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="SFTP_DIR_LOCAL"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.WORKSPACE +context.PROJECT + &quot;/&quot; +context.FLOW +&quot;/&quot; + context.DIR_OUTPUT"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="SFTP_DIR_REMOTE"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.FTP_INTEGRATION_SFCC_OUT"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="GET_CUSTOMER"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_3"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_4"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="REF_TOOLS:SFTP_PUT_FILES"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_ITvMwGbiEem1urie7Bnz5w"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="SFTP_DIR_REMOTE"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.FTP_SFCC_DIR_OUT"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="SFTP_DIR_LOCAL"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.WORKSPACE +context.PROJECT + &quot;/&quot; +context.FLOW +&quot;/&quot; +  context.DIR_OUTPUT"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="SFTP_FILE_MASK"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.SUFFIX_FILE + context.FILE_SFCC_CUSTOMER+ &quot;*&quot;"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="PUT_CUSTOMER"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_4"/>
+  </node>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_1" offsetLabelX="0" offsetLabelY="0" source="tRunJob_1" target="tRunJob_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_2" offsetLabelX="0" offsetLabelY="0" source="tRunJob_2" target="tRunJob_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk4"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_3" offsetLabelX="0" offsetLabelY="0" source="tRunJob_3" target="tRunJob_4">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk3"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_3"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_4"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_1925d3d3-ff2b-467c-8b9d-e9809c88d126"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>tap3a6G6axau/3CWJouWwr3mQdHQTUqjY1jih7NIk/WIkIhlOighi2jf2eJYHFe61KHxw5ukwWy6
+lAFG5wz2Bw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_8c095662-f2fd-4344-8c2f-c44b0207bd3a"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>lHlEBK7ruU2I2q/Y9rr+EfGTzTC5as5YASltLl9qkTZS1PVjqKx5tt27oTY/CSnh6xv54iwN17Qg
+g1X5BVC91A==</DigestValue></Reference></SignedInfo><SignatureValue>XWay4i3za/w+Q0Xi1sHm1JXl5/XIGEM1SCDetIOKcZ6yKKmVZi8f5K8mWppy1elZHCjPE8O3arlU
+YvwaJXrEH5BEh9BtnEYAPjDJYyITxMAGTq0Ju8gJKYgXp6JcOp59cQyfuBRATuE6xjP6Hgqd0zya
+LdCRqW7sxXngNF9WAViVIyDk+zu9dqC1Ga8L8EnEqfYzrNDxbS/oo5DYM1Hh2hb0pJYzPV8x2CW3
+uSA6TWvTrXz74KnQHXvguqm56QJ5aalKJjnNEwmTuX/q/lLHb7ejHGp4hdLDR5W1OGM0GlefeoNP
+eNcC9dEXq6RPFmRubBMD5FRYjcU0bCUj6VdUeQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_8c095662-f2fd-4344-8c2f-c44b0207bd3a" Target="#_1925d3d3-ff2b-467c-8b9d-e9809c88d126"><Timestamp>2021-05-01 01:40:17</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

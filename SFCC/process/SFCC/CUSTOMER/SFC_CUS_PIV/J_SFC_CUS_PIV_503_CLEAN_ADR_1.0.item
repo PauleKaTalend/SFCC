@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Local" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Production">
+    <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:9XgaS41YqYyUxnxEW9gzxp3ezwLbKKevUGAlaToX/Gvik8Ie2vo="/>
+    <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT\"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE\"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT\"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT\"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG\"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP\"/>
+    <contextParameter comment="PAI_PIVOT" name="FILE_PIVOT_PAYMENT" prompt="FILE_PIVOT_PAYMENT?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PAI_PIVOT"/>
+    <contextParameter comment="ITM_PIVOT" name="FILE_PIVOT_ARTICLE" prompt="FILE_PIVOT_ARTICLE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ITM_PIVOT"/>
+    <contextParameter comment="CLT_PIVOT" name="FILE_PIVOT_CUSTOMER_NL" prompt="FILE_PIVOT_CUSTOMER_NL?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLT_PIVOT"/>
+    <contextParameter comment="CLI_PIVOT" name="FILE_PIVOT_CUSTOMER" prompt="FILE_PIVOT_CUSTOMER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLI_PIVOT"/>
+    <contextParameter comment="INV_PIVOT" name="FILE_PIVOT_INVENTORY" prompt="FILE_PIVOT_INVENTORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="INV_PIVOT"/>
+    <contextParameter comment="CAT_PIVOT" name="FILE_PIVOT_ARTICLE_CATEGORY" prompt="FILE_PIVOT_ARTICLE_CATEGORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CAT_PIVOT"/>
+    <contextParameter comment="PBO_PIVOT" name="FILE_PIVOT_PRICE_BOOK" prompt="FILE_PIVOT_PRICE_BOOK?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PBO_PIVOT"/>
+    <contextParameter comment="PLI_PIVOT" name="FILE_PIVOT_PRICE_LIST" prompt="FILE_PIVOT_PRICE_LIST?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PLI_PIVOT"/>
+    <contextParameter comment="ORD_PIVOT" name="FILE_PIVOT_ORD_LINE" prompt="FILE_PIVOT_ORD_LINE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORD_PIVOT"/>
+    <contextParameter comment="POS_PIVOT" name="FILE_PIVOT_STORE" prompt="FILE_PIVOT_STORE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="POS_PIVOT"/>
+    <contextParameter comment="ORH_PIVOT" name="FILE_PIVOT_ORD_HEADER" prompt="FILE_PIVOT_ORD_HEADER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORH_PIVOT"/>
+    <contextParameter comment="SOR_PIVOT" name="FILE_PIVOT_ORD_STATUS" prompt="FILE_PIVOT_ORD_STATUS?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="SOR_PIVOT"/>
+    <contextParameter comment="ORD" name="FILE_SFCC_ORDER" prompt="FILE_SFCC_ORDER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ORD"/>
+    <contextParameter comment="ITM_SFCC" name="FILE_SFCC_CATALOG" prompt="FILE_SFCC_CATALOG?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ITM_SFCC"/>
+    <contextParameter comment="PLI_SFCC" name="FILE_SFCC_PRICE" prompt="FILE_SFCC_PRICE?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="PLI_SFCC"/>
+    <contextParameter comment="CAT_SFCC" name="FILE_SFCC_CATEGORY" prompt="FILE_SFCC_CATEGORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CAT_SFCC"/>
+    <contextParameter comment="CLI_SFCC" name="FILE_SFCC_CUSTOMER" prompt="FILE_SFCC_CUSTOMER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CLI_SFCC"/>
+    <contextParameter comment="INV_SFCC" name="FILE_SFCC_INVENTORY" prompt="FILE_SFCC_INVENTORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="INV_SFCC"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="F:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="DB_SFCC_LOGIN" prompt="DB_SFCC_LOGIN?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="bt_talend"/>
+    <contextParameter comment="" name="DB_SFCC_DATABASE" prompt="DB_SFCC_DATABASE?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="bt_talend"/>
+    <contextParameter comment="" name="DB_SFCC_PASSWORD" prompt="DB_SFCC_PASSWORD?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_Password" value="enc:system.encryption.key.v1:DSog2jo5zkPw5SJi2oGjNTp+nMpYvEh0bLFnhv2qrrR8zx12Jtc="/>
+    <contextParameter comment="" name="DB_SFCC_PORT" prompt="DB_SFCC_PORT?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_SFCC_ADD_PARAM" prompt="DB_SFCC_ADD_PARAM?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="DB_SFCC_HOST" prompt="DB_SFCC_HOST?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="localhost"/>
+  </context>
+  <context confirmationNeeded="false" name="Local">
+    <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:UrziFA+1BVnab0323ET3dzbicFE971LNaAXcTDlg8aB1wLR5vic="/>
+    <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT\"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE\"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT\"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT\"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG\"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP\"/>
+    <contextParameter comment="PAI_PIVOT" name="FILE_PIVOT_PAYMENT" prompt="FILE_PIVOT_PAYMENT?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PAI_PIVOT"/>
+    <contextParameter comment="ITM_PIVOT" name="FILE_PIVOT_ARTICLE" prompt="FILE_PIVOT_ARTICLE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ITM_PIVOT"/>
+    <contextParameter comment="CLT_PIVOT" name="FILE_PIVOT_CUSTOMER_NL" prompt="FILE_PIVOT_CUSTOMER_NL?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLT_PIVOT"/>
+    <contextParameter comment="CLI_PIVOT" name="FILE_PIVOT_CUSTOMER" prompt="FILE_PIVOT_CUSTOMER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLI_PIVOT"/>
+    <contextParameter comment="INV_PIVOT" name="FILE_PIVOT_INVENTORY" prompt="FILE_PIVOT_INVENTORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="INV_PIVOT"/>
+    <contextParameter comment="CAT_PIVOT" name="FILE_PIVOT_ARTICLE_CATEGORY" prompt="FILE_PIVOT_ARTICLE_CATEGORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CAT_PIVOT"/>
+    <contextParameter comment="PBO_PIVOT" name="FILE_PIVOT_PRICE_BOOK" prompt="FILE_PIVOT_PRICE_BOOK?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PBO_PIVOT"/>
+    <contextParameter comment="PLI_PIVOT" name="FILE_PIVOT_PRICE_LIST" prompt="FILE_PIVOT_PRICE_LIST?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PLI_PIVOT"/>
+    <contextParameter comment="ORD_PIVOT" name="FILE_PIVOT_ORD_LINE" prompt="FILE_PIVOT_ORD_LINE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORD_PIVOT"/>
+    <contextParameter comment="POS_PIVOT" name="FILE_PIVOT_STORE" prompt="FILE_PIVOT_STORE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="POS_PIVOT"/>
+    <contextParameter comment="ORH_PIVOT" name="FILE_PIVOT_ORD_HEADER" prompt="FILE_PIVOT_ORD_HEADER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORH_PIVOT"/>
+    <contextParameter comment="SOR_PIVOT" name="FILE_PIVOT_ORD_STATUS" prompt="FILE_PIVOT_ORD_STATUS?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="SOR_PIVOT"/>
+    <contextParameter comment="ORD" name="FILE_SFCC_ORDER" prompt="FILE_SFCC_ORDER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ORD"/>
+    <contextParameter comment="ITM_SFCC" name="FILE_SFCC_CATALOG" prompt="FILE_SFCC_CATALOG?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ITM_SFCC"/>
+    <contextParameter comment="PLI_SFCC" name="FILE_SFCC_PRICE" prompt="FILE_SFCC_PRICE?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="PLI_SFCC"/>
+    <contextParameter comment="CAT_SFCC" name="FILE_SFCC_CATEGORY" prompt="FILE_SFCC_CATEGORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CAT_SFCC"/>
+    <contextParameter comment="CLI_SFCC" name="FILE_SFCC_CUSTOMER" prompt="FILE_SFCC_CUSTOMER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CLI_SFCC"/>
+    <contextParameter comment="INV_SFCC" name="FILE_SFCC_INVENTORY" prompt="FILE_SFCC_INVENTORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="INV_SFCC"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="D:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="DB_SFCC_LOGIN" prompt="DB_SFCC_LOGIN?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="bt_talend"/>
+    <contextParameter comment="" name="DB_SFCC_DATABASE" prompt="DB_SFCC_DATABASE?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="bt_talend"/>
+    <contextParameter comment="" name="DB_SFCC_PASSWORD" prompt="DB_SFCC_PASSWORD?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_Password" value="enc:system.encryption.key.v1:CfOUU0rdmGuq4c+LGP9QhNy7CR5RpSmE/h67YUWg7KTkaEw9fLg="/>
+    <contextParameter comment="" name="DB_SFCC_PORT" prompt="DB_SFCC_PORT?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_SFCC_ADD_PARAM" prompt="DB_SFCC_ADD_PARAM?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="DB_SFCC_HOST" prompt="DB_SFCC_HOST?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="localhost"/>
+  </context>
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:aea82V6YS0qCpTjmzLmsmAlTWc1xrQ+O0/pZ82BZceg0OuV94Kg="/>
+    <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT/"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE/"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT/"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT/"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG/"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP/"/>
+    <contextParameter comment="PAI_PIVOT" name="FILE_PIVOT_PAYMENT" prompt="FILE_PIVOT_PAYMENT?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PAI_PIVOT"/>
+    <contextParameter comment="ITM_PIVOT" name="FILE_PIVOT_ARTICLE" prompt="FILE_PIVOT_ARTICLE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ITM_PIVOT"/>
+    <contextParameter comment="CLO_PIVOT" name="FILE_PIVOT_CUSTOMER_NL" prompt="FILE_PIVOT_CUSTOMER_NL?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLT_PIVOT"/>
+    <contextParameter comment="CLI_PIVOT" name="FILE_PIVOT_CUSTOMER" prompt="FILE_PIVOT_CUSTOMER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLI_PIVOT"/>
+    <contextParameter comment="INV_PIVOT" name="FILE_PIVOT_INVENTORY" prompt="FILE_PIVOT_INVENTORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="INV_PIVOT"/>
+    <contextParameter comment="CAT_PIVOT" name="FILE_PIVOT_ARTICLE_CATEGORY" prompt="FILE_PIVOT_ARTICLE_CATEGORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CAT_PIVOT"/>
+    <contextParameter comment="PBO_PIVOT" name="FILE_PIVOT_PRICE_BOOK" prompt="FILE_PIVOT_PRICE_BOOK?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PBO_PIVOT"/>
+    <contextParameter comment="PLI_PIVOT" name="FILE_PIVOT_PRICE_LIST" prompt="FILE_PIVOT_PRICE_LIST?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PLI_PIVOT"/>
+    <contextParameter comment="ORD_PIVOT" name="FILE_PIVOT_ORD_LINE" prompt="FILE_PIVOT_ORD_LINE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORD_PIVOT"/>
+    <contextParameter comment="POS_PIVOT" name="FILE_PIVOT_STORE" prompt="FILE_PIVOT_STORE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="POS_PIVOT"/>
+    <contextParameter comment="ORH_PIVOT" name="FILE_PIVOT_ORD_HEADER" prompt="FILE_PIVOT_ORD_HEADER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORH_PIVOT"/>
+    <contextParameter comment="SOR_PIVOT" name="FILE_PIVOT_ORD_STATUS" prompt="FILE_PIVOT_ORD_STATUS?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="SOR_PIVOT"/>
+    <contextParameter comment="ORD" name="FILE_SFCC_ORDER" prompt="FILE_SFCC_ORDER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ORD"/>
+    <contextParameter comment="ITM_SFCC" name="FILE_SFCC_CATALOG" prompt="FILE_SFCC_CATALOG?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ITM_SFCC"/>
+    <contextParameter comment="PLI_SFCC" name="FILE_SFCC_PRICE" prompt="FILE_SFCC_PRICE?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="PLI_SFCC"/>
+    <contextParameter comment="CAT_SFCC" name="FILE_SFCC_CATEGORY" prompt="FILE_SFCC_CATEGORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CAT_SFCC"/>
+    <contextParameter comment="CLI_SFCC" name="FILE_SFCC_CUSTOMER" prompt="FILE_SFCC_CUSTOMER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CLI_SFCC"/>
+    <contextParameter comment="INV_SFCC" name="FILE_SFCC_INVENTORY" prompt="FILE_SFCC_INVENTORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="INV_SFCC"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="D:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="DB_SFCC_LOGIN" prompt="DB_SFCC_LOGIN?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="bt_talend"/>
+    <contextParameter comment="" name="DB_SFCC_DATABASE" prompt="DB_SFCC_DATABASE?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="bt_talend"/>
+    <contextParameter comment="" name="DB_SFCC_PASSWORD" prompt="DB_SFCC_PASSWORD?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_Password" value="enc:system.encryption.key.v1:4iiLPGHRb4NHwTGamM3prCMQ82lZ30AtGnEmbJnNmc5WmL8kiFk="/>
+    <contextParameter comment="" name="DB_SFCC_PORT" prompt="DB_SFCC_PORT?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_SFCC_ADD_PARAM" prompt="DB_SFCC_ADD_PARAM?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="DB_SFCC_HOST" prompt="DB_SFCC_HOST?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="localhost"/>
+  </context>
+  <context confirmationNeeded="false" name="PRODUCTION">
+    <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:Kl6dS/UuBMTOJ/xMsuBzBU0xHMtbkcQpsgRrwd/hGE9Ir0Jhuhc="/>
+    <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT/"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE/"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT/"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT/"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG/"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP/"/>
+    <contextParameter comment="PAI_PIVOT" name="FILE_PIVOT_PAYMENT" prompt="FILE_PIVOT_PAYMENT?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PAI_PIVOT"/>
+    <contextParameter comment="ITM_PIVOT" name="FILE_PIVOT_ARTICLE" prompt="FILE_PIVOT_ARTICLE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ITM_PIVOT"/>
+    <contextParameter comment="CLO_PIVOT" name="FILE_PIVOT_CUSTOMER_NL" prompt="FILE_PIVOT_CUSTOMER_NL?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLT_PIVOT"/>
+    <contextParameter comment="CLI_PIVOT" name="FILE_PIVOT_CUSTOMER" prompt="FILE_PIVOT_CUSTOMER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLI_PIVOT"/>
+    <contextParameter comment="INV_PIVOT" name="FILE_PIVOT_INVENTORY" prompt="FILE_PIVOT_INVENTORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="INV_PIVOT"/>
+    <contextParameter comment="CAT_PIVOT" name="FILE_PIVOT_ARTICLE_CATEGORY" prompt="FILE_PIVOT_ARTICLE_CATEGORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CAT_PIVOT"/>
+    <contextParameter comment="PBO_PIVOT" name="FILE_PIVOT_PRICE_BOOK" prompt="FILE_PIVOT_PRICE_BOOK?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PBO_PIVOT"/>
+    <contextParameter comment="PLI_PIVOT" name="FILE_PIVOT_PRICE_LIST" prompt="FILE_PIVOT_PRICE_LIST?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PLI_PIVOT"/>
+    <contextParameter comment="ORD_PIVOT" name="FILE_PIVOT_ORD_LINE" prompt="FILE_PIVOT_ORD_LINE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORD_PIVOT"/>
+    <contextParameter comment="POS_PIVOT" name="FILE_PIVOT_STORE" prompt="FILE_PIVOT_STORE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="POS_PIVOT"/>
+    <contextParameter comment="ORH_PIVOT" name="FILE_PIVOT_ORD_HEADER" prompt="FILE_PIVOT_ORD_HEADER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORH_PIVOT"/>
+    <contextParameter comment="SOR_PIVOT" name="FILE_PIVOT_ORD_STATUS" prompt="FILE_PIVOT_ORD_STATUS?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="SOR_PIVOT"/>
+    <contextParameter comment="ORD" name="FILE_SFCC_ORDER" prompt="FILE_SFCC_ORDER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ORD"/>
+    <contextParameter comment="ITM_SFCC" name="FILE_SFCC_CATALOG" prompt="FILE_SFCC_CATALOG?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ITM_SFCC"/>
+    <contextParameter comment="PLI_SFCC" name="FILE_SFCC_PRICE" prompt="FILE_SFCC_PRICE?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="PLI_SFCC"/>
+    <contextParameter comment="CAT_SFCC" name="FILE_SFCC_CATEGORY" prompt="FILE_SFCC_CATEGORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CAT_SFCC"/>
+    <contextParameter comment="CLI_SFCC" name="FILE_SFCC_CUSTOMER" prompt="FILE_SFCC_CUSTOMER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CLI_SFCC"/>
+    <contextParameter comment="INV_SFCC" name="FILE_SFCC_INVENTORY" prompt="FILE_SFCC_INVENTORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="INV_SFCC"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="F:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="DB_SFCC_LOGIN" prompt="DB_SFCC_LOGIN?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="bt_talend"/>
+    <contextParameter comment="" name="DB_SFCC_DATABASE" prompt="DB_SFCC_DATABASE?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="bt_talend"/>
+    <contextParameter comment="" name="DB_SFCC_PASSWORD" prompt="DB_SFCC_PASSWORD?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_Password" value="enc:system.encryption.key.v1:m58/MRZ/Y4q+AA0hmOMdgXnTyyper8FtLlCW9EXVZ8/nMh/gaKY="/>
+    <contextParameter comment="" name="DB_SFCC_PORT" prompt="DB_SFCC_PORT?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_SFCC_ADD_PARAM" prompt="DB_SFCC_ADD_PARAM?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="DB_SFCC_HOST" prompt="DB_SFCC_HOST?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="localhost"/>
+  </context>
+  <context confirmationNeeded="false" name="RECETTE">
+    <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:P31s3MiIeklnhtpdZb4w60LJHCMix2FRpAoz5XQLj7HK3UN3n+c="/>
+    <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT/"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE/"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT/"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT/"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG/"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP/"/>
+    <contextParameter comment="PAI_PIVOT" name="FILE_PIVOT_PAYMENT" prompt="FILE_PIVOT_PAYMENT?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PAI_PIVOT"/>
+    <contextParameter comment="ITM_PIVOT" name="FILE_PIVOT_ARTICLE" prompt="FILE_PIVOT_ARTICLE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ITM_PIVOT"/>
+    <contextParameter comment="CLO_PIVOT" name="FILE_PIVOT_CUSTOMER_NL" prompt="FILE_PIVOT_CUSTOMER_NL?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLT_PIVOT"/>
+    <contextParameter comment="CLI_PIVOT" name="FILE_PIVOT_CUSTOMER" prompt="FILE_PIVOT_CUSTOMER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLI_PIVOT"/>
+    <contextParameter comment="INV_PIVOT" name="FILE_PIVOT_INVENTORY" prompt="FILE_PIVOT_INVENTORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="INV_PIVOT"/>
+    <contextParameter comment="CAT_PIVOT" name="FILE_PIVOT_ARTICLE_CATEGORY" prompt="FILE_PIVOT_ARTICLE_CATEGORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CAT_PIVOT"/>
+    <contextParameter comment="PBO_PIVOT" name="FILE_PIVOT_PRICE_BOOK" prompt="FILE_PIVOT_PRICE_BOOK?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PBO_PIVOT"/>
+    <contextParameter comment="PLI_PIVOT" name="FILE_PIVOT_PRICE_LIST" prompt="FILE_PIVOT_PRICE_LIST?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PLI_PIVOT"/>
+    <contextParameter comment="ORD_PIVOT" name="FILE_PIVOT_ORD_LINE" prompt="FILE_PIVOT_ORD_LINE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORD_PIVOT"/>
+    <contextParameter comment="POS_PIVOT" name="FILE_PIVOT_STORE" prompt="FILE_PIVOT_STORE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="POS_PIVOT"/>
+    <contextParameter comment="ORH_PIVOT" name="FILE_PIVOT_ORD_HEADER" prompt="FILE_PIVOT_ORD_HEADER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORH_PIVOT"/>
+    <contextParameter comment="SOR_PIVOT" name="FILE_PIVOT_ORD_STATUS" prompt="FILE_PIVOT_ORD_STATUS?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="SOR_PIVOT"/>
+    <contextParameter comment="ORD" name="FILE_SFCC_ORDER" prompt="FILE_SFCC_ORDER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ORD"/>
+    <contextParameter comment="ITM_SFCC" name="FILE_SFCC_CATALOG" prompt="FILE_SFCC_CATALOG?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ITM_SFCC"/>
+    <contextParameter comment="PLI_SFCC" name="FILE_SFCC_PRICE" prompt="FILE_SFCC_PRICE?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="PLI_SFCC"/>
+    <contextParameter comment="CAT_SFCC" name="FILE_SFCC_CATEGORY" prompt="FILE_SFCC_CATEGORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CAT_SFCC"/>
+    <contextParameter comment="CLI_SFCC" name="FILE_SFCC_CUSTOMER" prompt="FILE_SFCC_CUSTOMER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CLI_SFCC"/>
+    <contextParameter comment="INV_SFCC" name="FILE_SFCC_INVENTORY" prompt="FILE_SFCC_INVENTORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="INV_SFCC"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="F:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="DB_SFCC_LOGIN" prompt="DB_SFCC_LOGIN?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="bt_talend"/>
+    <contextParameter comment="" name="DB_SFCC_DATABASE" prompt="DB_SFCC_DATABASE?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="bt_talend"/>
+    <contextParameter comment="" name="DB_SFCC_PASSWORD" prompt="DB_SFCC_PASSWORD?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_Password" value="enc:system.encryption.key.v1:6XCr7dvPC93MqO4Spj/8a+WPYI4Db7zVs7oIX4zS0MJePL/vIzs="/>
+    <contextParameter comment="" name="DB_SFCC_PORT" prompt="DB_SFCC_PORT?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_SFCC_ADD_PARAM" prompt="DB_SFCC_ADD_PARAM?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="DB_SFCC_HOST" prompt="DB_SFCC_HOST?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="localhost"/>
+  </context>
+  <context confirmationNeeded="false" name="Developpement">
+    <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:+Fjww0bvm3q+y3j52K6h15pScGWzSrPXDGie/6VnbtuB1Swfy1E="/>
+    <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT\"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE\"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT\"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT\"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG\"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP\"/>
+    <contextParameter comment="PAI_PIVOT" name="FILE_PIVOT_PAYMENT" prompt="FILE_PIVOT_PAYMENT?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PAI_PIVOT"/>
+    <contextParameter comment="ITM_PIVOT" name="FILE_PIVOT_ARTICLE" prompt="FILE_PIVOT_ARTICLE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ITM_PIVOT"/>
+    <contextParameter comment="CLT_PIVOT" name="FILE_PIVOT_CUSTOMER_NL" prompt="FILE_PIVOT_CUSTOMER_NL?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLT_PIVOT"/>
+    <contextParameter comment="CLI_PIVOT" name="FILE_PIVOT_CUSTOMER" prompt="FILE_PIVOT_CUSTOMER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLI_PIVOT"/>
+    <contextParameter comment="INV_PIVOT" name="FILE_PIVOT_INVENTORY" prompt="FILE_PIVOT_INVENTORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="INV_PIVOT"/>
+    <contextParameter comment="CAT_PIVOT" name="FILE_PIVOT_ARTICLE_CATEGORY" prompt="FILE_PIVOT_ARTICLE_CATEGORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CAT_PIVOT"/>
+    <contextParameter comment="PBO_PIVOT" name="FILE_PIVOT_PRICE_BOOK" prompt="FILE_PIVOT_PRICE_BOOK?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PBO_PIVOT"/>
+    <contextParameter comment="PLI_PIVOT" name="FILE_PIVOT_PRICE_LIST" prompt="FILE_PIVOT_PRICE_LIST?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PLI_PIVOT"/>
+    <contextParameter comment="ORD_PIVOT" name="FILE_PIVOT_ORD_LINE" prompt="FILE_PIVOT_ORD_LINE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORD_PIVOT"/>
+    <contextParameter comment="POS_PIVOT" name="FILE_PIVOT_STORE" prompt="FILE_PIVOT_STORE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="POS_PIVOT"/>
+    <contextParameter comment="ORH_PIVOT" name="FILE_PIVOT_ORD_HEADER" prompt="FILE_PIVOT_ORD_HEADER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORH_PIVOT"/>
+    <contextParameter comment="SOR_PIVOT" name="FILE_PIVOT_ORD_STATUS" prompt="FILE_PIVOT_ORD_STATUS?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="SOR_PIVOT"/>
+    <contextParameter comment="INV_SFCC" name="FILE_SFCC_INVENTORY" prompt="FILE_SFCC_INVENTORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="INV_SFCC"/>
+    <contextParameter comment="PLI_SFCC" name="FILE_SFCC_PRICE" prompt="FILE_SFCC_PRICE?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="PLI_SFCC"/>
+    <contextParameter comment="ITM_SFCC" name="FILE_SFCC_CATALOG" prompt="FILE_SFCC_CATALOG?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ITM_SFCC"/>
+    <contextParameter comment="CAT_SFCC" name="FILE_SFCC_CATEGORY" prompt="FILE_SFCC_CATEGORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CAT_SFCC"/>
+    <contextParameter comment="CLI_SFCC" name="FILE_SFCC_CUSTOMER" prompt="FILE_SFCC_CUSTOMER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CLI_SFCC"/>
+    <contextParameter comment="ORD" name="FILE_SFCC_ORDER" prompt="FILE_SFCC_ORDER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ORD"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="D:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="DB_SFCC_LOGIN" prompt="DB_SFCC_LOGIN?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="bt_talend"/>
+    <contextParameter comment="" name="DB_SFCC_DATABASE" prompt="DB_SFCC_DATABASE?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="bt_talend"/>
+    <contextParameter comment="" name="DB_SFCC_PASSWORD" prompt="DB_SFCC_PASSWORD?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_Password" value="enc:system.encryption.key.v1:3olAQgy8M/achVDNHJrt3BZWa1IvviZTc6rWSDG8RyYMhOFikeI="/>
+    <contextParameter comment="" name="DB_SFCC_PORT" prompt="DB_SFCC_PORT?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_SFCC_ADD_PARAM" prompt="DB_SFCC_ADD_PARAM?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="DB_SFCC_HOST" prompt="DB_SFCC_HOST?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="localhost"/>
+  </context>
+  <context confirmationNeeded="false" name="Recette">
+    <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:FdbvJejQsuqTNbfNPwo3pkGCTAesYzLj0njdFVQXdnHRE9sj+m8="/>
+    <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT\"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE\"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT\"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT\"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG\"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP\"/>
+    <contextParameter comment="PAI_PIVOT" name="FILE_PIVOT_PAYMENT" prompt="FILE_PIVOT_PAYMENT?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PAI_PIVOT"/>
+    <contextParameter comment="ITM_PIVOT" name="FILE_PIVOT_ARTICLE" prompt="FILE_PIVOT_ARTICLE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ITM_PIVOT"/>
+    <contextParameter comment="CLT_PIVOT" name="FILE_PIVOT_CUSTOMER_NL" prompt="FILE_PIVOT_CUSTOMER_NL?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLT_PIVOT"/>
+    <contextParameter comment="CLI_PIVOT" name="FILE_PIVOT_CUSTOMER" prompt="FILE_PIVOT_CUSTOMER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLI_PIVOT"/>
+    <contextParameter comment="INV_PIVOT" name="FILE_PIVOT_INVENTORY" prompt="FILE_PIVOT_INVENTORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="INV_PIVOT"/>
+    <contextParameter comment="CAT_PIVOT" name="FILE_PIVOT_ARTICLE_CATEGORY" prompt="FILE_PIVOT_ARTICLE_CATEGORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CAT_PIVOT"/>
+    <contextParameter comment="PBO_PIVOT" name="FILE_PIVOT_PRICE_BOOK" prompt="FILE_PIVOT_PRICE_BOOK?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PBO_PIVOT"/>
+    <contextParameter comment="PLI_PIVOT" name="FILE_PIVOT_PRICE_LIST" prompt="FILE_PIVOT_PRICE_LIST?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PLI_PIVOT"/>
+    <contextParameter comment="ORD_PIVOT" name="FILE_PIVOT_ORD_LINE" prompt="FILE_PIVOT_ORD_LINE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORD_PIVOT"/>
+    <contextParameter comment="POS_PIVOT" name="FILE_PIVOT_STORE" prompt="FILE_PIVOT_STORE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="POS_PIVOT"/>
+    <contextParameter comment="ORH_PIVOT" name="FILE_PIVOT_ORD_HEADER" prompt="FILE_PIVOT_ORD_HEADER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORH_PIVOT"/>
+    <contextParameter comment="SOR_PIVOT" name="FILE_PIVOT_ORD_STATUS" prompt="FILE_PIVOT_ORD_STATUS?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="SOR_PIVOT"/>
+    <contextParameter comment="INV_SFCC" name="FILE_SFCC_INVENTORY" prompt="FILE_SFCC_INVENTORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="INV_SFCC"/>
+    <contextParameter comment="PLI_SFCC" name="FILE_SFCC_PRICE" prompt="FILE_SFCC_PRICE?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="PLI_SFCC"/>
+    <contextParameter comment="ITM_SFCC" name="FILE_SFCC_CATALOG" prompt="FILE_SFCC_CATALOG?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ITM_SFCC"/>
+    <contextParameter comment="CAT_SFCC" name="FILE_SFCC_CATEGORY" prompt="FILE_SFCC_CATEGORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CAT_SFCC"/>
+    <contextParameter comment="CLI_SFCC" name="FILE_SFCC_CUSTOMER" prompt="FILE_SFCC_CUSTOMER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CLI_SFCC"/>
+    <contextParameter comment="ORD" name="FILE_SFCC_ORDER" prompt="FILE_SFCC_ORDER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ORD"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="F:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="DB_SFCC_LOGIN" prompt="DB_SFCC_LOGIN?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="bt_talend"/>
+    <contextParameter comment="" name="DB_SFCC_DATABASE" prompt="DB_SFCC_DATABASE?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="bt_talend"/>
+    <contextParameter comment="" name="DB_SFCC_PASSWORD" prompt="DB_SFCC_PASSWORD?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_Password" value="enc:system.encryption.key.v1:KQoYPlsvadL58wewcSFPsATRBCVQq1fSGtwz9NWgEDRT8E/kpkA="/>
+    <contextParameter comment="" name="DB_SFCC_PORT" prompt="DB_SFCC_PORT?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_SFCC_ADD_PARAM" prompt="DB_SFCC_ADD_PARAM?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="DB_SFCC_HOST" prompt="DB_SFCC_HOST?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="localhost"/>
+  </context>
+  <context confirmationNeeded="false" name="DEV">
+    <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:ZiOUYR2GfQIMWD4fECCwilwo2G9XO1KEURWCriu59vpM6A0UpuY="/>
+    <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
+    <contextParameter comment="PAI_PIVOT" name="FILE_PIVOT_PAYMENT" prompt="FILE_PIVOT_PAYMENT?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PAI_PIVOT"/>
+    <contextParameter comment="ITM_PIVOT" name="FILE_PIVOT_ARTICLE" prompt="FILE_PIVOT_ARTICLE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ITM_PIVOT"/>
+    <contextParameter comment="CLO_PIVOT" name="FILE_PIVOT_CUSTOMER_NL" prompt="FILE_PIVOT_CUSTOMER_NL?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLT_PIVOT"/>
+    <contextParameter comment="CLI_PIVOT" name="FILE_PIVOT_CUSTOMER" prompt="FILE_PIVOT_CUSTOMER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLI_PIVOT"/>
+    <contextParameter comment="INV_PIVOT" name="FILE_PIVOT_INVENTORY" prompt="FILE_PIVOT_INVENTORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="INV_PIVOT"/>
+    <contextParameter comment="CAT_PIVOT" name="FILE_PIVOT_ARTICLE_CATEGORY" prompt="FILE_PIVOT_ARTICLE_CATEGORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CAT_PIVOT"/>
+    <contextParameter comment="PBO_PIVOT" name="FILE_PIVOT_PRICE_BOOK" prompt="FILE_PIVOT_PRICE_BOOK?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PBO_PIVOT"/>
+    <contextParameter comment="PLI_PIVOT" name="FILE_PIVOT_PRICE_LIST" prompt="FILE_PIVOT_PRICE_LIST?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PLI_PIVOT"/>
+    <contextParameter comment="ORD_PIVOT" name="FILE_PIVOT_ORD_LINE" prompt="FILE_PIVOT_ORD_LINE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORD_PIVOT"/>
+    <contextParameter comment="POS_PIVOT" name="FILE_PIVOT_STORE" prompt="FILE_PIVOT_STORE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="POS_PIVOT"/>
+    <contextParameter comment="ORH_PIVOT" name="FILE_PIVOT_ORD_HEADER" prompt="FILE_PIVOT_ORD_HEADER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORH_PIVOT"/>
+    <contextParameter comment="SOR_PIVOT" name="FILE_PIVOT_ORD_STATUS" prompt="FILE_PIVOT_ORD_STATUS?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="SOR_PIVOT"/>
+    <contextParameter comment="ORD" name="FILE_SFCC_ORDER" prompt="FILE_SFCC_ORDER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ORD"/>
+    <contextParameter comment="ITM_SFCC" name="FILE_SFCC_CATALOG" prompt="FILE_SFCC_CATALOG?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ITM_SFCC"/>
+    <contextParameter comment="PLI_SFCC" name="FILE_SFCC_PRICE" prompt="FILE_SFCC_PRICE?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="PLI_SFCC"/>
+    <contextParameter comment="CAT_SFCC" name="FILE_SFCC_CATEGORY" prompt="FILE_SFCC_CATEGORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CAT_SFCC"/>
+    <contextParameter comment="CLI_SFCC" name="FILE_SFCC_CUSTOMER" prompt="FILE_SFCC_CUSTOMER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CLI_SFCC"/>
+    <contextParameter comment="INV_SFCC" name="FILE_SFCC_INVENTORY" prompt="FILE_SFCC_INVENTORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="INV_SFCC"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="D:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT/"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT/"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP/"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE/"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG/"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT/"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+    <contextParameter comment="" name="DB_SFCC_LOGIN" prompt="DB_SFCC_LOGIN?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="bt_talend"/>
+    <contextParameter comment="" name="DB_SFCC_DATABASE" prompt="DB_SFCC_DATABASE?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="bt_talend"/>
+    <contextParameter comment="" name="DB_SFCC_PASSWORD" prompt="DB_SFCC_PASSWORD?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_Password" value="enc:system.encryption.key.v1:kZvEmaQEBibIqTMzZNcHQm/N1XBYQnuCh2i5eJlR4dxas3GlHik="/>
+    <contextParameter comment="" name="DB_SFCC_PORT" prompt="DB_SFCC_PORT?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_SFCC_ADD_PARAM" prompt="DB_SFCC_ADD_PARAM?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="DB_SFCC_HOST" prompt="DB_SFCC_HOST?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="localhost"/>
+  </context>
+  <context confirmationNeeded="false" name="PROD">
+    <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:8cmJ1xS/cNdmh+CbEPqjExqEHa8DPO+kQ7WdUVXqKvk+ey8zpNU="/>
+    <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
+    <contextParameter comment="PAI_PIVOT" name="FILE_PIVOT_PAYMENT" prompt="FILE_PIVOT_PAYMENT?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PAI_PIVOT"/>
+    <contextParameter comment="ITM_PIVOT" name="FILE_PIVOT_ARTICLE" prompt="FILE_PIVOT_ARTICLE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ITM_PIVOT"/>
+    <contextParameter comment="CLO_PIVOT" name="FILE_PIVOT_CUSTOMER_NL" prompt="FILE_PIVOT_CUSTOMER_NL?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLT_PIVOT"/>
+    <contextParameter comment="CLI_PIVOT" name="FILE_PIVOT_CUSTOMER" prompt="FILE_PIVOT_CUSTOMER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLI_PIVOT"/>
+    <contextParameter comment="INV_PIVOT" name="FILE_PIVOT_INVENTORY" prompt="FILE_PIVOT_INVENTORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="INV_PIVOT"/>
+    <contextParameter comment="CAT_PIVOT" name="FILE_PIVOT_ARTICLE_CATEGORY" prompt="FILE_PIVOT_ARTICLE_CATEGORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CAT_PIVOT"/>
+    <contextParameter comment="PBO_PIVOT" name="FILE_PIVOT_PRICE_BOOK" prompt="FILE_PIVOT_PRICE_BOOK?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PBO_PIVOT"/>
+    <contextParameter comment="PLI_PIVOT" name="FILE_PIVOT_PRICE_LIST" prompt="FILE_PIVOT_PRICE_LIST?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PLI_PIVOT"/>
+    <contextParameter comment="ORD_PIVOT" name="FILE_PIVOT_ORD_LINE" prompt="FILE_PIVOT_ORD_LINE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORD_PIVOT"/>
+    <contextParameter comment="POS_PIVOT" name="FILE_PIVOT_STORE" prompt="FILE_PIVOT_STORE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="POS_PIVOT"/>
+    <contextParameter comment="ORH_PIVOT" name="FILE_PIVOT_ORD_HEADER" prompt="FILE_PIVOT_ORD_HEADER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORH_PIVOT"/>
+    <contextParameter comment="SOR_PIVOT" name="FILE_PIVOT_ORD_STATUS" prompt="FILE_PIVOT_ORD_STATUS?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="SOR_PIVOT"/>
+    <contextParameter comment="ORD" name="FILE_SFCC_ORDER" prompt="FILE_SFCC_ORDER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ORD"/>
+    <contextParameter comment="ITM_SFCC" name="FILE_SFCC_CATALOG" prompt="FILE_SFCC_CATALOG?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ITM_SFCC"/>
+    <contextParameter comment="PLI_SFCC" name="FILE_SFCC_PRICE" prompt="FILE_SFCC_PRICE?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="PLI_SFCC"/>
+    <contextParameter comment="CAT_SFCC" name="FILE_SFCC_CATEGORY" prompt="FILE_SFCC_CATEGORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CAT_SFCC"/>
+    <contextParameter comment="CLI_SFCC" name="FILE_SFCC_CUSTOMER" prompt="FILE_SFCC_CUSTOMER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CLI_SFCC"/>
+    <contextParameter comment="INV_SFCC" name="FILE_SFCC_INVENTORY" prompt="FILE_SFCC_INVENTORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="INV_SFCC"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="D:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT/"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT/"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP/"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE/"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG/"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT/"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+    <contextParameter comment="" name="DB_SFCC_LOGIN" prompt="DB_SFCC_LOGIN?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="bt_talend"/>
+    <contextParameter comment="" name="DB_SFCC_DATABASE" prompt="DB_SFCC_DATABASE?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="bt_talend"/>
+    <contextParameter comment="" name="DB_SFCC_PASSWORD" prompt="DB_SFCC_PASSWORD?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_Password" value="enc:system.encryption.key.v1:1XKwxkrehqABwW2vUk8EjkP3DFVPHqnqQ+1jY4d9ZjAX+hdVvrs="/>
+    <contextParameter comment="" name="DB_SFCC_PORT" prompt="DB_SFCC_PORT?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_SFCC_ADD_PARAM" prompt="DB_SFCC_ADD_PARAM?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="DB_SFCC_HOST" prompt="DB_SFCC_HOST?" promptNeeded="false" repositoryContextId="_dHGSAH4PEemm8LghonQTPA" type="id_String" value="localhost"/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" show="false" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms1024M&quot;,&quot;-Xmx3000M&quot;]}"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:i3niUhZsYxrc+Fp6/CBoCwKYM7+enO8MRriNEFMG"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="true"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="context.WORKSPACE + context.PROJECT + &quot;/&quot; + context.FLOW + &quot;/&quot; +context.DIR_LOG"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tMysqlOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
+    <elementParameter field="TEXT" name="URL" show="false" value=""/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="context.DB_TECH_HOST"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="context.DB_TECH_PORT"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="context.DB_TECH_DATABASE"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.DB_TECH_DATABASE"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="context.DB_TECH_ADD_PARAM"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="context.DB_TECH_LOGIN"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:w31EkzGm2wsHPjK/BrvNcGPWH1pHGCTkMxUaPxgR1N/lg0XzN2pl0/v6dEV4jidjknmCKg=="/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;TALEND_LOG_SFCC&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_YL04cCVHEemdzL0UoFHyEA" name="DataOperation"/>
+    <routinesParameter id="_YSBAACVHEemdzL0UoFHyEA" name="Mathematical"/>
+    <routinesParameter id="_YSF4gCVHEemdzL0UoFHyEA" name="Numeric"/>
+    <routinesParameter id="_YSL_ICVHEemdzL0UoFHyEA" name="Relational"/>
+    <routinesParameter id="_YSQ3oCVHEemdzL0UoFHyEA" name="StringHandling"/>
+    <routinesParameter id="_YSVJECVHEemdzL0UoFHyEA" name="TalendDataGenerator"/>
+    <routinesParameter id="_YSaBkCVHEemdzL0UoFHyEA" name="TalendDate"/>
+    <routinesParameter id="_YSh9YCVHEemdzL0UoFHyEA" name="TalendStringUtil"/>
+    <routinesParameter id="_YSdr8CVHEemdzL0UoFHyEA" name="TalendString"/>
+    <routinesParameter id="_a8If2mVkEemq9umENi9WGQ" name="SQLike"/>
+  </parameters>
+  <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileList_1"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.WORKSPACE + context.PROJECT + &quot;/&quot; + context.FLOW + &quot;/&quot; + context.DIR_INPUT"/>
+    <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
+    <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="YES"/>
+    <elementParameter field="CHECK" name="ERROR" value="false"/>
+    <elementParameter field="CHECK" name="GLOBEXPRESSIONS" value="true"/>
+    <elementParameter field="TABLE" name="FILES">
+      <elementValue elementRef="FILEMASK" value="context.SUFFIX_FILE + &quot;CLI_SFCC_BT_EU*&quot;"/>
+    </elementParameter>
+    <elementParameter field="RADIO" name="ORDER_BY_NOTHING" value="true"/>
+    <elementParameter field="RADIO" name="ORDER_BY_FILENAME" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_BY_FILESIZE" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_BY_MODIFIEDDATE" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_ACTION_ASC" value="true"/>
+    <elementParameter field="RADIO" name="ORDER_ACTION_DESC" value="false"/>
+    <elementParameter field="CHECK" name="IFEXCLUDE" value="false"/>
+    <elementParameter field="TEXT" name="EXCLUDEFILEMASK" show="false" value="&quot;*.txt&quot;"/>
+    <elementParameter field="CHECK" name="FORMAT_FILEPATH_TO_SLASH" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tFileInputXML" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputXML_1"/>
+    <elementParameter field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILEPATH&quot;))"/>
+    <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;/customers/customer/addresses/address/&quot;"/>
+    <elementParameter field="TABLE" name="MAPPING">
+      <elementValue elementRef="SCHEMA_COLUMN" value="customer_id"/>
+      <elementValue elementRef="QUERY" value="&quot;../../@customer-no&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="address_id"/>
+      <elementValue elementRef="QUERY" value="&quot;@address-id&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="IGNORE_NS" value="false"/>
+    <elementParameter field="CHECK" name="IGNORE_DTD" value="true"/>
+    <elementParameter field="FILE" name="TMP_FILENAME" show="false" value="&quot;/Applications/TOSESB-7.1.1/studio/workspace/temp.xml&quot;"/>
+    <elementParameter field="CHECK" name="USE_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="FIELD_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" value="Dom4j"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="true"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tFileInputXML_1">
+      <column comment="" key="false" length="100" name="customer_id" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1024" name="address_id" nullable="true" originalLength="100" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="metadata" name="REJECT">
+      <column comment="" key="false" length="100" name="customer_id" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1024" name="address_id" nullable="true" originalLength="100" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="512" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_msA5oIr9EeupvZ4l0IrpNA-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="address" name="address">
+      <column comment="" key="false" length="255" name="customer_id" nullable="true" originalLength="255" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1024" name="address_id" nullable="true" originalLength="1024" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="address" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row1.customer_id" name="customer_id" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.address_id" name="address_id" nullable="true" type="id_String"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="customer_id" type="id_String"/>
+        <mapperTableEntries name="address_id" nullable="true" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_2"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:lflOR1iz00jrXa9Hi5DOqBgEqeLF6tIEY3GUEcuW"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;ext_customer_address_sfcc&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT_OR_UPDATE"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="mysql_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;noDatetimeStringSync=true&quot;"/>
+    <elementParameter field="CHECK" name="EXTENDINSERT" show="false" value="true"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="(Not compatible with reject links)"/>
+    <elementParameter field="TEXT" name="NB_ROWS_PER_INSERT" show="false" value="100"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" show="false" value="true"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" show="false" value="10000"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="true"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS">
+      <elementValue elementRef="SCHEMA_COLUMN" value="customer_id"/>
+      <elementValue elementRef="UPDATE_KEY" value="true"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="address_id"/>
+      <elementValue elementRef="UPDATE_KEY" value="true"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="HINT_OPTIONS" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="ON_DUPLICATE_KEY_UPDATE" show="false" value="false"/>
+    <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="address" name="tDBOutput_2">
+      <column comment="" key="false" length="255" name="customer_id" nullable="true" originalLength="255" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1024" name="address_id" nullable="true" originalLength="1024" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="address" name="REJECT">
+      <column comment="" key="false" length="255" name="customer_id" nullable="true" originalLength="255" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1024" name="address_id" nullable="true" originalLength="1024" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tMysqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_p-98UH4PEemm8LghonQTPA"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
+    <elementParameter field="TEXT" name="HOST" value="context.DB_SFCC_HOST"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
+    <elementParameter field="TEXT" name="PORT" value="context.DB_SFCC_PORT"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.DB_SFCC_DATABASE"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.DB_SFCC_ADD_PARAM"/>
+    <elementParameter field="TEXT" name="USER" value="context.DB_SFCC_LOGIN"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:CSXnVeolQDcLZq19GddQPr0NTpR8ypco+VrImw5yjr/gmeA6PssfTGI7+rNoBwOCREVayQ=="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="DB_SFCC"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="672" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tWarn_3"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="jobName + &quot; start ...&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="1000"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
+    <elementParameter field="TEXT" name="LABEL" value="START"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tWarn_3"/>
+  </node>
+  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="544">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tMysqlClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="544">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBClose_1"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="672" posY="544">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tWarn_1"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="jobName + &quot; ... end&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="1000"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
+    <elementParameter field="TEXT" name="LABEL" value="END"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tWarn_1"/>
+  </node>
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="416">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_3"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:c6TtybWgoW7GaSnDejXUHF9BMCxYfXBoAvTLZgMJ"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;ext_customer_address_sfcc&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  `ext_customer_address_sfcc`.`customer_id`, &#10;  `ext_customer_address_sfcc`.`address_id`&#10;FROM `ext_customer_address_sfcc`&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="mysql_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;noDatetimeStringSync=true&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="customer_id"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="address_id"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_3">
+      <column comment="" key="false" length="255" name="customer_id" nullable="true" originalLength="-1" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1024" name="address_id" nullable="true" originalLength="1024" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="416" posY="416">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_2"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_msA5oIr9EeupvZ4l0IrpNA-tMap_2-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="address" name="copyOfaddress">
+      <column comment="" key="false" length="255" name="customer_id" nullable="true" originalLength="255" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1024" name="address_id" nullable="true" originalLength="1024" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="on_line" nullable="true" originalLength="100" pattern="" precision="-1" sourceType="" type="id_Boolean" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables activateCondensedTool="true" name="copyOfaddress" rejectInnerJoin="true" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row3.customer_id" name="customer_id" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row3.address_id" name="address_id" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="false" name="on_line" nullable="true" type="id_Boolean"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row3" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="customer_id" nullable="true" type="id_String"/>
+        <mapperTableEntries name="address_id" nullable="true" type="id_String"/>
+      </inputTables>
+      <inputTables activateCondensedTool="true" innerJoin="true" lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row4" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row3.customer_id " name="customer_id" nullable="true" operator="=" type="id_String"/>
+        <mapperTableEntries expression="row3.address_id" name="address_id" nullable="true" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_2"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:nXtTXlkEEgHCjS0eU82s1wH2lmH2eUI5FYExCC/u"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;data_customer_address_sfcc&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  `data_customer_address_sfcc`.`customer_id`, &#10;  `data_customer_address_sfcc`.`address_id`&#10;FROM `data_customer_address_sfcc`&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="mysql_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;noDatetimeStringSync=true&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="customer_id"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="address_id"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_2">
+      <column comment="" key="false" length="255" name="customer_id" nullable="true" originalLength="-1" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1024" name="address_id" nullable="true" originalLength="1024" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="416">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:NFt/iVA78kg2rjjdAvIJ6GzMe60QQJhmpTzZB9+n"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;data_customer_address_sfcc&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="UPDATE"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="mysql_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;noDatetimeStringSync=true&quot;"/>
+    <elementParameter field="CHECK" name="EXTENDINSERT" show="false" value="true"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="(Not compatible with reject links)"/>
+    <elementParameter field="TEXT" name="NB_ROWS_PER_INSERT" show="false" value="100"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" show="false" value="true"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="true"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS">
+      <elementValue elementRef="SCHEMA_COLUMN" value="customer_id"/>
+      <elementValue elementRef="UPDATE_KEY" value="true"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="address_id"/>
+      <elementValue elementRef="UPDATE_KEY" value="true"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="on_line"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="HINT_OPTIONS" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="ON_DUPLICATE_KEY_UPDATE" show="false" value="false"/>
+    <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="address" name="tDBOutput_1">
+      <column comment="" key="false" length="255" name="customer_id" nullable="true" originalLength="255" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1024" name="address_id" nullable="true" originalLength="1024" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="on_line" nullable="true" originalLength="100" pattern="" precision="-1" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="address" name="REJECT">
+      <column comment="" key="false" length="255" name="customer_id" nullable="true" originalLength="255" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1024" name="address_id" nullable="true" originalLength="1024" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="on_line" nullable="true" originalLength="100" pattern="" precision="-1" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tCreateTable" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="832" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tCreateTable_1"/>
+    <elementParameter field="CLOSED_LIST" name="DBTYPE" value="MYSQL"/>
+    <elementParameter field="CLOSED_LIST" name="TABLEACTION" value="DROP_IF_EXIST_CREATE"/>
+    <elementParameter field="CHECK" name="CASESENSITIVE" show="false" value="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@db10g_test&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:cDZ0ORyOcAXuT0UMyeSA5tJuV76BViNAuUxpxEgb"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_ACCESS" show="false" value=""/>
+    <elementParameter field="FILE" name="DBFILE_ACCESS" show="false" value="&quot;D:/WORKSPACE_STUDIO/TALEND_CLOUD_721/in.mdb&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="DB_AS400_VERSION" show="false" value="jt400-9.8.jar"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_AS400" show="false" value=""/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_DB2" show="false" value=""/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_FIREBIRD" show="false" value=""/>
+    <elementParameter field="FILE" name="DBFILE_FIREBIRD" show="false" value="&quot;D:/WORKSPACE_STUDIO/TALEND_CLOUD_721/in.FDB&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="RUNNING_MODE" show="false" value="HSQLDB_SERVER"/>
+    <elementParameter field="CHECK" name="TLS" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="DBPATH_HSQL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_HSQL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATABASE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_INFORMIX" show="false" value=""/>
+    <elementParameter field="TEXT" name="DBSERVER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_INGRES" show="false" value=""/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_INTERBASE" show="false" value=""/>
+    <elementParameter field="TEXT" name="DBFILE_INTERBASE" show="false" value="&quot;D:/WORKSPACE_STUDIO/TALEND_CLOUD_721/in.gdb&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="FRAMEWORK_TYPE" show="false" value="EMBEDED"/>
+    <elementParameter field="CHECK" name="CONNECTION_FLAG" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DBNAME_JAVADB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DIRECTORY" name="DBROOTPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_MSSQL" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="MSSQL_DRIVER" show="false" value="JTDS"/>
+    <elementParameter field="CHECK" name="TEMPTABLE" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_MYSQL" value="tDBConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_MYSQL_VERSION" show="false" value="MYSQL_8"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_NETEZZA" show="false" value=""/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_ORACLE" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" show="false" value="ORACLE_SID"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_18"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_POSTGRE" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_POSTGRE_VERSION" show="false" value="V9_X"/>
+    <elementParameter field="CHECK" name="UNLOGGED" show="false" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_POSTGREPLUS" show="false" value=""/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_SQLITE" show="false" value=""/>
+    <elementParameter field="FILE" name="DBFILE_SQLITE" show="false" value="&quot;D:/WORKSPACE_STUDIO/TALEND_CLOUD_721/talend.db&quot;"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_SYBASE" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_SYBASE_VERSION" show="false" value="SYBSEIQ_16"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_TERADATA" show="false" value=""/>
+    <elementParameter field="TEXT" name="ODBCNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_GREENPLUM" show="false" value=""/>
+    <elementParameter field="CHECK" name="VERTICA_USE_CASCADE" show="false" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERTICA_VERSION" show="false" value="VERTICA_9_0"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_VERTICA" show="false" value=""/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_EXASOL" show="false" value=""/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_REDSHIFT" show="false" value=""/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_SNOWFLAKE" show="false" value=""/>
+    <elementParameter field="TEXT" name="ACCOUNT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="ROLE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;ext_customer_address_sfcc&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="mysql_id"/>
+    <elementParameter field="CLOSED_LIST" name="CREATE_TABLE_TYPE" show="false" value="SET"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="ENFORCE_DELIMITED_IDENTIFIERS" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="VERTICA_CREATE_PROJECTION" show="false" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tCreateTable_1">
+      <column comment="" key="false" length="255" name="customer_id" nullable="true" originalLength="255" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1024" name="address_id" nullable="true" originalLength="1024" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFileList_1" offsetLabelX="0" offsetLabelY="0" source="tFileList_1" target="tFileInputXML_1">
+    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+    <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileList_1" offsetLabelX="0" offsetLabelY="0" source="tFileList_1" target="tDBInput_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputXML_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputXML_1" target="tMap_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="root"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="zCMP_optin_sms"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="zCMP_rgpd_top"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="zCMP_optin_phone"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="zCMP_optin_newsletter"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="zCMP_optin_mail"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="phoneIndicator"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="customer_id"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="address_type"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="address_id"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="FLOW" label="address" lineStyle="0" metaname="address" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tDBOutput_2">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="address_type"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="on_line"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="address"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tDBConnection_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tWarn_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk3"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tWarn_3" offsetLabelX="0" offsetLabelY="0" source="tWarn_3" target="tCreateTable_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk6"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tDBClose_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk2"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBClose_1" offsetLabelX="0" offsetLabelY="0" source="tDBClose_1" target="tWarn_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk5"/>
+  </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tDBInput_3" offsetLabelX="0" offsetLabelY="0" source="tDBInput_3" target="tMap_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
+  </connection>
+  <connection connectorName="FLOW" label="copyOfaddress" lineStyle="0" metaname="copyOfaddress" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tDBOutput_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="address_type"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="on_line"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="copyOfaddress"/>
+  </connection>
+  <connection connectorName="FLOW" label="row4" lineStyle="8" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tMap_2">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="address_id"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row4"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileList_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" show="false" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tWarn_3"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" show="false" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBClose_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tWarn_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_3"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tCreateTable_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_59f1ad76-e56e-4f54-9b12-cfe3c437b838"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8b+W6t0LEspIkLyvPnk/9wrPeyHW952jdubTUw9NiURLx0vLsVqFRBj2ixZCuGje+f62QdngiQ6L
+pNKtgVDNnw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_73362158-91ec-4c8d-a0a2-23042fea558d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>eafM/VMMD6fHsKmIzKWt9nRdfPVyojIdFg/JGuMsVJQhzUy+Cuogj4+NwbVDvif5eHwZqciq9AJf
+FoRdKIVdLA==</DigestValue></Reference></SignedInfo><SignatureValue>eZl1hsLRRWPe2ZMu7kwWbdil91oPeT0y9d4MlV4CgvTwTmfez0jWtaXvzxkMcVyaKUUvUkZYJiPP
+rp4WNsghbsn9tVxNAhIEiWNzAcdLd+c70Ac8mRVUnVJlWsnow0p3WrgRxKAqCLtVsqXnUYBkrzRF
+yHy/C+joC10AA03woNdIojtj+kJ1fMh/kmOgKkcasnVrh+E8tsv94Lhg2Qy0Q/lfj5WMgxSK7hUQ
+qQtFfy+wh0hgT6Z8o1QYALL9iG2ZrkhqMqMgjEixpbaU4L3Q1g9bHosI7UhH/mOnrN4ifgcvgJqT
+FUfu38loYhC85HV4rShXqX5nzsPDbd4ZLFuv4w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_73362158-91ec-4c8d-a0a2-23042fea558d" Target="#_59f1ad76-e56e-4f54-9b12-cfe3c437b838"><Timestamp>2021-05-01 01:40:13</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

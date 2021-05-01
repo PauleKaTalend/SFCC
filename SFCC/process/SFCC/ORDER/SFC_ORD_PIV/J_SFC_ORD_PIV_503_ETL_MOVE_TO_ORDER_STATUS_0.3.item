@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:BZrr6UqqGxoEqYS643UlllKz1A4bwkWwXbl3ddzVXyQe5czgtCY="/>
+    <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT/"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE/"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT/"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT/"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG/"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP/"/>
+    <contextParameter comment="ORD" name="FILE_SFCC_ORDER" prompt="FILE_SFCC_ORDER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ORD"/>
+    <contextParameter comment="ITM_SFCC" name="FILE_SFCC_CATALOG" prompt="FILE_SFCC_CATALOG?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ITM_SFCC"/>
+    <contextParameter comment="PLI_SFCC" name="FILE_SFCC_PRICE" prompt="FILE_SFCC_PRICE?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="PLI_SFCC"/>
+    <contextParameter comment="CAT_SFCC" name="FILE_SFCC_CATEGORY" prompt="FILE_SFCC_CATEGORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CAT_SFCC"/>
+    <contextParameter comment="CLI_SFCC" name="FILE_SFCC_CUSTOMER" prompt="FILE_SFCC_CUSTOMER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CLI_SFCC"/>
+    <contextParameter comment="INV_SFCC" name="FILE_SFCC_INVENTORY" prompt="FILE_SFCC_INVENTORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="INV_SFCC"/>
+    <contextParameter comment="PAI_PIVOT" name="FILE_PIVOT_PAYMENT" prompt="FILE_PIVOT_PAYMENT?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PAI_PIVOT"/>
+    <contextParameter comment="ITM_PIVOT" name="FILE_PIVOT_ARTICLE" prompt="FILE_PIVOT_ARTICLE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ITM_PIVOT"/>
+    <contextParameter comment="CLO_PIVOT" name="FILE_PIVOT_CUSTOMER_NL" prompt="FILE_PIVOT_CUSTOMER_NL?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLT_PIVOT"/>
+    <contextParameter comment="CLI_PIVOT" name="FILE_PIVOT_CUSTOMER" prompt="FILE_PIVOT_CUSTOMER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLI_PIVOT"/>
+    <contextParameter comment="INV_PIVOT" name="FILE_PIVOT_INVENTORY" prompt="FILE_PIVOT_INVENTORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="INV_PIVOT"/>
+    <contextParameter comment="CAT_PIVOT" name="FILE_PIVOT_ARTICLE_CATEGORY" prompt="FILE_PIVOT_ARTICLE_CATEGORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CAT_PIVOT"/>
+    <contextParameter comment="PBO_PIVOT" name="FILE_PIVOT_PRICE_BOOK" prompt="FILE_PIVOT_PRICE_BOOK?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PBO_PIVOT"/>
+    <contextParameter comment="PLI_PIVOT" name="FILE_PIVOT_PRICE_LIST" prompt="FILE_PIVOT_PRICE_LIST?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PLI_PIVOT"/>
+    <contextParameter comment="ORD_PIVOT" name="FILE_PIVOT_ORD_LINE" prompt="FILE_PIVOT_ORD_LINE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORD_PIVOT"/>
+    <contextParameter comment="POS_PIVOT" name="FILE_PIVOT_STORE" prompt="FILE_PIVOT_STORE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="POS_PIVOT"/>
+    <contextParameter comment="ORH_PIVOT" name="FILE_PIVOT_ORD_HEADER" prompt="FILE_PIVOT_ORD_HEADER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORH_PIVOT"/>
+    <contextParameter comment="SOR_PIVOT" name="FILE_PIVOT_ORD_STATUS" prompt="FILE_PIVOT_ORD_STATUS?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="SOR_PIVOT"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="D:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="FILE_IN_PROCESS_PATH" prompt="FILE_IN_PROCESS_PATH?" promptNeeded="false" repositoryContextId="_OM30wFvpEemnjpIHddYzHw" type="id_String" value=""/>
+    <contextParameter comment="" name="HORODATAGE" prompt="HORODATAGE?" promptNeeded="false" repositoryContextId="_OM30wFvpEemnjpIHddYzHw" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="PRODUCTION">
+    <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:36eq264Ff/o8DZMDNEjt98ThxDuMTUT2D9cxBoxKVmKKswduEu4="/>
+    <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT/"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE/"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT/"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT/"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG/"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP/"/>
+    <contextParameter comment="ORD" name="FILE_SFCC_ORDER" prompt="FILE_SFCC_ORDER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ORD"/>
+    <contextParameter comment="ITM_SFCC" name="FILE_SFCC_CATALOG" prompt="FILE_SFCC_CATALOG?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ITM_SFCC"/>
+    <contextParameter comment="PLI_SFCC" name="FILE_SFCC_PRICE" prompt="FILE_SFCC_PRICE?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="PLI_SFCC"/>
+    <contextParameter comment="CAT_SFCC" name="FILE_SFCC_CATEGORY" prompt="FILE_SFCC_CATEGORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CAT_SFCC"/>
+    <contextParameter comment="CLI_SFCC" name="FILE_SFCC_CUSTOMER" prompt="FILE_SFCC_CUSTOMER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CLI_SFCC"/>
+    <contextParameter comment="INV_SFCC" name="FILE_SFCC_INVENTORY" prompt="FILE_SFCC_INVENTORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="INV_SFCC"/>
+    <contextParameter comment="PAI_PIVOT" name="FILE_PIVOT_PAYMENT" prompt="FILE_PIVOT_PAYMENT?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PAI_PIVOT"/>
+    <contextParameter comment="ITM_PIVOT" name="FILE_PIVOT_ARTICLE" prompt="FILE_PIVOT_ARTICLE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ITM_PIVOT"/>
+    <contextParameter comment="CLO_PIVOT" name="FILE_PIVOT_CUSTOMER_NL" prompt="FILE_PIVOT_CUSTOMER_NL?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLT_PIVOT"/>
+    <contextParameter comment="CLI_PIVOT" name="FILE_PIVOT_CUSTOMER" prompt="FILE_PIVOT_CUSTOMER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLI_PIVOT"/>
+    <contextParameter comment="INV_PIVOT" name="FILE_PIVOT_INVENTORY" prompt="FILE_PIVOT_INVENTORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="INV_PIVOT"/>
+    <contextParameter comment="CAT_PIVOT" name="FILE_PIVOT_ARTICLE_CATEGORY" prompt="FILE_PIVOT_ARTICLE_CATEGORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CAT_PIVOT"/>
+    <contextParameter comment="PBO_PIVOT" name="FILE_PIVOT_PRICE_BOOK" prompt="FILE_PIVOT_PRICE_BOOK?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PBO_PIVOT"/>
+    <contextParameter comment="PLI_PIVOT" name="FILE_PIVOT_PRICE_LIST" prompt="FILE_PIVOT_PRICE_LIST?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PLI_PIVOT"/>
+    <contextParameter comment="ORD_PIVOT" name="FILE_PIVOT_ORD_LINE" prompt="FILE_PIVOT_ORD_LINE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORD_PIVOT"/>
+    <contextParameter comment="POS_PIVOT" name="FILE_PIVOT_STORE" prompt="FILE_PIVOT_STORE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="POS_PIVOT"/>
+    <contextParameter comment="ORH_PIVOT" name="FILE_PIVOT_ORD_HEADER" prompt="FILE_PIVOT_ORD_HEADER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORH_PIVOT"/>
+    <contextParameter comment="SOR_PIVOT" name="FILE_PIVOT_ORD_STATUS" prompt="FILE_PIVOT_ORD_STATUS?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="SOR_PIVOT"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="F:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="FILE_IN_PROCESS_PATH" prompt="FILE_IN_PROCESS_PATH?" promptNeeded="false" repositoryContextId="_OM30wFvpEemnjpIHddYzHw" type="id_String" value=""/>
+    <contextParameter comment="" name="HORODATAGE" prompt="HORODATAGE?" promptNeeded="false" repositoryContextId="_OM30wFvpEemnjpIHddYzHw" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="RECETTE">
+    <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:qiltDrrsJLKk+Rtqd3u+g9xCOdKrxpLM/bXlU8U5uTZfE7r4KwQ="/>
+    <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT/"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE/"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT/"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT/"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG/"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP/"/>
+    <contextParameter comment="ORD" name="FILE_SFCC_ORDER" prompt="FILE_SFCC_ORDER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ORD"/>
+    <contextParameter comment="ITM_SFCC" name="FILE_SFCC_CATALOG" prompt="FILE_SFCC_CATALOG?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ITM_SFCC"/>
+    <contextParameter comment="PLI_SFCC" name="FILE_SFCC_PRICE" prompt="FILE_SFCC_PRICE?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="PLI_SFCC"/>
+    <contextParameter comment="CAT_SFCC" name="FILE_SFCC_CATEGORY" prompt="FILE_SFCC_CATEGORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CAT_SFCC"/>
+    <contextParameter comment="CLI_SFCC" name="FILE_SFCC_CUSTOMER" prompt="FILE_SFCC_CUSTOMER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CLI_SFCC"/>
+    <contextParameter comment="INV_SFCC" name="FILE_SFCC_INVENTORY" prompt="FILE_SFCC_INVENTORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="INV_SFCC"/>
+    <contextParameter comment="PAI_PIVOT" name="FILE_PIVOT_PAYMENT" prompt="FILE_PIVOT_PAYMENT?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PAI_PIVOT"/>
+    <contextParameter comment="ITM_PIVOT" name="FILE_PIVOT_ARTICLE" prompt="FILE_PIVOT_ARTICLE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ITM_PIVOT"/>
+    <contextParameter comment="CLO_PIVOT" name="FILE_PIVOT_CUSTOMER_NL" prompt="FILE_PIVOT_CUSTOMER_NL?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLT_PIVOT"/>
+    <contextParameter comment="CLI_PIVOT" name="FILE_PIVOT_CUSTOMER" prompt="FILE_PIVOT_CUSTOMER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLI_PIVOT"/>
+    <contextParameter comment="INV_PIVOT" name="FILE_PIVOT_INVENTORY" prompt="FILE_PIVOT_INVENTORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="INV_PIVOT"/>
+    <contextParameter comment="CAT_PIVOT" name="FILE_PIVOT_ARTICLE_CATEGORY" prompt="FILE_PIVOT_ARTICLE_CATEGORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CAT_PIVOT"/>
+    <contextParameter comment="PBO_PIVOT" name="FILE_PIVOT_PRICE_BOOK" prompt="FILE_PIVOT_PRICE_BOOK?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PBO_PIVOT"/>
+    <contextParameter comment="PLI_PIVOT" name="FILE_PIVOT_PRICE_LIST" prompt="FILE_PIVOT_PRICE_LIST?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PLI_PIVOT"/>
+    <contextParameter comment="ORD_PIVOT" name="FILE_PIVOT_ORD_LINE" prompt="FILE_PIVOT_ORD_LINE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORD_PIVOT"/>
+    <contextParameter comment="POS_PIVOT" name="FILE_PIVOT_STORE" prompt="FILE_PIVOT_STORE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="POS_PIVOT"/>
+    <contextParameter comment="ORH_PIVOT" name="FILE_PIVOT_ORD_HEADER" prompt="FILE_PIVOT_ORD_HEADER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORH_PIVOT"/>
+    <contextParameter comment="SOR_PIVOT" name="FILE_PIVOT_ORD_STATUS" prompt="FILE_PIVOT_ORD_STATUS?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="SOR_PIVOT"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="F:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="FILE_IN_PROCESS_PATH" prompt="FILE_IN_PROCESS_PATH?" promptNeeded="false" repositoryContextId="_OM30wFvpEemnjpIHddYzHw" type="id_String" value=""/>
+    <contextParameter comment="" name="HORODATAGE" prompt="HORODATAGE?" promptNeeded="false" repositoryContextId="_OM30wFvpEemnjpIHddYzHw" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="Developpement">
+    <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:fKhHvlQK4GG3Jo3a0k/nDU4fJ+6+l9Ewhfq7dtlOEUwqc1F6xA0="/>
+    <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT\"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE\"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT\"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT\"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG\"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP\"/>
+    <contextParameter comment="PAI_PIVOT" name="FILE_PIVOT_PAYMENT" prompt="FILE_PIVOT_PAYMENT?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PAI_PIVOT"/>
+    <contextParameter comment="ITM_PIVOT" name="FILE_PIVOT_ARTICLE" prompt="FILE_PIVOT_ARTICLE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ITM_PIVOT"/>
+    <contextParameter comment="CLT_PIVOT" name="FILE_PIVOT_CUSTOMER_NL" prompt="FILE_PIVOT_CUSTOMER_NL?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLT_PIVOT"/>
+    <contextParameter comment="CLI_PIVOT" name="FILE_PIVOT_CUSTOMER" prompt="FILE_PIVOT_CUSTOMER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLI_PIVOT"/>
+    <contextParameter comment="INV_PIVOT" name="FILE_PIVOT_INVENTORY" prompt="FILE_PIVOT_INVENTORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="INV_PIVOT"/>
+    <contextParameter comment="CAT_PIVOT" name="FILE_PIVOT_ARTICLE_CATEGORY" prompt="FILE_PIVOT_ARTICLE_CATEGORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CAT_PIVOT"/>
+    <contextParameter comment="PBO_PIVOT" name="FILE_PIVOT_PRICE_BOOK" prompt="FILE_PIVOT_PRICE_BOOK?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PBO_PIVOT"/>
+    <contextParameter comment="PLI_PIVOT" name="FILE_PIVOT_PRICE_LIST" prompt="FILE_PIVOT_PRICE_LIST?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PLI_PIVOT"/>
+    <contextParameter comment="ORD_PIVOT" name="FILE_PIVOT_ORD_LINE" prompt="FILE_PIVOT_ORD_LINE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORD_PIVOT"/>
+    <contextParameter comment="POS_PIVOT" name="FILE_PIVOT_STORE" prompt="FILE_PIVOT_STORE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="POS_PIVOT"/>
+    <contextParameter comment="ORH_PIVOT" name="FILE_PIVOT_ORD_HEADER" prompt="FILE_PIVOT_ORD_HEADER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORH_PIVOT"/>
+    <contextParameter comment="SOR_PIVOT" name="FILE_PIVOT_ORD_STATUS" prompt="FILE_PIVOT_ORD_STATUS?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="SOR_PIVOT"/>
+    <contextParameter comment="INV_SFCC" name="FILE_SFCC_INVENTORY" prompt="FILE_SFCC_INVENTORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="INV_SFCC"/>
+    <contextParameter comment="PLI_SFCC" name="FILE_SFCC_PRICE" prompt="FILE_SFCC_PRICE?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="PLI_SFCC"/>
+    <contextParameter comment="ITM_SFCC" name="FILE_SFCC_CATALOG" prompt="FILE_SFCC_CATALOG?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ITM_SFCC"/>
+    <contextParameter comment="CAT_SFCC" name="FILE_SFCC_CATEGORY" prompt="FILE_SFCC_CATEGORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CAT_SFCC"/>
+    <contextParameter comment="CLI_SFCC" name="FILE_SFCC_CUSTOMER" prompt="FILE_SFCC_CUSTOMER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CLI_SFCC"/>
+    <contextParameter comment="ORD" name="FILE_SFCC_ORDER" prompt="FILE_SFCC_ORDER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ORD"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="D:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="FILE_IN_PROCESS_PATH" prompt="FILE_IN_PROCESS_PATH?" promptNeeded="false" repositoryContextId="_OM30wFvpEemnjpIHddYzHw" type="id_String" value=""/>
+    <contextParameter comment="" name="HORODATAGE" prompt="HORODATAGE?" promptNeeded="false" repositoryContextId="_OM30wFvpEemnjpIHddYzHw" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="Production">
+    <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:pYYSbzC4dcPjK7CxZ4XCnVv9SpCBLg9HCAJbhkxgWMGc+RXPD8U="/>
+    <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT\"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE\"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT\"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT\"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG\"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP\"/>
+    <contextParameter comment="PAI_PIVOT" name="FILE_PIVOT_PAYMENT" prompt="FILE_PIVOT_PAYMENT?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PAI_PIVOT"/>
+    <contextParameter comment="ITM_PIVOT" name="FILE_PIVOT_ARTICLE" prompt="FILE_PIVOT_ARTICLE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ITM_PIVOT"/>
+    <contextParameter comment="CLT_PIVOT" name="FILE_PIVOT_CUSTOMER_NL" prompt="FILE_PIVOT_CUSTOMER_NL?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLT_PIVOT"/>
+    <contextParameter comment="CLI_PIVOT" name="FILE_PIVOT_CUSTOMER" prompt="FILE_PIVOT_CUSTOMER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLI_PIVOT"/>
+    <contextParameter comment="INV_PIVOT" name="FILE_PIVOT_INVENTORY" prompt="FILE_PIVOT_INVENTORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="INV_PIVOT"/>
+    <contextParameter comment="CAT_PIVOT" name="FILE_PIVOT_ARTICLE_CATEGORY" prompt="FILE_PIVOT_ARTICLE_CATEGORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CAT_PIVOT"/>
+    <contextParameter comment="PBO_PIVOT" name="FILE_PIVOT_PRICE_BOOK" prompt="FILE_PIVOT_PRICE_BOOK?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PBO_PIVOT"/>
+    <contextParameter comment="PLI_PIVOT" name="FILE_PIVOT_PRICE_LIST" prompt="FILE_PIVOT_PRICE_LIST?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PLI_PIVOT"/>
+    <contextParameter comment="ORD_PIVOT" name="FILE_PIVOT_ORD_LINE" prompt="FILE_PIVOT_ORD_LINE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORD_PIVOT"/>
+    <contextParameter comment="POS_PIVOT" name="FILE_PIVOT_STORE" prompt="FILE_PIVOT_STORE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="POS_PIVOT"/>
+    <contextParameter comment="ORH_PIVOT" name="FILE_PIVOT_ORD_HEADER" prompt="FILE_PIVOT_ORD_HEADER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORH_PIVOT"/>
+    <contextParameter comment="SOR_PIVOT" name="FILE_PIVOT_ORD_STATUS" prompt="FILE_PIVOT_ORD_STATUS?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="SOR_PIVOT"/>
+    <contextParameter comment="INV_SFCC" name="FILE_SFCC_INVENTORY" prompt="FILE_SFCC_INVENTORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="INV_SFCC"/>
+    <contextParameter comment="PLI_SFCC" name="FILE_SFCC_PRICE" prompt="FILE_SFCC_PRICE?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="PLI_SFCC"/>
+    <contextParameter comment="ITM_SFCC" name="FILE_SFCC_CATALOG" prompt="FILE_SFCC_CATALOG?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ITM_SFCC"/>
+    <contextParameter comment="CAT_SFCC" name="FILE_SFCC_CATEGORY" prompt="FILE_SFCC_CATEGORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CAT_SFCC"/>
+    <contextParameter comment="CLI_SFCC" name="FILE_SFCC_CUSTOMER" prompt="FILE_SFCC_CUSTOMER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CLI_SFCC"/>
+    <contextParameter comment="ORD" name="FILE_SFCC_ORDER" prompt="FILE_SFCC_ORDER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ORD"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="F:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="FILE_IN_PROCESS_PATH" prompt="FILE_IN_PROCESS_PATH?" promptNeeded="false" repositoryContextId="_OM30wFvpEemnjpIHddYzHw" type="id_String" value=""/>
+    <contextParameter comment="" name="HORODATAGE" prompt="HORODATAGE?" promptNeeded="false" repositoryContextId="_OM30wFvpEemnjpIHddYzHw" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="Recette">
+    <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:IIuOcC7GOuFJJPyj3Bx+Gu6M3g2ntgk1qoxNef8rcT5zBx9Jfbg="/>
+    <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT\"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE\"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT\"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT\"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG\"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP\"/>
+    <contextParameter comment="PAI_PIVOT" name="FILE_PIVOT_PAYMENT" prompt="FILE_PIVOT_PAYMENT?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PAI_PIVOT"/>
+    <contextParameter comment="ITM_PIVOT" name="FILE_PIVOT_ARTICLE" prompt="FILE_PIVOT_ARTICLE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ITM_PIVOT"/>
+    <contextParameter comment="CLT_PIVOT" name="FILE_PIVOT_CUSTOMER_NL" prompt="FILE_PIVOT_CUSTOMER_NL?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLT_PIVOT"/>
+    <contextParameter comment="CLI_PIVOT" name="FILE_PIVOT_CUSTOMER" prompt="FILE_PIVOT_CUSTOMER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLI_PIVOT"/>
+    <contextParameter comment="INV_PIVOT" name="FILE_PIVOT_INVENTORY" prompt="FILE_PIVOT_INVENTORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="INV_PIVOT"/>
+    <contextParameter comment="CAT_PIVOT" name="FILE_PIVOT_ARTICLE_CATEGORY" prompt="FILE_PIVOT_ARTICLE_CATEGORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CAT_PIVOT"/>
+    <contextParameter comment="PBO_PIVOT" name="FILE_PIVOT_PRICE_BOOK" prompt="FILE_PIVOT_PRICE_BOOK?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PBO_PIVOT"/>
+    <contextParameter comment="PLI_PIVOT" name="FILE_PIVOT_PRICE_LIST" prompt="FILE_PIVOT_PRICE_LIST?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PLI_PIVOT"/>
+    <contextParameter comment="ORD_PIVOT" name="FILE_PIVOT_ORD_LINE" prompt="FILE_PIVOT_ORD_LINE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORD_PIVOT"/>
+    <contextParameter comment="POS_PIVOT" name="FILE_PIVOT_STORE" prompt="FILE_PIVOT_STORE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="POS_PIVOT"/>
+    <contextParameter comment="ORH_PIVOT" name="FILE_PIVOT_ORD_HEADER" prompt="FILE_PIVOT_ORD_HEADER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORH_PIVOT"/>
+    <contextParameter comment="SOR_PIVOT" name="FILE_PIVOT_ORD_STATUS" prompt="FILE_PIVOT_ORD_STATUS?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="SOR_PIVOT"/>
+    <contextParameter comment="INV_SFCC" name="FILE_SFCC_INVENTORY" prompt="FILE_SFCC_INVENTORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="INV_SFCC"/>
+    <contextParameter comment="PLI_SFCC" name="FILE_SFCC_PRICE" prompt="FILE_SFCC_PRICE?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="PLI_SFCC"/>
+    <contextParameter comment="ITM_SFCC" name="FILE_SFCC_CATALOG" prompt="FILE_SFCC_CATALOG?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ITM_SFCC"/>
+    <contextParameter comment="CAT_SFCC" name="FILE_SFCC_CATEGORY" prompt="FILE_SFCC_CATEGORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CAT_SFCC"/>
+    <contextParameter comment="CLI_SFCC" name="FILE_SFCC_CUSTOMER" prompt="FILE_SFCC_CUSTOMER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CLI_SFCC"/>
+    <contextParameter comment="ORD" name="FILE_SFCC_ORDER" prompt="FILE_SFCC_ORDER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ORD"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="F:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="FILE_IN_PROCESS_PATH" prompt="FILE_IN_PROCESS_PATH?" promptNeeded="false" repositoryContextId="_OM30wFvpEemnjpIHddYzHw" type="id_String" value=""/>
+    <contextParameter comment="" name="HORODATAGE" prompt="HORODATAGE?" promptNeeded="false" repositoryContextId="_OM30wFvpEemnjpIHddYzHw" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="DEV">
+    <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:nWPZQReOUMmDlFh43Rsknrm2qI/YAfMU5+zQ7BTcs1+A1HDqszo="/>
+    <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
+    <contextParameter comment="ORD" name="FILE_SFCC_ORDER" prompt="FILE_SFCC_ORDER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ORD"/>
+    <contextParameter comment="ITM_SFCC" name="FILE_SFCC_CATALOG" prompt="FILE_SFCC_CATALOG?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ITM_SFCC"/>
+    <contextParameter comment="PLI_SFCC" name="FILE_SFCC_PRICE" prompt="FILE_SFCC_PRICE?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="PLI_SFCC"/>
+    <contextParameter comment="CAT_SFCC" name="FILE_SFCC_CATEGORY" prompt="FILE_SFCC_CATEGORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CAT_SFCC"/>
+    <contextParameter comment="CLI_SFCC" name="FILE_SFCC_CUSTOMER" prompt="FILE_SFCC_CUSTOMER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CLI_SFCC"/>
+    <contextParameter comment="INV_SFCC" name="FILE_SFCC_INVENTORY" prompt="FILE_SFCC_INVENTORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="INV_SFCC"/>
+    <contextParameter comment="PAI_PIVOT" name="FILE_PIVOT_PAYMENT" prompt="FILE_PIVOT_PAYMENT?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PAI_PIVOT"/>
+    <contextParameter comment="ITM_PIVOT" name="FILE_PIVOT_ARTICLE" prompt="FILE_PIVOT_ARTICLE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ITM_PIVOT"/>
+    <contextParameter comment="CLO_PIVOT" name="FILE_PIVOT_CUSTOMER_NL" prompt="FILE_PIVOT_CUSTOMER_NL?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLT_PIVOT"/>
+    <contextParameter comment="CLI_PIVOT" name="FILE_PIVOT_CUSTOMER" prompt="FILE_PIVOT_CUSTOMER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLI_PIVOT"/>
+    <contextParameter comment="INV_PIVOT" name="FILE_PIVOT_INVENTORY" prompt="FILE_PIVOT_INVENTORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="INV_PIVOT"/>
+    <contextParameter comment="CAT_PIVOT" name="FILE_PIVOT_ARTICLE_CATEGORY" prompt="FILE_PIVOT_ARTICLE_CATEGORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CAT_PIVOT"/>
+    <contextParameter comment="PBO_PIVOT" name="FILE_PIVOT_PRICE_BOOK" prompt="FILE_PIVOT_PRICE_BOOK?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PBO_PIVOT"/>
+    <contextParameter comment="PLI_PIVOT" name="FILE_PIVOT_PRICE_LIST" prompt="FILE_PIVOT_PRICE_LIST?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PLI_PIVOT"/>
+    <contextParameter comment="ORD_PIVOT" name="FILE_PIVOT_ORD_LINE" prompt="FILE_PIVOT_ORD_LINE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORD_PIVOT"/>
+    <contextParameter comment="POS_PIVOT" name="FILE_PIVOT_STORE" prompt="FILE_PIVOT_STORE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="POS_PIVOT"/>
+    <contextParameter comment="ORH_PIVOT" name="FILE_PIVOT_ORD_HEADER" prompt="FILE_PIVOT_ORD_HEADER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORH_PIVOT"/>
+    <contextParameter comment="SOR_PIVOT" name="FILE_PIVOT_ORD_STATUS" prompt="FILE_PIVOT_ORD_STATUS?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="SOR_PIVOT"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="D:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="FILE_IN_PROCESS_PATH" prompt="FILE_IN_PROCESS_PATH?" promptNeeded="false" repositoryContextId="_OM30wFvpEemnjpIHddYzHw" type="id_String" value=""/>
+    <contextParameter comment="" name="HORODATAGE" prompt="HORODATAGE?" promptNeeded="false" repositoryContextId="_OM30wFvpEemnjpIHddYzHw" type="id_String" value=""/>
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT/"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT/"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP/"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE/"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG/"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT/"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+  </context>
+  <context confirmationNeeded="false" name="PROD">
+    <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
+    <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:ngynsv++udcXv2RzaBeMTpfAvtdfG8gkUZ4AKCWyriM0so9fmE8="/>
+    <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
+    <contextParameter comment="ORD" name="FILE_SFCC_ORDER" prompt="FILE_SFCC_ORDER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ORD"/>
+    <contextParameter comment="ITM_SFCC" name="FILE_SFCC_CATALOG" prompt="FILE_SFCC_CATALOG?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ITM_SFCC"/>
+    <contextParameter comment="PLI_SFCC" name="FILE_SFCC_PRICE" prompt="FILE_SFCC_PRICE?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="PLI_SFCC"/>
+    <contextParameter comment="CAT_SFCC" name="FILE_SFCC_CATEGORY" prompt="FILE_SFCC_CATEGORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CAT_SFCC"/>
+    <contextParameter comment="CLI_SFCC" name="FILE_SFCC_CUSTOMER" prompt="FILE_SFCC_CUSTOMER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CLI_SFCC"/>
+    <contextParameter comment="INV_SFCC" name="FILE_SFCC_INVENTORY" prompt="FILE_SFCC_INVENTORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="INV_SFCC"/>
+    <contextParameter comment="PAI_PIVOT" name="FILE_PIVOT_PAYMENT" prompt="FILE_PIVOT_PAYMENT?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PAI_PIVOT"/>
+    <contextParameter comment="ITM_PIVOT" name="FILE_PIVOT_ARTICLE" prompt="FILE_PIVOT_ARTICLE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ITM_PIVOT"/>
+    <contextParameter comment="CLO_PIVOT" name="FILE_PIVOT_CUSTOMER_NL" prompt="FILE_PIVOT_CUSTOMER_NL?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLT_PIVOT"/>
+    <contextParameter comment="CLI_PIVOT" name="FILE_PIVOT_CUSTOMER" prompt="FILE_PIVOT_CUSTOMER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CLI_PIVOT"/>
+    <contextParameter comment="INV_PIVOT" name="FILE_PIVOT_INVENTORY" prompt="FILE_PIVOT_INVENTORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="INV_PIVOT"/>
+    <contextParameter comment="CAT_PIVOT" name="FILE_PIVOT_ARTICLE_CATEGORY" prompt="FILE_PIVOT_ARTICLE_CATEGORY?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="CAT_PIVOT"/>
+    <contextParameter comment="PBO_PIVOT" name="FILE_PIVOT_PRICE_BOOK" prompt="FILE_PIVOT_PRICE_BOOK?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PBO_PIVOT"/>
+    <contextParameter comment="PLI_PIVOT" name="FILE_PIVOT_PRICE_LIST" prompt="FILE_PIVOT_PRICE_LIST?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="PLI_PIVOT"/>
+    <contextParameter comment="ORD_PIVOT" name="FILE_PIVOT_ORD_LINE" prompt="FILE_PIVOT_ORD_LINE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORD_PIVOT"/>
+    <contextParameter comment="POS_PIVOT" name="FILE_PIVOT_STORE" prompt="FILE_PIVOT_STORE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="POS_PIVOT"/>
+    <contextParameter comment="ORH_PIVOT" name="FILE_PIVOT_ORD_HEADER" prompt="FILE_PIVOT_ORD_HEADER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORH_PIVOT"/>
+    <contextParameter comment="SOR_PIVOT" name="FILE_PIVOT_ORD_STATUS" prompt="FILE_PIVOT_ORD_STATUS?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="SOR_PIVOT"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="D:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="FILE_IN_PROCESS_PATH" prompt="FILE_IN_PROCESS_PATH?" promptNeeded="false" repositoryContextId="_OM30wFvpEemnjpIHddYzHw" type="id_String" value=""/>
+    <contextParameter comment="" name="HORODATAGE" prompt="HORODATAGE?" promptNeeded="false" repositoryContextId="_OM30wFvpEemnjpIHddYzHw" type="id_String" value=""/>
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT/"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT/"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP/"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE/"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG/"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT/"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:heg0LeRSIOZvoVDhzATD85m94sSj4oFIR629EfeU"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="true"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="context.WORKSPACE + context.PROJECT + &quot;/&quot; + context.FLOW + &quot;/&quot; +context.DIR_LOG"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tMysqlOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
+    <elementParameter field="TEXT" name="URL" show="false" value=""/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="context.DB_TECH_HOST"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="context.DB_TECH_PORT"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="context.DB_TECH_DATABASE"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.DB_TECH_DATABASE"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="context.DB_TECH_ADD_PARAM"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="context.DB_TECH_LOGIN"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:uB5fAKgaIPhoVw0Iq6EPvbRoO5gkaqjiIQ3fB9yNrFGvaGyCeaDsStVDFb5oy+Q8vw8X9w=="/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;TALEND_LOG_SFCC&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_9J35sFIXEemsqf_w_675CQ" name="DataOperation"/>
+    <routinesParameter id="_9MGuVFIXEemsqf_w_675CQ" name="Mathematical"/>
+    <routinesParameter id="_9MjaQFIXEemsqf_w_675CQ" name="Numeric"/>
+    <routinesParameter id="_9MtLSVIXEemsqf_w_675CQ" name="Relational"/>
+    <routinesParameter id="_9NvtGVIXEemsqf_w_675CQ" name="SQLike"/>
+    <routinesParameter id="_9M2VOVIXEemsqf_w_675CQ" name="StringHandling"/>
+    <routinesParameter id="_9NAGOVIXEemsqf_w_675CQ" name="TalendDataGenerator"/>
+    <routinesParameter id="_9NJQKVIXEemsqf_w_675CQ" name="TalendDate"/>
+    <routinesParameter id="_9Nl8IFIXEemsqf_w_675CQ" name="TalendStringUtil"/>
+    <routinesParameter id="_9Nl8FlIXEemsqf_w_675CQ" name="TalendString"/>
+  </parameters>
+  <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileList_1"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.WORKSPACE + context.PROJECT + &quot;/&quot; + context.FLOW + &quot;/&quot; +context.DIR_INPUT"/>
+    <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
+    <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="YES"/>
+    <elementParameter field="CHECK" name="ERROR" value="false"/>
+    <elementParameter field="CHECK" name="GLOBEXPRESSIONS" value="true"/>
+    <elementParameter field="TABLE" name="FILES">
+      <elementValue elementRef="FILEMASK" value="context.SUFFIX_FILE +context.FILE_SFCC_ORDER + &quot;*&quot;"/>
+    </elementParameter>
+    <elementParameter field="RADIO" name="ORDER_BY_NOTHING" value="true"/>
+    <elementParameter field="RADIO" name="ORDER_BY_FILENAME" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_BY_FILESIZE" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_BY_MODIFIEDDATE" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_ACTION_ASC" value="true"/>
+    <elementParameter field="RADIO" name="ORDER_ACTION_DESC" value="false"/>
+    <elementParameter field="CHECK" name="IFEXCLUDE" value="false"/>
+    <elementParameter field="TEXT" name="EXCLUDEFILEMASK" show="false" value="&quot;*.txt&quot;"/>
+    <elementParameter field="CHECK" name="FORMAT_FILEPATH_TO_SLASH" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tFileCopy" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileCopy_1"/>
+    <elementParameter field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILEPATH&quot;))"/>
+    <elementParameter field="CHECK" name="ENABLE_COPY_DIRECTORY" value="false"/>
+    <elementParameter field="DIRECTORY" name="SOURCE_DERECTORY" show="false" value="&quot;D:/XAV/WX_CONSULTING/CLIENTS/PAULE_KA/WS_721_USERDEV&quot;"/>
+    <elementParameter field="DIRECTORY" name="DESTINATION" value="context.WORKSPACE + context.PROJECT + &quot;/SFC_STA_ORD_PIV/&quot; +context.DIR_INPUT"/>
+    <elementParameter field="CHECK" name="RENAME" value="false"/>
+    <elementParameter field="TEXT" name="DESTINATION_RENAME" show="false" value="&quot;NewName.temp&quot;"/>
+    <elementParameter field="CHECK" name="REMOVE_FILE" value="false"/>
+    <elementParameter field="CHECK" name="REPLACE_FILE" value="true"/>
+    <elementParameter field="CHECK" name="CREATE_DIRECTORY" value="true"/>
+    <elementParameter field="CHECK" name="FAILON" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileCopy_1"/>
+  </node>
+  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFileList_1" offsetLabelX="0" offsetLabelY="0" source="tFileList_1" target="tFileCopy_1">
+    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+    <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate2"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileList_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2c0b00a9-e321-406c-8779-03e24270b76b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>t9soE47OHWd0pDymr/jpWKaCy6a3vnd7F3zd1HeNRCcLCnW6dxc5ehV1H1f2fQvxiKuIsVWVZ+ES
+wg2No0KFhw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_fdd529c0-a126-450a-be37-8c2a02e3bca0"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Syn4ApiTv3LNVlRjLPLFQNZbue5vqDRUFD/XxEvfeAY0U+91H7x4tIW40vqjGkzDLJRDi0e6qSDM
+IfSmGx7Aog==</DigestValue></Reference></SignedInfo><SignatureValue>P+oMGqV+lMY6PjonXBYu24v/k57AKoeMMKA0MJvYaPtVE5GMTXUgX55NOGvkW/0GmA+VcadtjDYD
+JauwLpZdQhxEI+VeZGKXK12CEB7woXobbYV9PeRQp7l2WqvgA7jL/MLDXiMaoKfZct8lGWuCS6y2
+MyXLK3VWHd+hcH+60XfynoKdBt8bkpo07Df/5cTFMstHcAM/mqO3QEaaksEAzFwf6XQjvkrs0E3W
+vDkevBMMj7J28Hx7XYVAHqFwc8ThA4I5FfyG8NUXFqyzWCzT9Je0ujWfPYwDhMx88mz6ZVgglmle
+rrq2WDXwNCyXIzJeNoovJPKs4KYITL1t+Vto8A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_fdd529c0-a126-450a-be37-8c2a02e3bca0" Target="#_2c0b00a9-e321-406c-8779-03e24270b76b"><Timestamp>2021-05-01 01:40:25</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

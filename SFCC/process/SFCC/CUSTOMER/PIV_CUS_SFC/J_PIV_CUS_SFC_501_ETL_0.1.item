@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendXMLMap="http://www.talend.org/xmlmap" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Local" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Production">
+    <contextParameter comment="" name="inputFolder" prompt="inputFolder?" promptNeeded="false" repositoryContextId="_EPYuIC4ZEemsKtFaf9hJaw" type="id_String" value="&quot;/input&quot;"/>
+    <contextParameter comment="" name="progressFolder" prompt="progressFolder?" promptNeeded="false" repositoryContextId="_EPYuIC4ZEemsKtFaf9hJaw" type="id_String" value="&quot;/progress&quot;"/>
+    <contextParameter comment="" name="outputFolder" prompt="outputFolder?" promptNeeded="false" repositoryContextId="_EPYuIC4ZEemsKtFaf9hJaw" type="id_String" value="&quot;/output&quot;"/>
+    <contextParameter comment="" name="archiveFolder" prompt="archiveFolder?" promptNeeded="false" repositoryContextId="_EPYuIC4ZEemsKtFaf9hJaw" type="id_String" value=""/>
+    <contextParameter comment="" name="prefix" prompt="prefix?" promptNeeded="false" type="id_String" value="&quot;CLI&quot;"/>
+  </context>
+  <context confirmationNeeded="false" name="Local">
+    <contextParameter comment="" name="inputFolder" prompt="inputFolder?" promptNeeded="false" repositoryContextId="_EPYuIC4ZEemsKtFaf9hJaw" type="id_String" value="&quot;/Applications/TOSESB-7.1.1/studio/workspace/CMP/files/input&quot;"/>
+    <contextParameter comment="" name="progressFolder" prompt="progressFolder?" promptNeeded="false" repositoryContextId="_EPYuIC4ZEemsKtFaf9hJaw" type="id_String" value="&quot;/Applications/TOSESB-7.1.1/studio/workspace/CMP/files/progress&quot;"/>
+    <contextParameter comment="" name="outputFolder" prompt="outputFolder?" promptNeeded="false" repositoryContextId="_EPYuIC4ZEemsKtFaf9hJaw" type="id_String" value="&quot;/Applications/TOSESB-7.1.1/studio/workspace/CMP/files/output&quot;"/>
+    <contextParameter comment="" name="archiveFolder" prompt="archiveFolder?" promptNeeded="false" repositoryContextId="_EPYuIC4ZEemsKtFaf9hJaw" type="id_String" value="&quot;/Applications/TOSESB-7.1.1/studio/workspace/CMP/files/archive&quot;"/>
+    <contextParameter comment="" name="prefix" prompt="prefix?" promptNeeded="false" type="id_String" value="&quot;CLI&quot;"/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:47pVGlKxxj4GTF5L4yQ3sGOSrAvF337mKd5L9PCt"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;/Applications/TOSESB-7.1.1/studio/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:2Ol/nY8a2uNCuvSSee+szay5o//4VHbt5R52ek3T"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_YL04cCVHEemdzL0UoFHyEA" name="DataOperation"/>
+    <routinesParameter id="_YSBAACVHEemdzL0UoFHyEA" name="Mathematical"/>
+    <routinesParameter id="_YSF4gCVHEemdzL0UoFHyEA" name="Numeric"/>
+    <routinesParameter id="_YSL_ICVHEemdzL0UoFHyEA" name="Relational"/>
+    <routinesParameter id="_YSQ3oCVHEemdzL0UoFHyEA" name="StringHandling"/>
+    <routinesParameter id="_YSVJECVHEemdzL0UoFHyEA" name="TalendDataGenerator"/>
+    <routinesParameter id="_YSaBkCVHEemdzL0UoFHyEA" name="TalendDate"/>
+    <routinesParameter id="_YSh9YCVHEemdzL0UoFHyEA" name="TalendStringUtil"/>
+    <routinesParameter id="_YSdr8CVHEemdzL0UoFHyEA" name="TalendString"/>
+  </parameters>
+  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_1"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="PreJob"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Local"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_eG8OoC6gEemadZXIimq-VA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_1"/>
+  </node>
+  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_2"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="PostJob"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Local"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_xEuTAC67EemBCPAl6i7ACg"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_2"/>
+  </node>
+  <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileList_1"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.progressFolder + &quot;/&quot; + context.prefix"/>
+    <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
+    <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="YES"/>
+    <elementParameter field="CHECK" name="ERROR" value="false"/>
+    <elementParameter field="CHECK" name="GLOBEXPRESSIONS" value="true"/>
+    <elementParameter field="TABLE" name="FILES">
+      <elementValue elementRef="FILEMASK" value="context.prefix + &quot;*.xml&quot;"/>
+    </elementParameter>
+    <elementParameter field="RADIO" name="ORDER_BY_NOTHING" value="true"/>
+    <elementParameter field="RADIO" name="ORDER_BY_FILENAME" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_BY_FILESIZE" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_BY_MODIFIEDDATE" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_ACTION_ASC" value="true"/>
+    <elementParameter field="RADIO" name="ORDER_ACTION_DESC" value="false"/>
+    <elementParameter field="CHECK" name="IFEXCLUDE" value="false"/>
+    <elementParameter field="TEXT" name="EXCLUDEFILEMASK" show="false" value="&quot;*.txt&quot;"/>
+    <elementParameter field="CHECK" name="FORMAT_FILEPATH_TO_SLASH" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tFileInputXML" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputXML_1"/>
+    <elementParameter field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILEPATH&quot;))"/>
+    <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;/&quot;"/>
+    <elementParameter field="TABLE" name="MAPPING">
+      <elementValue elementRef="SCHEMA_COLUMN" value="customer"/>
+      <elementValue elementRef="QUERY" value="&quot;.&quot;"/>
+      <elementValue elementRef="NODECHECK" value="true"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LIMIT" value="50"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="IGNORE_NS" value="false"/>
+    <elementParameter field="CHECK" name="IGNORE_DTD" value="false"/>
+    <elementParameter field="FILE" name="TMP_FILENAME" show="false" value="&quot;/Applications/TOSESB-7.1.1/studio/workspace/temp.xml&quot;"/>
+    <elementParameter field="CHECK" name="USE_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="FIELD_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" value="Dom4j"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tFileInputXML_1">
+      <column comment="" key="false" length="-1" name="customer" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Document" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="metadata" name="REJECT">
+      <column comment="" key="false" length="-1" name="customer" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Document" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="384" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tXMLMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="KEEP_ORDER_FOR_DOCUMENT" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="toCSV">
+      <column comment="" key="false" length="10" name="origine" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="time_extract" nullable="false" pattern="&quot;dd/MM/yyyy hh:mm:ss&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="customer_id" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="companyName" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="adr1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="adr2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="zipcode" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="town" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="region" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="country" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="150" name="email" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="phone" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="zCMP_rgpd_top" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="zCMP_optin_sms" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="zCMP_optin_phone" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="zCMP_optin_mail" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendXMLMap:XmlMapData">
+      <inputTrees lookupMode="LOAD_ONCE" matchingMode="ALL_ROWS" name="row1">
+        <nodes expression="" name="customer" nullable="false" type="id_Document" xpath="row1/customer">
+          <children main="true" name="customers" type="id_String" xpath="row1.customer:/customers">
+            <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/xmlns:"/>
+            <children main="true" name="customer" type="id_String" xpath="row1.customer:/customers/customer">
+              <children name="customer-no" nodeType="ATTRIBUT" outgoingConnections="//@node.6/@nodeData/@connections.3" type="id_String" xpath="row1.customer:/customers/customer/@customer-no"/>
+              <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/xmlns:"/>
+              <children name="credentials" type="id_String" xpath="row1.customer:/customers/customer/credentials">
+                <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/credentials/xmlns:"/>
+                <children name="login" type="id_String" xpath="row1.customer:/customers/customer/credentials/login">
+                  <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/credentials/login/xmlns:"/>
+                </children>
+                <children name="password" type="id_String" xpath="row1.customer:/customers/customer/credentials/password">
+                  <children name="encrypted" nodeType="ATTRIBUT" type="id_Boolean" xpath="row1.customer:/customers/customer/credentials/password/@encrypted"/>
+                  <children name="encryptionScheme" nodeType="ATTRIBUT" type="id_String" xpath="row1.customer:/customers/customer/credentials/password/@encryptionScheme"/>
+                  <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/credentials/password/xmlns:"/>
+                </children>
+                <children name="enabled-flag" type="id_Boolean" xpath="row1.customer:/customers/customer/credentials/enabled-flag">
+                  <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/credentials/enabled-flag/xmlns:"/>
+                </children>
+                <children name="password-question" type="id_String" xpath="row1.customer:/customers/customer/credentials/password-question">
+                  <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/credentials/password-question/xmlns:"/>
+                </children>
+                <children name="password-answer" type="id_String" xpath="row1.customer:/customers/customer/credentials/password-answer">
+                  <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/credentials/password-answer/xmlns:"/>
+                </children>
+              </children>
+              <children name="profile" type="id_String" xpath="row1.customer:/customers/customer/profile">
+                <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/profile/xmlns:"/>
+                <children name="salutation" type="id_String" xpath="row1.customer:/customers/customer/profile/salutation">
+                  <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/profile/salutation/xmlns:"/>
+                </children>
+                <children name="title" type="id_String" xpath="row1.customer:/customers/customer/profile/title">
+                  <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/profile/title/xmlns:"/>
+                </children>
+                <children name="first-name" outgoingConnections="//@node.6/@nodeData/@connections.0" type="id_String" xpath="row1.customer:/customers/customer/profile/first-name">
+                  <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/profile/first-name/xmlns:"/>
+                </children>
+                <children name="second-name" outgoingConnections="//@node.6/@nodeData/@connections.1" type="id_String" xpath="row1.customer:/customers/customer/profile/second-name">
+                  <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/profile/second-name/xmlns:"/>
+                </children>
+                <children name="last-name" outgoingConnections="//@node.6/@nodeData/@connections.2" type="id_String" xpath="row1.customer:/customers/customer/profile/last-name">
+                  <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/profile/last-name/xmlns:"/>
+                </children>
+                <children name="suffix" type="id_String" xpath="row1.customer:/customers/customer/profile/suffix">
+                  <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/profile/suffix/xmlns:"/>
+                </children>
+                <children name="company-name" type="id_String" xpath="row1.customer:/customers/customer/profile/company-name">
+                  <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/profile/company-name/xmlns:"/>
+                </children>
+                <children name="job-title" type="id_String" xpath="row1.customer:/customers/customer/profile/job-title">
+                  <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/profile/job-title/xmlns:"/>
+                </children>
+                <children name="email" outgoingConnections="//@node.6/@nodeData/@connections.4" type="id_String" xpath="row1.customer:/customers/customer/profile/email">
+                  <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/profile/email/xmlns:"/>
+                </children>
+                <children name="phone-home" type="id_String" xpath="row1.customer:/customers/customer/profile/phone-home">
+                  <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/profile/phone-home/xmlns:"/>
+                </children>
+                <children name="phone-business" type="id_String" xpath="row1.customer:/customers/customer/profile/phone-business">
+                  <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/profile/phone-business/xmlns:"/>
+                </children>
+                <children name="phone-mobile" outgoingConnections="//@node.6/@nodeData/@connections.5" type="id_String" xpath="row1.customer:/customers/customer/profile/phone-mobile">
+                  <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/profile/phone-mobile/xmlns:"/>
+                </children>
+                <children name="fax" type="id_String" xpath="row1.customer:/customers/customer/profile/fax">
+                  <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/profile/fax/xmlns:"/>
+                </children>
+                <children name="birthday" pattern="&quot;dd-MM-yyyy&quot;" type="id_Date" xpath="row1.customer:/customers/customer/profile/birthday">
+                  <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/profile/birthday/xmlns:"/>
+                </children>
+                <children name="gender" type="id_Integer" xpath="row1.customer:/customers/customer/profile/gender">
+                  <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/profile/gender/xmlns:"/>
+                </children>
+                <children name="creation-date" pattern="&quot;dd-MM-yyyy&quot;" type="id_Date" xpath="row1.customer:/customers/customer/profile/creation-date">
+                  <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/profile/creation-date/xmlns:"/>
+                </children>
+                <children name="preferred-locale" type="id_String" xpath="row1.customer:/customers/customer/profile/preferred-locale">
+                  <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/profile/preferred-locale/xmlns:"/>
+                </children>
+                <children name="custom-attributes" type="id_String" xpath="row1.customer:/customers/customer/profile/custom-attributes">
+                  <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/profile/custom-attributes/xmlns:"/>
+                  <children name="custom-attribute" optional="true" outgoingConnections="//@node.6/@nodeData/@connections.9 //@node.6/@nodeData/@connections.12 //@node.6/@nodeData/@connections.14 //@node.6/@nodeData/@connections.16" type="id_Boolean" xpath="row1.customer:/customers/customer/profile/custom-attributes/custom-attribute">
+                    <children name="attribute-id" nodeType="ATTRIBUT" outgoingConnections="//@node.6/@nodeData/@connections.10 //@node.6/@nodeData/@connections.11 //@node.6/@nodeData/@connections.13 //@node.6/@nodeData/@connections.15" type="id_String" xpath="row1.customer:/customers/customer/profile/custom-attributes/custom-attribute/@attribute-id"/>
+                    <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/profile/custom-attributes/custom-attribute/xmlns:"/>
+                  </children>
+                </children>
+              </children>
+              <children main="true" name="addresses" type="id_String" xpath="row1.customer:/customers/customer/addresses">
+                <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/addresses/xmlns:"/>
+                <children loop="true" main="true" name="address" type="id_String" xpath="row1.customer:/customers/customer/addresses/address">
+                  <children name="address-id" nodeType="ATTRIBUT" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/@address-id"/>
+                  <children filterOutGoingConnections="//@node.6/@nodeData/@connections.6" name="preferred" nodeType="ATTRIBUT" type="id_Boolean" xpath="row1.customer:/customers/customer/addresses/address/@preferred"/>
+                  <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/xmlns:"/>
+                  <children name="salutation" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/salutation">
+                    <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/salutation/xmlns:"/>
+                  </children>
+                  <children name="title" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/title">
+                    <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/title/xmlns:"/>
+                  </children>
+                  <children name="first-name" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/first-name">
+                    <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/first-name/xmlns:"/>
+                  </children>
+                  <children name="second-name" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/second-name">
+                    <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/second-name/xmlns:"/>
+                  </children>
+                  <children name="last-name" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/last-name">
+                    <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/last-name/xmlns:"/>
+                  </children>
+                  <children name="suffix" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/suffix">
+                    <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/suffix/xmlns:"/>
+                  </children>
+                  <children name="company-name" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/company-name">
+                    <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/company-name/xmlns:"/>
+                  </children>
+                  <children name="job-title" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/job-title">
+                    <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/job-title/xmlns:"/>
+                  </children>
+                  <children name="address1" outgoingConnections="//@node.6/@nodeData/@connections.7" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/address1">
+                    <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/address1/xmlns:"/>
+                  </children>
+                  <children name="address2" outgoingConnections="//@node.6/@nodeData/@connections.8" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/address2">
+                    <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/address2/xmlns:"/>
+                  </children>
+                  <children name="suite" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/suite">
+                    <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/suite/xmlns:"/>
+                  </children>
+                  <children name="postbox" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/postbox">
+                    <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/postbox/xmlns:"/>
+                  </children>
+                  <children name="city" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/city">
+                    <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/city/xmlns:"/>
+                  </children>
+                  <children name="postal-code" type="id_Integer" xpath="row1.customer:/customers/customer/addresses/address/postal-code">
+                    <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/postal-code/xmlns:"/>
+                  </children>
+                  <children name="state-code" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/state-code">
+                    <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/state-code/xmlns:"/>
+                  </children>
+                  <children name="country-code" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/country-code">
+                    <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/country-code/xmlns:"/>
+                  </children>
+                  <children name="phone" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/phone">
+                    <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/addresses/address/phone/xmlns:"/>
+                  </children>
+                </children>
+              </children>
+              <children name="note" type="id_String" xpath="row1.customer:/customers/customer/note">
+                <children defaultValue="http://www.demandware.com/xml/impex/customer/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.customer:/customers/customer/note/xmlns:"/>
+              </children>
+            </children>
+          </children>
+        </nodes>
+      </inputTrees>
+      <outputTrees activateExpressionFilter="true" expressionFilter="[row1.customer:/customers/customer/addresses/address/@preferred] == true" filterIncomingConnections="//@node.6/@nodeData/@connections.6" name="toCSV">
+        <nodes expression="&quot;PK&quot;" name="origine" nullable="false" type="id_String" xpath="toCSV/origine"/>
+        <nodes name="time_extract" nullable="false" type="id_Date" xpath="toCSV/time_extract"/>
+        <nodes expression=" [row1.customer:/customers/customer/@customer-no]" incomingConnections="//@node.6/@nodeData/@connections.3" name="customer_id" nullable="false" type="id_String" xpath="toCSV/customer_id"/>
+        <nodes expression="[row1.customer:/customers/customer/profile/first-name] + &quot; &quot; + [row1.customer:/customers/customer/profile/second-name] + &quot; &quot; + [row1.customer:/customers/customer/profile/last-name] " incomingConnections="//@node.6/@nodeData/@connections.0 //@node.6/@nodeData/@connections.1 //@node.6/@nodeData/@connections.2" name="name" type="id_String" xpath="toCSV/name"/>
+        <nodes expression="" name="companyName" type="id_String" xpath="toCSV/companyName"/>
+        <nodes expression=" [row1.customer:/customers/customer/addresses/address/address1]" incomingConnections="//@node.6/@nodeData/@connections.7" name="adr1" type="id_String" xpath="toCSV/adr1"/>
+        <nodes expression=" [row1.customer:/customers/customer/addresses/address/address2]" incomingConnections="//@node.6/@nodeData/@connections.8" name="adr2" type="id_String" xpath="toCSV/adr2"/>
+        <nodes name="zipcode" type="id_Integer" xpath="toCSV/zipcode"/>
+        <nodes name="town" type="id_String" xpath="toCSV/town"/>
+        <nodes expression="" name="region" type="id_String" xpath="toCSV/region"/>
+        <nodes expression="" name="country" type="id_String" xpath="toCSV/country"/>
+        <nodes expression="[row1.customer:/customers/customer/profile/email]" incomingConnections="//@node.6/@nodeData/@connections.4" name="email" type="id_String" xpath="toCSV/email"/>
+        <nodes expression="[row1.customer:/customers/customer/profile/phone-mobile]" incomingConnections="//@node.6/@nodeData/@connections.5" name="phone" type="id_String" xpath="toCSV/phone"/>
+        <nodes expression="([row1.customer:/customers/customer/profile/custom-attributes/custom-attribute/@attribute-id] == &quot;zCMP_rgpd_top&quot;) ? [row1.customer:/customers/customer/profile/custom-attributes/custom-attribute] : false " incomingConnections="//@node.6/@nodeData/@connections.9 //@node.6/@nodeData/@connections.10" name="zCMP_rgpd_top" type="id_Boolean" xpath="toCSV/zCMP_rgpd_top"/>
+        <nodes expression="([row1.customer:/customers/customer/profile/custom-attributes/custom-attribute/@attribute-id] == &quot;zCMP_optin_sms&quot;) ? [row1.customer:/customers/customer/profile/custom-attributes/custom-attribute] : false " incomingConnections="//@node.6/@nodeData/@connections.11 //@node.6/@nodeData/@connections.12" name="zCMP_optin_sms" type="id_Boolean" xpath="toCSV/zCMP_optin_sms"/>
+        <nodes expression="([row1.customer:/customers/customer/profile/custom-attributes/custom-attribute/@attribute-id] == &quot;zCMP_optin_phone&quot;) ? [row1.customer:/customers/customer/profile/custom-attributes/custom-attribute] : false " incomingConnections="//@node.6/@nodeData/@connections.13 //@node.6/@nodeData/@connections.14" name="zCMP_optin_phone" type="id_Boolean" xpath="toCSV/zCMP_optin_phone"/>
+        <nodes expression="([row1.customer:/customers/customer/profile/custom-attributes/custom-attribute/@attribute-id] == &quot;zCMP_optin_mail&quot;) ? [row1.customer:/customers/customer/profile/custom-attributes/custom-attribute] : false " incomingConnections="//@node.6/@nodeData/@connections.15 //@node.6/@nodeData/@connections.16" name="zCMP_optin_mail" type="id_Boolean" xpath="toCSV/zCMP_optin_mail"/>
+      </outputTrees>
+      <varTables minimized="true" name="Var"/>
+      <connections source="//@node.6/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.3/@children.3" target="//@node.6/@nodeData/@outputTrees.0/@nodes.3" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.6/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.3/@children.4" target="//@node.6/@nodeData/@outputTrees.0/@nodes.3" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.6/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.3/@children.5" target="//@node.6/@nodeData/@outputTrees.0/@nodes.3" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.6/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.0" target="//@node.6/@nodeData/@outputTrees.0/@nodes.2" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.6/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.3/@children.9" target="//@node.6/@nodeData/@outputTrees.0/@nodes.11" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.6/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.3/@children.12" target="//@node.6/@nodeData/@outputTrees.0/@nodes.12" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.6/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.1/@children.1" target="//@node.6/@nodeData/@outputTrees.0" xsi:type="TalendXMLMap:FilterConnection"/>
+      <connections source="//@node.6/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.1/@children.11" target="//@node.6/@nodeData/@outputTrees.0/@nodes.5" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.6/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.1/@children.12" target="//@node.6/@nodeData/@outputTrees.0/@nodes.6" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.6/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.3/@children.18/@children.1" target="//@node.6/@nodeData/@outputTrees.0/@nodes.13" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.6/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.3/@children.18/@children.1/@children.0" target="//@node.6/@nodeData/@outputTrees.0/@nodes.13" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.6/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.3/@children.18/@children.1/@children.0" target="//@node.6/@nodeData/@outputTrees.0/@nodes.14" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.6/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.3/@children.18/@children.1" target="//@node.6/@nodeData/@outputTrees.0/@nodes.14" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.6/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.3/@children.18/@children.1/@children.0" target="//@node.6/@nodeData/@outputTrees.0/@nodes.15" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.6/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.3/@children.18/@children.1" target="//@node.6/@nodeData/@outputTrees.0/@nodes.15" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.6/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.3/@children.18/@children.1/@children.0" target="//@node.6/@nodeData/@outputTrees.0/@nodes.16" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.6/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.3/@children.18/@children.1" target="//@node.6/@nodeData/@outputTrees.0/@nodes.16" xsi:type="TalendXMLMap:Connection"/>
+    </nodeData>
+  </node>
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_1"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.outputFolder + &quot;/&quot; + context.prefix + &quot;/&quot; + ((String)globalMap.get(&quot;tFileList_1_CURRENT_FILE&quot;)) + &quot;.csv&quot;"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="APPEND" value="false"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
+    <elementParameter field="CHECK" name="COMPRESS" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_CRd-0DU-EemGB7sfMLYhVw - metadata"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="true"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;'&quot;"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="1"/>
+    <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="90"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tFileOutputDelimited_1">
+      <column comment="" key="false" length="10" name="origine" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="time_extract" nullable="false" pattern="&quot;dd/MM/yyyy hh:mm:ss&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="customer_id" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="companyName" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="adr1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="adr2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="zipcode" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="town" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="region" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="country" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="150" name="email" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="phone" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="zCMP_rgpd_top" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="zCMP_optin_sms" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="zCMP_optin_phone" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="zCMP_optin_mail" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tRunJob_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tRunJob_2">
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk2"/>
+  </connection>
+  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFileList_1" offsetLabelX="0" offsetLabelY="0" source="tFileList_1" target="tFileInputXML_1">
+    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+    <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate1"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputXML_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputXML_1" target="tXMLMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="FLOW" label="toCSV" lineStyle="0" metaname="toCSV" offsetLabelX="0" offsetLabelY="0" source="tXMLMap_1" target="tFileOutputDelimited_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="toCSV"/>
+  </connection>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" show="false" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" show="false" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileList_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ffeef2ba-d42d-451b-91bb-9cf8553c16cf"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>fj13PXmn3FMkpBbTmd1yOAyPNyQgwMuFZKny/50tGcG43sznYz2AqCI/g48GsRxf2hrnO8EYEJwb
+oI6jDshMEg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_bf7cb418-8a2e-4045-bb65-0ad1973911cc"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>QI6xdkKmul3Up1ZMmRLlLyCNMEnI34ae5mh7A20SmYgz5fcnBXb+HRxid2mAvPSQLt5oUL2UIBg1
+C5oSopYvqw==</DigestValue></Reference></SignedInfo><SignatureValue>LnqezLCE3Epd5eG72SkYPHn3VX2L6CI+M1LIC0IBsNsfQRwwUb/r4J3eGRBc5Ux4/TJRIDvYMKH4
+9bH6mxVL4u5hya9rqAOt0JhNiWiiKx6NxtWbFM7XRgr7OLHOTax3NsG7i2Qix9qaQCwFQZ91GFPY
+wtuWqqkwyISZ34GRsSbDmMAM8gE9xsmhyHrXZTSouaaedZ0re2MKb3yAKBH8bUADaX+8DtWfU40u
+ni6vAMIr//aTJUqgS+CmKSUAaFfs2sCwwUlPsX0aKTtnCO7/ppZ7Kqf27eMmvCoJZvrKbuyIh/0o
+tTs+9M+Uc7OOLS8gg3U3RMrKZ34wgaE2psrQdg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_bf7cb418-8a2e-4045-bb65-0ad1973911cc" Target="#_ffeef2ba-d42d-451b-91bb-9cf8553c16cf"><Timestamp>2021-05-01 01:40:10</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

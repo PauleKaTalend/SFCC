@@ -1,0 +1,2182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendXMLMap="http://www.talend.org/xmlmap" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT/"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT/"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP/"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE/"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG/"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT/"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="D:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+  </context>
+  <context confirmationNeeded="false" name="PRODUCTION">
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT/"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT/"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP/"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE/"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG/"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT/"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="F:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="RECETTE">
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT/"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT/"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP/"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE/"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG/"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT/"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="F:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="DEV">
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="D:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT/"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT/"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP/"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE/"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG/"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT/"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+  </context>
+  <context confirmationNeeded="false" name="PROD">
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="D:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT/"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT/"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP/"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE/"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG/"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT/"/>
+    <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
+    <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="128"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:fPuVxqZ6kaRplrzsaH1pKHB97rCZTy4LhV1YdwJc"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="true"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="context.WORKSPACE + context.PROJECT + &quot;/&quot; + context.FLOW + &quot;/&quot; +context.DIR_LOG"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tMysqlOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
+    <elementParameter field="TEXT" name="URL" show="false" value=""/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="context.DB_TECH_HOST"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="context.DB_TECH_PORT"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="context.DB_TECH_DATABASE"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.DB_TECH_DATABASE"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="context.DB_TECH_ADD_PARAM"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="context.DB_TECH_LOGIN"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Zbqc1i0JewrDUJ1BH0ox/rnIxW+up2k+XGBUxm+skv2fon0R6TmVYCs763KJMZeUNT/ZLQ=="/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;TALEND_LOG_SFCC&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_a6oD9mVkEemq9umENi9WGQ" name="DataOperation"/>
+    <routinesParameter id="_a7fmoGVkEemq9umENi9WGQ" name="Mathematical"/>
+    <routinesParameter id="_a7iC5mVkEemq9umENi9WGQ" name="Numeric"/>
+    <routinesParameter id="_a7rz4GVkEemq9umENi9WGQ" name="Relational"/>
+    <routinesParameter id="_a8If2mVkEemq9umENi9WGQ" name="SQLike"/>
+    <routinesParameter id="_a7rz6mVkEemq9umENi9WGQ" name="StringHandling"/>
+    <routinesParameter id="_a7091GVkEemq9umENi9WGQ" name="TalendDataGenerator"/>
+    <routinesParameter id="_a7093mVkEemq9umENi9WGQ" name="TalendDate"/>
+    <routinesParameter id="_a8If0GVkEemq9umENi9WGQ" name="TalendStringUtil"/>
+    <routinesParameter id="_a7-u1mVkEemq9umENi9WGQ" name="TalendString"/>
+  </parameters>
+  <node componentName="tFileOutputXML" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="768" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputXML_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;D:/SOFTS/TALEND/TALEND/WORKSPACE_CLOUD_721/out.xml&quot;"/>
+    <elementParameter field="CHECK" name="INPUT_IS_DOCUMENT" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="DOCUMENT_COL" show="false" value=""/>
+    <elementParameter field="TEXT" name="ROW_TAG" value="&quot;row&quot;"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="TABLE" name="ROOT_TAGS"/>
+    <elementParameter field="TABLE" name="MAPPING"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_GROUPING" value="false"/>
+    <elementParameter field="TABLE" name="GROUP_BY" show="false"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="1"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter field="CHECK" name="TRIM" show="false" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileOutputXML_1"/>
+  </node>
+  <node componentName="tFileInputXML" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputXML_1"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;D:/ERIC_BOMPARD/CATEGO_ARTICLE/EB_CAT_WW-20190930_133940499.xml&quot;"/>
+    <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;/&quot;"/>
+    <elementParameter field="TABLE" name="MAPPING">
+      <elementValue elementRef="SCHEMA_COLUMN" value="order"/>
+      <elementValue elementRef="QUERY" value="&quot;.&quot;"/>
+      <elementValue elementRef="NODECHECK" value="true"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="IGNORE_NS" value="false"/>
+    <elementParameter field="CHECK" name="IGNORE_DTD" value="true"/>
+    <elementParameter field="FILE" name="TMP_FILENAME" show="false" value="&quot;/Applications/TOSESB-7.1.1/studio/workspace/temp.xml&quot;"/>
+    <elementParameter field="CHECK" name="USE_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="FIELD_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" value="Dom4j"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileInputXML_1">
+      <column comment="" key="false" length="-1" name="order" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Document" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="order" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="352" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tXMLMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="KEEP_ORDER_FOR_DOCUMENT" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="ALL">
+      <column comment="" key="false" length="100" name="catalog_id" nullable="false" originalDbColumnName="catalog-id" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="product_id" nullable="false" originalDbColumnName="product-id" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="category_id" nullable="false" originalDbColumnName="category-id" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="lenCatego" nullable="true" originalLength="100" pattern="" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="displayFR">
+      <column comment="" key="false" length="100" name="catalog_id" nullable="false" originalDbColumnName="catalog-id" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="category_id" nullable="false" originalDbColumnName="category-id" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="displayName" nullable="true" originalLength="100" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="pageTitle">
+      <column comment="" key="false" length="100" name="catalog_id" nullable="false" originalDbColumnName="catalog-id" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="category_id" nullable="false" originalDbColumnName="category-id" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="displayName" nullable="true" originalLength="100" pattern="" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="pageDescription">
+      <column comment="" key="false" length="100" name="catalog_id" nullable="false" originalDbColumnName="catalog-id" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="category_id" nullable="false" originalDbColumnName="category-id" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="displayName" nullable="true" originalLength="100" pattern="" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendXMLMap:XmlMapData">
+      <inputTrees lookupMode="LOAD_ONCE" matchingMode="ALL_ROWS" name="row1">
+        <nodes expression="" name="order" type="id_Document" xpath="row1/order">
+          <children main="true" name="catalog" type="id_String" xpath="row1.order:/catalog">
+            <children name="catalog-id" nodeType="ATTRIBUT" outgoingConnections="//@node.2/@nodeData/@connections.2" type="id_String" xpath="row1.order:/catalog/@catalog-id"/>
+            <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/xmlns:"/>
+            <children name="header" type="id_String" xpath="row1.order:/catalog/header">
+              <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/header/xmlns:"/>
+              <children name="image-settings" type="id_String" xpath="row1.order:/catalog/header/image-settings">
+                <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/header/image-settings/xmlns:"/>
+                <children name="internal-location" type="id_String" xpath="row1.order:/catalog/header/image-settings/internal-location">
+                  <children name="base-path" nodeType="ATTRIBUT" type="id_String" xpath="row1.order:/catalog/header/image-settings/internal-location/@base-path"/>
+                  <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/header/image-settings/internal-location/xmlns:"/>
+                </children>
+                <children name="view-types" type="id_String" xpath="row1.order:/catalog/header/image-settings/view-types">
+                  <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/header/image-settings/view-types/xmlns:"/>
+                  <children name="view-type" type="id_String" xpath="row1.order:/catalog/header/image-settings/view-types/view-type">
+                    <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/header/image-settings/view-types/view-type/xmlns:"/>
+                  </children>
+                </children>
+                <children name="alt-pattern" type="id_String" xpath="row1.order:/catalog/header/image-settings/alt-pattern">
+                  <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/header/image-settings/alt-pattern/xmlns:"/>
+                </children>
+                <children name="title-pattern" type="id_String" xpath="row1.order:/catalog/header/image-settings/title-pattern">
+                  <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/header/image-settings/title-pattern/xmlns:"/>
+                </children>
+              </children>
+            </children>
+            <children main="true" name="category" type="id_String" xpath="row1.order:/catalog/category">
+              <children lookupOutgoingConnections="//@node.2/@nodeData/@connections.0" name="category-id" nodeType="ATTRIBUT" outgoingConnections="//@node.2/@nodeData/@connections.1" type="id_String" xpath="row1.order:/catalog/category/@category-id"/>
+              <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/xmlns:"/>
+              <children loop="true" main="true" name="display-name" type="id_String" xpath="row1.order:/catalog/category/display-name">
+                <children name="xml:lang" nodeType="ATTRIBUT" type="id_String" xpath="row1.order:/catalog/category/display-name/@xml:lang"/>
+                <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/display-name/xmlns:"/>
+              </children>
+              <children name="online-flag" type="id_Boolean" xpath="row1.order:/catalog/category/online-flag">
+                <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/online-flag/xmlns:"/>
+              </children>
+              <children name="template" type="id_String" xpath="row1.order:/catalog/category/template">
+                <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/template/xmlns:"/>
+              </children>
+              <children name="page-attributes" type="id_String" xpath="row1.order:/catalog/category/page-attributes">
+                <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/page-attributes/xmlns:"/>
+                <children name="page-title" type="id_String" xpath="row1.order:/catalog/category/page-attributes/page-title">
+                  <children name="xml:lang" nodeType="ATTRIBUT" type="id_String" xpath="row1.order:/catalog/category/page-attributes/page-title/@xml:lang"/>
+                  <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/page-attributes/page-title/xmlns:"/>
+                </children>
+                <children name="page-description" type="id_String" xpath="row1.order:/catalog/category/page-attributes/page-description">
+                  <children name="xml:lang" nodeType="ATTRIBUT" type="id_String" xpath="row1.order:/catalog/category/page-attributes/page-description/@xml:lang"/>
+                  <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/page-attributes/page-description/xmlns:"/>
+                </children>
+              </children>
+              <children name="custom-attributes" type="id_String" xpath="row1.order:/catalog/category/custom-attributes">
+                <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/custom-attributes/xmlns:"/>
+                <children name="custom-attribute" type="id_String" xpath="row1.order:/catalog/category/custom-attributes/custom-attribute">
+                  <children name="attribute-id" nodeType="ATTRIBUT" type="id_String" xpath="row1.order:/catalog/category/custom-attributes/custom-attribute/@attribute-id"/>
+                  <children name="xml:lang" nodeType="ATTRIBUT" type="id_String" xpath="row1.order:/catalog/category/custom-attributes/custom-attribute/@xml:lang"/>
+                  <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/custom-attributes/custom-attribute/xmlns:"/>
+                </children>
+              </children>
+              <children name="refinement-definitions" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions">
+                <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/xmlns:"/>
+                <children name="refinement-definition" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition">
+                  <children name="type" nodeType="ATTRIBUT" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/@type"/>
+                  <children name="bucket-type" nodeType="ATTRIBUT" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/@bucket-type"/>
+                  <children name="attribute-id" nodeType="ATTRIBUT" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/@attribute-id"/>
+                  <children name="system" nodeType="ATTRIBUT" type="id_Boolean" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/@system"/>
+                  <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/xmlns:"/>
+                  <children name="display-name" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/display-name">
+                    <children name="xml:lang" nodeType="ATTRIBUT" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/display-name/@xml:lang"/>
+                    <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/display-name/xmlns:"/>
+                  </children>
+                  <children name="value-set" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/value-set">
+                    <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/value-set/xmlns:"/>
+                  </children>
+                  <children name="sort-mode" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/sort-mode">
+                    <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/sort-mode/xmlns:"/>
+                  </children>
+                  <children name="sort-direction" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/sort-direction">
+                    <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/sort-direction/xmlns:"/>
+                  </children>
+                  <children name="unbucketed-values-mode" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/unbucketed-values-mode">
+                    <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/unbucketed-values-mode/xmlns:"/>
+                  </children>
+                  <children name="cutoff-threshold" type="id_Integer" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/cutoff-threshold">
+                    <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/cutoff-threshold/xmlns:"/>
+                  </children>
+                  <children name="bucket-definitions" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions">
+                    <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/xmlns:"/>
+                    <children name="attribute-bucket" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket">
+                      <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/xmlns:"/>
+                      <children name="display-name" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/display-name">
+                        <children name="xml:lang" nodeType="ATTRIBUT" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/display-name/@xml:lang"/>
+                        <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/display-name/xmlns:"/>
+                      </children>
+                      <children name="value-list" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/value-list">
+                        <children name="xml:lang" nodeType="ATTRIBUT" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/value-list/@xml:lang"/>
+                        <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/value-list/xmlns:"/>
+                      </children>
+                      <children name="presentation-id" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/presentation-id">
+                        <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/presentation-id/xmlns:"/>
+                      </children>
+                      <children name="description" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/description">
+                        <children name="xml:lang" nodeType="ATTRIBUT" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/description/@xml:lang"/>
+                        <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/description/xmlns:"/>
+                      </children>
+                    </children>
+                  </children>
+                </children>
+              </children>
+              <children name="product-detail-page-meta-tag-rules" type="id_String" xpath="row1.order:/catalog/category/product-detail-page-meta-tag-rules">
+                <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/product-detail-page-meta-tag-rules/xmlns:"/>
+                <children name="page-meta-tag-rule" type="id_String" xpath="row1.order:/catalog/category/product-detail-page-meta-tag-rules/page-meta-tag-rule">
+                  <children name="rule-id" nodeType="ATTRIBUT" type="id_String" xpath="row1.order:/catalog/category/product-detail-page-meta-tag-rules/page-meta-tag-rule/@rule-id"/>
+                  <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/product-detail-page-meta-tag-rules/page-meta-tag-rule/xmlns:"/>
+                </children>
+              </children>
+              <children name="product-listing-page-meta-tag-rules" type="id_String" xpath="row1.order:/catalog/category/product-listing-page-meta-tag-rules">
+                <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/product-listing-page-meta-tag-rules/xmlns:"/>
+                <children name="page-meta-tag-rule" type="id_String" xpath="row1.order:/catalog/category/product-listing-page-meta-tag-rules/page-meta-tag-rule">
+                  <children name="rule-id" nodeType="ATTRIBUT" type="id_String" xpath="row1.order:/catalog/category/product-listing-page-meta-tag-rules/page-meta-tag-rule/@rule-id"/>
+                  <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/product-listing-page-meta-tag-rules/page-meta-tag-rule/xmlns:"/>
+                </children>
+              </children>
+              <children name="parent" type="id_String" xpath="row1.order:/catalog/category/parent">
+                <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/parent/xmlns:"/>
+              </children>
+              <children name="position" type="id_Float" xpath="row1.order:/catalog/category/position">
+                <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/catalog/category/position/xmlns:"/>
+              </children>
+            </children>
+          </children>
+        </nodes>
+      </inputTrees>
+      <inputTrees activateCondensedTool="true" lookup="true" lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row2">
+        <nodes expression="" name="order" type="id_Document" xpath="row2/order">
+          <children main="true" name="catalog" type="id_String" xpath="row2.order:/catalog">
+            <children name="catalog-id" nodeType="ATTRIBUT" type="id_String" xpath="row2.order:/catalog/@catalog-id"/>
+            <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/xmlns:"/>
+            <children name="header" type="id_String" xpath="row2.order:/catalog/header">
+              <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/header/xmlns:"/>
+              <children name="image-settings" type="id_String" xpath="row2.order:/catalog/header/image-settings">
+                <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/header/image-settings/xmlns:"/>
+                <children name="internal-location" type="id_String" xpath="row2.order:/catalog/header/image-settings/internal-location">
+                  <children name="base-path" nodeType="ATTRIBUT" type="id_String" xpath="row2.order:/catalog/header/image-settings/internal-location/@base-path"/>
+                  <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/header/image-settings/internal-location/xmlns:"/>
+                </children>
+                <children name="view-types" type="id_String" xpath="row2.order:/catalog/header/image-settings/view-types">
+                  <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/header/image-settings/view-types/xmlns:"/>
+                  <children name="view-type" type="id_String" xpath="row2.order:/catalog/header/image-settings/view-types/view-type">
+                    <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/header/image-settings/view-types/view-type/xmlns:"/>
+                  </children>
+                </children>
+                <children name="alt-pattern" type="id_String" xpath="row2.order:/catalog/header/image-settings/alt-pattern">
+                  <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/header/image-settings/alt-pattern/xmlns:"/>
+                </children>
+                <children name="title-pattern" type="id_String" xpath="row2.order:/catalog/header/image-settings/title-pattern">
+                  <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/header/image-settings/title-pattern/xmlns:"/>
+                </children>
+              </children>
+            </children>
+            <children main="true" name="category" type="id_String" xpath="row2.order:/catalog/category">
+              <children expression="[row1.order:/catalog/category/@category-id]" lookupIncomingConnections="//@node.2/@nodeData/@connections.0" name="category-id" nodeType="ATTRIBUT" type="id_String" xpath="row2.order:/catalog/category/@category-id"/>
+              <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/xmlns:"/>
+              <children loop="true" main="true" name="display-name" outgoingConnections="//@node.2/@nodeData/@connections.4" type="id_String" xpath="row2.order:/catalog/category/display-name">
+                <children filterOutGoingConnections="//@node.2/@nodeData/@connections.3" name="xml:lang" nodeType="ATTRIBUT" type="id_String" xpath="row2.order:/catalog/category/display-name/@xml:lang"/>
+                <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/display-name/xmlns:"/>
+              </children>
+              <children name="online-flag" type="id_Boolean" xpath="row2.order:/catalog/category/online-flag">
+                <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/online-flag/xmlns:"/>
+              </children>
+              <children name="template" type="id_String" xpath="row2.order:/catalog/category/template">
+                <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/template/xmlns:"/>
+              </children>
+              <children name="page-attributes" type="id_String" xpath="row2.order:/catalog/category/page-attributes">
+                <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/page-attributes/xmlns:"/>
+                <children name="page-title" type="id_String" xpath="row2.order:/catalog/category/page-attributes/page-title">
+                  <children name="xml:lang" nodeType="ATTRIBUT" type="id_String" xpath="row2.order:/catalog/category/page-attributes/page-title/@xml:lang"/>
+                  <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/page-attributes/page-title/xmlns:"/>
+                </children>
+                <children name="page-description" type="id_String" xpath="row2.order:/catalog/category/page-attributes/page-description">
+                  <children name="xml:lang" nodeType="ATTRIBUT" type="id_String" xpath="row2.order:/catalog/category/page-attributes/page-description/@xml:lang"/>
+                  <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/page-attributes/page-description/xmlns:"/>
+                </children>
+                <children name="page-url" type="id_String" xpath="row2.order:/catalog/category/page-attributes/page-url">
+                  <children name="xml:lang" nodeType="ATTRIBUT" type="id_String" xpath="row2.order:/catalog/category/page-attributes/page-url/@xml:lang"/>
+                  <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/page-attributes/page-url/xmlns:"/>
+                </children>
+              </children>
+              <children name="custom-attributes" type="id_String" xpath="row2.order:/catalog/category/custom-attributes">
+                <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/custom-attributes/xmlns:"/>
+                <children name="custom-attribute" type="id_String" xpath="row2.order:/catalog/category/custom-attributes/custom-attribute">
+                  <children name="attribute-id" nodeType="ATTRIBUT" type="id_String" xpath="row2.order:/catalog/category/custom-attributes/custom-attribute/@attribute-id"/>
+                  <children name="xml:lang" nodeType="ATTRIBUT" type="id_String" xpath="row2.order:/catalog/category/custom-attributes/custom-attribute/@xml:lang"/>
+                  <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/custom-attributes/custom-attribute/xmlns:"/>
+                </children>
+              </children>
+              <children name="refinement-definitions" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions">
+                <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/xmlns:"/>
+                <children name="refinement-definition" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition">
+                  <children name="type" nodeType="ATTRIBUT" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/@type"/>
+                  <children name="bucket-type" nodeType="ATTRIBUT" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/@bucket-type"/>
+                  <children name="attribute-id" nodeType="ATTRIBUT" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/@attribute-id"/>
+                  <children name="system" nodeType="ATTRIBUT" type="id_Boolean" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/@system"/>
+                  <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/xmlns:"/>
+                  <children name="display-name" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/display-name">
+                    <children name="xml:lang" nodeType="ATTRIBUT" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/display-name/@xml:lang"/>
+                    <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/display-name/xmlns:"/>
+                  </children>
+                  <children name="value-set" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/value-set">
+                    <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/value-set/xmlns:"/>
+                  </children>
+                  <children name="sort-mode" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/sort-mode">
+                    <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/sort-mode/xmlns:"/>
+                  </children>
+                  <children name="sort-direction" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/sort-direction">
+                    <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/sort-direction/xmlns:"/>
+                  </children>
+                  <children name="unbucketed-values-mode" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/unbucketed-values-mode">
+                    <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/unbucketed-values-mode/xmlns:"/>
+                  </children>
+                  <children name="cutoff-threshold" type="id_Integer" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/cutoff-threshold">
+                    <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/cutoff-threshold/xmlns:"/>
+                  </children>
+                  <children name="bucket-definitions" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions">
+                    <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/xmlns:"/>
+                    <children name="attribute-bucket" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket">
+                      <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/xmlns:"/>
+                      <children name="display-name" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/display-name">
+                        <children name="xml:lang" nodeType="ATTRIBUT" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/display-name/@xml:lang"/>
+                        <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/display-name/xmlns:"/>
+                      </children>
+                      <children name="value-list" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/value-list">
+                        <children name="xml:lang" nodeType="ATTRIBUT" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/value-list/@xml:lang"/>
+                        <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/value-list/xmlns:"/>
+                      </children>
+                      <children name="presentation-id" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/presentation-id">
+                        <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/presentation-id/xmlns:"/>
+                      </children>
+                      <children name="description" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/description">
+                        <children name="xml:lang" nodeType="ATTRIBUT" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/description/@xml:lang"/>
+                        <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/description/xmlns:"/>
+                      </children>
+                    </children>
+                  </children>
+                </children>
+                <children name="blocked-refinement-definition" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/blocked-refinement-definition">
+                  <children name="type" nodeType="ATTRIBUT" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/blocked-refinement-definition/@type"/>
+                  <children name="attribute-id" nodeType="ATTRIBUT" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/blocked-refinement-definition/@attribute-id"/>
+                  <children name="system" nodeType="ATTRIBUT" type="id_Boolean" xpath="row2.order:/catalog/category/refinement-definitions/blocked-refinement-definition/@system"/>
+                  <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/refinement-definitions/blocked-refinement-definition/xmlns:"/>
+                </children>
+              </children>
+              <children name="product-detail-page-meta-tag-rules" type="id_String" xpath="row2.order:/catalog/category/product-detail-page-meta-tag-rules">
+                <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/product-detail-page-meta-tag-rules/xmlns:"/>
+                <children name="page-meta-tag-rule" type="id_String" xpath="row2.order:/catalog/category/product-detail-page-meta-tag-rules/page-meta-tag-rule">
+                  <children name="rule-id" nodeType="ATTRIBUT" type="id_String" xpath="row2.order:/catalog/category/product-detail-page-meta-tag-rules/page-meta-tag-rule/@rule-id"/>
+                  <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/product-detail-page-meta-tag-rules/page-meta-tag-rule/xmlns:"/>
+                </children>
+              </children>
+              <children name="product-listing-page-meta-tag-rules" type="id_String" xpath="row2.order:/catalog/category/product-listing-page-meta-tag-rules">
+                <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/product-listing-page-meta-tag-rules/xmlns:"/>
+                <children name="page-meta-tag-rule" type="id_String" xpath="row2.order:/catalog/category/product-listing-page-meta-tag-rules/page-meta-tag-rule">
+                  <children name="rule-id" nodeType="ATTRIBUT" type="id_String" xpath="row2.order:/catalog/category/product-listing-page-meta-tag-rules/page-meta-tag-rule/@rule-id"/>
+                  <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/product-listing-page-meta-tag-rules/page-meta-tag-rule/xmlns:"/>
+                </children>
+              </children>
+              <children name="parent" type="id_String" xpath="row2.order:/catalog/category/parent">
+                <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/parent/xmlns:"/>
+              </children>
+              <children name="position" type="id_Float" xpath="row2.order:/catalog/category/position">
+                <children defaultValue="http://www.demandware.com/xml/impex/catalog/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row2.order:/catalog/category/position/xmlns:"/>
+              </children>
+            </children>
+          </children>
+        </nodes>
+      </inputTrees>
+      <outputTrees name="ALL">
+        <nodes expression="" name="catalog_id" nullable="false" type="id_String" xpath="ALL/catalog_id"/>
+        <nodes name="product_id" nullable="false" type="id_String" xpath="ALL/product_id"/>
+        <nodes name="category_id" nullable="false" type="id_String" xpath="ALL/category_id"/>
+        <nodes name="lenCatego" type="id_Integer" xpath="ALL/lenCatego"/>
+      </outputTrees>
+      <outputTrees activateExpressionFilter="true" expressionFilter="!Relational.ISNULL([row2.order:/catalog/category/display-name/@xml:lang])&amp;&amp;[row2.order:/catalog/category/display-name/@xml:lang].equals(&quot;x-default&quot;)" filterIncomingConnections="//@node.2/@nodeData/@connections.3" name="displayFR">
+        <nodes expression=" [row1.order:/catalog/@catalog-id]" incomingConnections="//@node.2/@nodeData/@connections.2" name="catalog_id" nullable="false" type="id_String" xpath="displayFR/catalog_id"/>
+        <nodes expression="[row1.order:/catalog/category/@category-id]" incomingConnections="//@node.2/@nodeData/@connections.1" name="category_id" nullable="false" type="id_String" xpath="displayFR/category_id"/>
+        <nodes expression=" [row2.order:/catalog/category/display-name]" incomingConnections="//@node.2/@nodeData/@connections.4" name="displayName" type="id_String" xpath="displayFR/displayName"/>
+      </outputTrees>
+      <varTables name="Var"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.3/@children.0" target="//@node.2/@nodeData/@inputTrees.1/@nodes.0/@children.0/@children.3/@children.0" xsi:type="TalendXMLMap:LookupConnection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.3/@children.0" target="//@node.2/@nodeData/@outputTrees.1/@nodes.1" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.0" target="//@node.2/@nodeData/@outputTrees.1/@nodes.0" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.1/@nodes.0/@children.0/@children.3/@children.2/@children.0" target="//@node.2/@nodeData/@outputTrees.1" xsi:type="TalendXMLMap:FilterConnection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.1/@nodes.0/@children.0/@children.3/@children.2" target="//@node.2/@nodeData/@outputTrees.1/@nodes.2" xsi:type="TalendXMLMap:Connection"/>
+    </nodeData>
+  </node>
+  <node componentName="tFileInputXML" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="-64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputXML_2"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;D:/ERIC_BOMPARD/CATEGO_ARTICLE/EB_CAT_EU-20190930_133939747.xml&quot;"/>
+    <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;/&quot;"/>
+    <elementParameter field="TABLE" name="MAPPING">
+      <elementValue elementRef="SCHEMA_COLUMN" value="order"/>
+      <elementValue elementRef="QUERY" value="&quot;.&quot;"/>
+      <elementValue elementRef="NODECHECK" value="true"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="IGNORE_NS" value="false"/>
+    <elementParameter field="CHECK" name="IGNORE_DTD" value="true"/>
+    <elementParameter field="FILE" name="TMP_FILENAME" show="false" value="&quot;/Applications/TOSESB-7.1.1/studio/workspace/temp.xml&quot;"/>
+    <elementParameter field="CHECK" name="USE_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="FIELD_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" value="Dom4j"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileInputXML_2">
+      <column comment="" key="false" length="-1" name="order" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Document" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="order" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tAdvancedFileOutputXML" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="-32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tAdvancedFileOutputXML_1"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;D:/ERIC_BOMPARD/CATEGO_ARTICLE/EB_CAT_WW-NEW.xml&quot;"/>
+    <elementParameter field="TABLE" name="ROOT" show="false">
+      <elementValue elementRef="PATH" value="/catalog"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="main"/>
+      <elementValue elementRef="ORDER" value="1"/>
+      <elementValue elementRef="PATH" value="catalog-id"/>
+      <elementValue elementRef="COLUMN" value="catalog_id"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="2"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="3"/>
+      <elementValue elementRef="PATH" value="/catalog/header"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="4"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="5"/>
+      <elementValue elementRef="PATH" value="/catalog/header/image-settings"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="6"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="7"/>
+      <elementValue elementRef="PATH" value="/catalog/header/image-settings/internal-location"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="8"/>
+      <elementValue elementRef="PATH" value="base-path"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="9"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="10"/>
+      <elementValue elementRef="PATH" value="/catalog/header/image-settings/view-types"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="11"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="12"/>
+      <elementValue elementRef="PATH" value="/catalog/header/image-settings/view-types/view-type"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="13"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="14"/>
+      <elementValue elementRef="PATH" value="/catalog/header/image-settings/alt-pattern"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="15"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="16"/>
+      <elementValue elementRef="PATH" value="/catalog/header/image-settings/title-pattern"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="17"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="18"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="GROUP" show="false">
+      <elementValue elementRef="PATH" value="/catalog/category"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="main"/>
+      <elementValue elementRef="ORDER" value="19"/>
+      <elementValue elementRef="PATH" value="category-id"/>
+      <elementValue elementRef="COLUMN" value="category_id"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="20"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="21"/>
+      <elementValue elementRef="PATH" value="/catalog/category/online-flag"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="25"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="26"/>
+      <elementValue elementRef="PATH" value="/catalog/category/template"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="27"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="28"/>
+      <elementValue elementRef="PATH" value="/catalog/category/page-attributes"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="29"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="30"/>
+      <elementValue elementRef="PATH" value="/catalog/category/page-attributes/page-title"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="31"/>
+      <elementValue elementRef="PATH" value="xml:lang"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="32"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="33"/>
+      <elementValue elementRef="PATH" value="/catalog/category/page-attributes/page-description"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="34"/>
+      <elementValue elementRef="PATH" value="xml:lang"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="35"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="36"/>
+      <elementValue elementRef="PATH" value="/catalog/category/custom-attributes"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="37"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="38"/>
+      <elementValue elementRef="PATH" value="/catalog/category/custom-attributes/custom-attribute"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="39"/>
+      <elementValue elementRef="PATH" value="attribute-id"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="40"/>
+      <elementValue elementRef="PATH" value="xml:lang"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="41"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="42"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="43"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="44"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="45"/>
+      <elementValue elementRef="PATH" value="type"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="46"/>
+      <elementValue elementRef="PATH" value="bucket-type"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="47"/>
+      <elementValue elementRef="PATH" value="attribute-id"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="48"/>
+      <elementValue elementRef="PATH" value="system"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="49"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="50"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/display-name"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="51"/>
+      <elementValue elementRef="PATH" value="xml:lang"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="52"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="53"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/value-set"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="54"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="55"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/sort-mode"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="56"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="57"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/sort-direction"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="58"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="59"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/unbucketed-values-mode"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="60"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="61"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/cutoff-threshold"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="62"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="63"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/bucket-definitions"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="64"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="65"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="66"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="67"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/display-name"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="68"/>
+      <elementValue elementRef="PATH" value="xml:lang"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="69"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="70"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/value-list"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="71"/>
+      <elementValue elementRef="PATH" value="xml:lang"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="72"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="73"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/presentation-id"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="74"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="75"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/description"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="76"/>
+      <elementValue elementRef="PATH" value="xml:lang"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="77"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="78"/>
+      <elementValue elementRef="PATH" value="/catalog/category/product-detail-page-meta-tag-rules"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="79"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="80"/>
+      <elementValue elementRef="PATH" value="/catalog/category/product-detail-page-meta-tag-rules/page-meta-tag-rule"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="81"/>
+      <elementValue elementRef="PATH" value="rule-id"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="82"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="83"/>
+      <elementValue elementRef="PATH" value="/catalog/category/product-listing-page-meta-tag-rules"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="84"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="85"/>
+      <elementValue elementRef="PATH" value="/catalog/category/product-listing-page-meta-tag-rules/page-meta-tag-rule"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="86"/>
+      <elementValue elementRef="PATH" value="rule-id"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="87"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="88"/>
+      <elementValue elementRef="PATH" value="/catalog/category/parent"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="89"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="90"/>
+      <elementValue elementRef="PATH" value="/catalog/category/position"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="91"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="92"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="LOOP" show="false">
+      <elementValue elementRef="PATH" value="/catalog/category/display-name"/>
+      <elementValue elementRef="COLUMN" value="displayName"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="main"/>
+      <elementValue elementRef="ORDER" value="22"/>
+      <elementValue elementRef="PATH" value="xml:lang"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="fr"/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="23"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="24"/>
+    </elementParameter>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CHECK" name="MERGE" value="true"/>
+    <elementParameter field="CHECK" name="PRETTY_COMPACT" value="false"/>
+    <elementParameter field="CHECK" name="FILE_VALID" value="false"/>
+    <elementParameter field="RADIO" name="DTD_VALID" show="false" value="true"/>
+    <elementParameter field="TEXT" name="DTD_NAME" show="false" value="&quot;Root&quot;"/>
+    <elementParameter field="TEXT" name="DTD_SYSTEMID" show="false" value="&quot;Talend.dtd&quot;"/>
+    <elementParameter field="RADIO" name="XSL_VALID" show="false" value="false"/>
+    <elementParameter field="TEXT" name="XSL_TYPE" show="false" value="&quot;text/xsl&quot;"/>
+    <elementParameter field="TEXT" name="XSL_HREF" show="false" value="&quot;Talend.xsl&quot;"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM" value="false"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="CREATE_EMPTY_ELEMENT" value="false"/>
+    <elementParameter field="CHECK" name="ADD_EMPTY_ATTRIBUTE" value="false"/>
+    <elementParameter field="CHECK" name="ADD_UNMAPPED_ATTRIBUTE" value="false"/>
+    <elementParameter field="CHECK" name="ADD_DOCUMENT_AS_NODE" value="false"/>
+    <elementParameter field="CHECK" name="OUTPUT_AS_XSD" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" show="false" value="Dom4j"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="XMLNODE_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="LABEL" value="CATEGO_ARTICLE_PIMARY"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tAdvancedFileOutputXML_1">
+      <column comment="" key="false" length="100" name="catalog_id" nullable="false" originalDbColumnName="catalog-id" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="category_id" nullable="false" originalDbColumnName="category-id" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="displayName" nullable="true" originalLength="100" pattern="" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tAdvancedFileOutputXML" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tAdvancedFileOutputXML_2"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;D:/ERIC_BOMPARD/CATEGO_ARTICLE/EB_CAT_WW-NEW.xml&quot;"/>
+    <elementParameter field="TABLE" name="ROOT" show="false">
+      <elementValue elementRef="PATH" value="/catalog"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="main"/>
+      <elementValue elementRef="ORDER" value="1"/>
+      <elementValue elementRef="PATH" value="catalog-id"/>
+      <elementValue elementRef="COLUMN" value="catalog_id"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="2"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="3"/>
+      <elementValue elementRef="PATH" value="/catalog/header"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="4"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="5"/>
+      <elementValue elementRef="PATH" value="/catalog/header/image-settings"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="6"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="7"/>
+      <elementValue elementRef="PATH" value="/catalog/header/image-settings/internal-location"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="8"/>
+      <elementValue elementRef="PATH" value="base-path"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="9"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="10"/>
+      <elementValue elementRef="PATH" value="/catalog/header/image-settings/view-types"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="11"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="12"/>
+      <elementValue elementRef="PATH" value="/catalog/header/image-settings/view-types/view-type"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="13"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="14"/>
+      <elementValue elementRef="PATH" value="/catalog/header/image-settings/alt-pattern"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="15"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="16"/>
+      <elementValue elementRef="PATH" value="/catalog/header/image-settings/title-pattern"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="17"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="18"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="GROUP" show="false">
+      <elementValue elementRef="PATH" value="/catalog/category"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="main"/>
+      <elementValue elementRef="ORDER" value="19"/>
+      <elementValue elementRef="PATH" value="category-id"/>
+      <elementValue elementRef="COLUMN" value="category_id"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="20"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="21"/>
+      <elementValue elementRef="PATH" value="/catalog/category/online-flag"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="25"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="26"/>
+      <elementValue elementRef="PATH" value="/catalog/category/template"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="27"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="28"/>
+      <elementValue elementRef="PATH" value="/catalog/category/page-attributes"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="29"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="30"/>
+      <elementValue elementRef="PATH" value="/catalog/category/page-attributes/page-title"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="31"/>
+      <elementValue elementRef="PATH" value="xml:lang"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="32"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="33"/>
+      <elementValue elementRef="PATH" value="/catalog/category/page-attributes/page-description"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="34"/>
+      <elementValue elementRef="PATH" value="xml:lang"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="35"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="36"/>
+      <elementValue elementRef="PATH" value="/catalog/category/custom-attributes"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="37"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="38"/>
+      <elementValue elementRef="PATH" value="/catalog/category/custom-attributes/custom-attribute"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="39"/>
+      <elementValue elementRef="PATH" value="attribute-id"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="40"/>
+      <elementValue elementRef="PATH" value="xml:lang"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="41"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="42"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="43"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="44"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="45"/>
+      <elementValue elementRef="PATH" value="type"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="46"/>
+      <elementValue elementRef="PATH" value="bucket-type"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="47"/>
+      <elementValue elementRef="PATH" value="attribute-id"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="48"/>
+      <elementValue elementRef="PATH" value="system"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="49"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="50"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/display-name"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="51"/>
+      <elementValue elementRef="PATH" value="xml:lang"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="52"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="53"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/value-set"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="54"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="55"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/sort-mode"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="56"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="57"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/sort-direction"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="58"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="59"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/unbucketed-values-mode"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="60"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="61"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/cutoff-threshold"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="62"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="63"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/bucket-definitions"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="64"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="65"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="66"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="67"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/display-name"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="68"/>
+      <elementValue elementRef="PATH" value="xml:lang"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="69"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="70"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/value-list"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="71"/>
+      <elementValue elementRef="PATH" value="xml:lang"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="72"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="73"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/presentation-id"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="74"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="75"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/description"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="76"/>
+      <elementValue elementRef="PATH" value="xml:lang"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="77"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="78"/>
+      <elementValue elementRef="PATH" value="/catalog/category/product-detail-page-meta-tag-rules"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="79"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="80"/>
+      <elementValue elementRef="PATH" value="/catalog/category/product-detail-page-meta-tag-rules/page-meta-tag-rule"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="81"/>
+      <elementValue elementRef="PATH" value="rule-id"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="82"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="83"/>
+      <elementValue elementRef="PATH" value="/catalog/category/product-listing-page-meta-tag-rules"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="84"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="85"/>
+      <elementValue elementRef="PATH" value="/catalog/category/product-listing-page-meta-tag-rules/page-meta-tag-rule"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="86"/>
+      <elementValue elementRef="PATH" value="rule-id"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="87"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="88"/>
+      <elementValue elementRef="PATH" value="/catalog/category/parent"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="89"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="90"/>
+      <elementValue elementRef="PATH" value="/catalog/category/position"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="91"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="92"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="LOOP" show="false">
+      <elementValue elementRef="PATH" value="/catalog/category/display-name"/>
+      <elementValue elementRef="COLUMN" value="displayName"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="main"/>
+      <elementValue elementRef="ORDER" value="22"/>
+      <elementValue elementRef="PATH" value="xml:lang"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="fr"/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="23"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="24"/>
+    </elementParameter>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CHECK" name="MERGE" value="true"/>
+    <elementParameter field="CHECK" name="PRETTY_COMPACT" value="false"/>
+    <elementParameter field="CHECK" name="FILE_VALID" value="false"/>
+    <elementParameter field="RADIO" name="DTD_VALID" show="false" value="true"/>
+    <elementParameter field="TEXT" name="DTD_NAME" show="false" value="&quot;Root&quot;"/>
+    <elementParameter field="TEXT" name="DTD_SYSTEMID" show="false" value="&quot;Talend.dtd&quot;"/>
+    <elementParameter field="RADIO" name="XSL_VALID" show="false" value="false"/>
+    <elementParameter field="TEXT" name="XSL_TYPE" show="false" value="&quot;text/xsl&quot;"/>
+    <elementParameter field="TEXT" name="XSL_HREF" show="false" value="&quot;Talend.xsl&quot;"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM" value="false"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="CREATE_EMPTY_ELEMENT" value="false"/>
+    <elementParameter field="CHECK" name="ADD_EMPTY_ATTRIBUTE" value="false"/>
+    <elementParameter field="CHECK" name="ADD_UNMAPPED_ATTRIBUTE" value="false"/>
+    <elementParameter field="CHECK" name="ADD_DOCUMENT_AS_NODE" value="false"/>
+    <elementParameter field="CHECK" name="OUTPUT_AS_XSD" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" show="false" value="Dom4j"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="XMLNODE_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="LABEL" value="CATEGO_ARTICLE_PIMARY"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tAdvancedFileOutputXML_2">
+      <column comment="" key="false" length="100" name="catalog_id" nullable="false" originalDbColumnName="catalog-id" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="category_id" nullable="false" originalDbColumnName="category-id" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="displayName" nullable="true" originalLength="100" pattern="" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tAdvancedFileOutputXML" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tAdvancedFileOutputXML_3"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;D:/ERIC_BOMPARD/CATEGO_ARTICLE/EB_CAT_WW-NEW.xml&quot;"/>
+    <elementParameter field="TABLE" name="ROOT" show="false">
+      <elementValue elementRef="PATH" value="/catalog"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="main"/>
+      <elementValue elementRef="ORDER" value="1"/>
+      <elementValue elementRef="PATH" value="catalog-id"/>
+      <elementValue elementRef="COLUMN" value="catalog_id"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="2"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="3"/>
+      <elementValue elementRef="PATH" value="/catalog/header"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="4"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="5"/>
+      <elementValue elementRef="PATH" value="/catalog/header/image-settings"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="6"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="7"/>
+      <elementValue elementRef="PATH" value="/catalog/header/image-settings/internal-location"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="8"/>
+      <elementValue elementRef="PATH" value="base-path"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="9"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="10"/>
+      <elementValue elementRef="PATH" value="/catalog/header/image-settings/view-types"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="11"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="12"/>
+      <elementValue elementRef="PATH" value="/catalog/header/image-settings/view-types/view-type"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="13"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="14"/>
+      <elementValue elementRef="PATH" value="/catalog/header/image-settings/alt-pattern"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="15"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="16"/>
+      <elementValue elementRef="PATH" value="/catalog/header/image-settings/title-pattern"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="17"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="18"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="GROUP" show="false">
+      <elementValue elementRef="PATH" value="/catalog/category"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="main"/>
+      <elementValue elementRef="ORDER" value="19"/>
+      <elementValue elementRef="PATH" value="category-id"/>
+      <elementValue elementRef="COLUMN" value="category_id"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="20"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="21"/>
+      <elementValue elementRef="PATH" value="/catalog/category/online-flag"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="25"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="26"/>
+      <elementValue elementRef="PATH" value="/catalog/category/template"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="27"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="28"/>
+      <elementValue elementRef="PATH" value="/catalog/category/page-attributes"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="29"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="30"/>
+      <elementValue elementRef="PATH" value="/catalog/category/page-attributes/page-title"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="31"/>
+      <elementValue elementRef="PATH" value="xml:lang"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="32"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="33"/>
+      <elementValue elementRef="PATH" value="/catalog/category/page-attributes/page-description"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="34"/>
+      <elementValue elementRef="PATH" value="xml:lang"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="35"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="36"/>
+      <elementValue elementRef="PATH" value="/catalog/category/custom-attributes"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="37"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="38"/>
+      <elementValue elementRef="PATH" value="/catalog/category/custom-attributes/custom-attribute"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="39"/>
+      <elementValue elementRef="PATH" value="attribute-id"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="40"/>
+      <elementValue elementRef="PATH" value="xml:lang"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="41"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="42"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="43"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="44"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="45"/>
+      <elementValue elementRef="PATH" value="type"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="46"/>
+      <elementValue elementRef="PATH" value="bucket-type"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="47"/>
+      <elementValue elementRef="PATH" value="attribute-id"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="48"/>
+      <elementValue elementRef="PATH" value="system"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="49"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="50"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/display-name"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="51"/>
+      <elementValue elementRef="PATH" value="xml:lang"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="52"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="53"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/value-set"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="54"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="55"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/sort-mode"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="56"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="57"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/sort-direction"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="58"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="59"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/unbucketed-values-mode"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="60"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="61"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/cutoff-threshold"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="62"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="63"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/bucket-definitions"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="64"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="65"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="66"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="67"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/display-name"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="68"/>
+      <elementValue elementRef="PATH" value="xml:lang"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="69"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="70"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/value-list"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="71"/>
+      <elementValue elementRef="PATH" value="xml:lang"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="72"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="73"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/presentation-id"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="74"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="75"/>
+      <elementValue elementRef="PATH" value="/catalog/category/refinement-definitions/refinement-definition/bucket-definitions/attribute-bucket/description"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="76"/>
+      <elementValue elementRef="PATH" value="xml:lang"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="77"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="78"/>
+      <elementValue elementRef="PATH" value="/catalog/category/product-detail-page-meta-tag-rules"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="79"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="80"/>
+      <elementValue elementRef="PATH" value="/catalog/category/product-detail-page-meta-tag-rules/page-meta-tag-rule"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="81"/>
+      <elementValue elementRef="PATH" value="rule-id"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="82"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="83"/>
+      <elementValue elementRef="PATH" value="/catalog/category/product-listing-page-meta-tag-rules"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="84"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="85"/>
+      <elementValue elementRef="PATH" value="/catalog/category/product-listing-page-meta-tag-rules/page-meta-tag-rule"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="86"/>
+      <elementValue elementRef="PATH" value="rule-id"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="87"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="88"/>
+      <elementValue elementRef="PATH" value="/catalog/category/parent"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="89"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="90"/>
+      <elementValue elementRef="PATH" value="/catalog/category/position"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="91"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="92"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="LOOP" show="false">
+      <elementValue elementRef="PATH" value="/catalog/category/display-name"/>
+      <elementValue elementRef="COLUMN" value="displayName"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="main"/>
+      <elementValue elementRef="ORDER" value="22"/>
+      <elementValue elementRef="PATH" value="xml:lang"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="fr"/>
+      <elementValue elementRef="ATTRIBUTE" value="attri"/>
+      <elementValue elementRef="ORDER" value="23"/>
+      <elementValue elementRef="PATH" value=""/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value="http://www.demandware.com/xml/impex/catalog/2006-10-31"/>
+      <elementValue elementRef="ATTRIBUTE" value="ns"/>
+      <elementValue elementRef="ORDER" value="24"/>
+    </elementParameter>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CHECK" name="MERGE" value="true"/>
+    <elementParameter field="CHECK" name="PRETTY_COMPACT" value="false"/>
+    <elementParameter field="CHECK" name="FILE_VALID" value="false"/>
+    <elementParameter field="RADIO" name="DTD_VALID" show="false" value="true"/>
+    <elementParameter field="TEXT" name="DTD_NAME" show="false" value="&quot;Root&quot;"/>
+    <elementParameter field="TEXT" name="DTD_SYSTEMID" show="false" value="&quot;Talend.dtd&quot;"/>
+    <elementParameter field="RADIO" name="XSL_VALID" show="false" value="false"/>
+    <elementParameter field="TEXT" name="XSL_TYPE" show="false" value="&quot;text/xsl&quot;"/>
+    <elementParameter field="TEXT" name="XSL_HREF" show="false" value="&quot;Talend.xsl&quot;"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM" value="false"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="CREATE_EMPTY_ELEMENT" value="false"/>
+    <elementParameter field="CHECK" name="ADD_EMPTY_ATTRIBUTE" value="false"/>
+    <elementParameter field="CHECK" name="ADD_UNMAPPED_ATTRIBUTE" value="false"/>
+    <elementParameter field="CHECK" name="ADD_DOCUMENT_AS_NODE" value="false"/>
+    <elementParameter field="CHECK" name="OUTPUT_AS_XSD" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" show="false" value="Dom4j"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="XMLNODE_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="LABEL" value="CATEGO_ARTICLE_PIMARY"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tAdvancedFileOutputXML_3">
+      <column comment="" key="false" length="100" name="catalog_id" nullable="false" originalDbColumnName="catalog-id" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="category_id" nullable="false" originalDbColumnName="category-id" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="displayName" nullable="true" originalLength="100" pattern="" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputXML_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputXML_1" target="tXMLMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="FLOW" label="displayFR" lineStyle="0" metaname="displayFR" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tXMLMap_1" target="tAdvancedFileOutputXML_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="displayFR"/>
+  </connection>
+  <connection connectorName="FLOW" label="pageTitle" lineStyle="0" metaname="pageTitle" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tXMLMap_1" target="tAdvancedFileOutputXML_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="pageTitle"/>
+  </connection>
+  <connection connectorName="FLOW" label="pageDescription" lineStyle="0" metaname="pageDescription" offsetLabelX="0" offsetLabelY="0" outputId="3" source="tXMLMap_1" target="tAdvancedFileOutputXML_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="pageDescription"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="8" metaname="tFileInputXML_2" offsetLabelX="0" offsetLabelY="0" source="tFileInputXML_2" target="tXMLMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputXML_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputXML_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ae16d5a1-8ae0-455f-a69c-d7459f7e7568"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>dUdt0xF6VGifUtpCiDShFNfMgTz57DT3HaQde+sUsLXDhqCbMFjg/QMUIJ5k7nQz/Uu4+VucWVAG
+3xbwVem7tA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_5987cc5b-0faa-40ce-9db0-34e185a12a53"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+27HfKoY4RZrShqS8Rhyk8sW9wfeU0zamXeLnpljfMdn9CzTvQGMNDTsXgfSViqo4S89YcnLbqME
+Okcy0SqGXw==</DigestValue></Reference></SignedInfo><SignatureValue>eZRQ+ZWoh+V9O7hxbMES9fxx7kBkCmCtLfUdYrlDoGpIe2I1Ss8dZ5uysD80tD360UWNageQLnXr
+dLgh0NgjlSJr1m3HC0NsFhbhMab4Cb8E6vhCKC3IM86NXM58jzolHRqfhy/URlMmkZUoZffZya/s
+XmwRvyOwd6aQ+BL20Ma91gHXVQwMnKG39CkSyFerr3MnLkuCqggtQIl3W6WXuX+sUDrchy6qgt63
+bY7LrqYw3IdpQfHo8INrvxbW/JkCu/zmWJ4/SIZxJmNoEyUK4ggNP5XvCXpyLDK+ywuLhE9OS/gU
+duypchFIE1r6NGSGgEoduqmdsk8S915Dnoyi+Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_5987cc5b-0faa-40ce-9db0-34e185a12a53" Target="#_ae16d5a1-8ae0-455f-a69c-d7459f7e7568"><Timestamp>2021-05-01 01:40:41</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
