@@ -116,7 +116,6 @@
     <module>jobs/process/SFCC/WORK_IMPORT/CUSTOMER/PIV_CUS_SFC/add_phone_indicator_0.2</module>
     <module>jobs/process/SFCC/CUSTOMER/PIV_CUS_SFC/SEQ/eb_customer_pivot_sfcc_0.1</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_PROD/j_ftp_prod_002_sseq_0.1</module>
-    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_406_loa_variant_color_size_0.4</module>
     <module>jobs/process/SFCC/CUSTOMER/PIV_CUS_SFC/j_piv_cus_sfc_501_etl_0.1</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_TEST/j_ftp_test_020_data_from_integration_0.1</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_TEST/j_ftp_test_002_sseq_0.1</module>
@@ -168,6 +167,7 @@
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_403_loa_data_lang_default_0.4</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_404_loa_data_lang_0.4</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_405_loa_variant_color_0.4</module>
+    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_406_loa_variant_color_size_0.4</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
