@@ -6,7 +6,7 @@
     <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG/"/>
     <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
     <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
-    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:5vqiBpO5T965SQo2pf2DK8y+knR/2qMMbB8Ef9Dz2sMZyztsUKk="/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:T7nEJHx4w2Pg5z+Oou9TlBoxRMeeQMyOK9sE+1rsRlsKhbS/2JU="/>
     <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
     <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
     <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
@@ -14,7 +14,7 @@
     <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="PK_"/>
     <contextParameter comment="" name="FTP_LOGIN" prompt="FTP_LOGIN?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="PKCATEST"/>
     <contextParameter comment="" name="FTP_HOST" prompt="FTP_HOST?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="109.24.165.178"/>
-    <contextParameter comment="" name="FTP_PASSWD" prompt="FTP_PASSWD?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_Password" value="enc:system.encryption.key.v1:rhqTBUbjdICyNihdQM17FfSzOAVoasaJ6kIgS0Rf1/zathyi"/>
+    <contextParameter comment="" name="FTP_PASSWD" prompt="FTP_PASSWD?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_Password" value="enc:system.encryption.key.v1:LZbjsAlZRftfEoXyvreLof8KQ9KuPau2yR8Nqgg6OFHDDZsY"/>
     <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="PAULE_KA"/>
     <contextParameter comment="" name="FTP_PORT" prompt="FTP_PORT?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_Integer" value="22"/>
     <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="D:/WORKSPACE_TALEND/PAULE_KA/"/>
@@ -35,7 +35,7 @@
     <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG\"/>
     <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
     <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
-    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:wg+ABmZjR5edpvrLktiAjnMLZpgbgCPGhfLXP18YOacmj+gS6NQ="/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:7TgTXTBpTIgvcOGiabrmeksg31XvMWD4Hr2RstmWT0sfUVXKtb0="/>
     <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
     <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
     <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
@@ -43,7 +43,7 @@
     <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value=""/>
     <contextParameter comment="" name="FTP_LOGIN" prompt="FTP_LOGIN?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="PKCATEST"/>
     <contextParameter comment="" name="FTP_HOST" prompt="FTP_HOST?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="62.23.163.233"/>
-    <contextParameter comment="" name="FTP_PASSWD" prompt="FTP_PASSWD?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_Password" value="enc:system.encryption.key.v1:Y0vvj85tWnoh4o8Lwy/tp3mwE0HOawZwTNK8aBJIZjTVR9kk"/>
+    <contextParameter comment="" name="FTP_PASSWD" prompt="FTP_PASSWD?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_Password" value="enc:system.encryption.key.v1:vY77LddXCfM2WN2mOtYhLAvMcCuglQVUdynZ/ETVuPYKnB5n"/>
     <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="PAULE_KA"/>
     <contextParameter comment="" name="FTP_PORT" prompt="FTP_PORT?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_Integer" value="22"/>
     <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="D:/WORKSPACE_TALEND/PAULE_KA/"/>
@@ -64,7 +64,7 @@
     <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG\"/>
     <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
     <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
-    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:KAUmxvJNxh9ZcMTW7NZm9E9qtnkDrRv2cReyCGN/wM9p3dvOw8s="/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:Vz1oL5nbqHNcPLGby8pYrZI6veqKjy9hXmmd6RUTaOACmhU5lh0="/>
     <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
     <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
     <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
@@ -72,7 +72,7 @@
     <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value=""/>
     <contextParameter comment="" name="FTP_LOGIN" prompt="FTP_LOGIN?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="PKCAPROD"/>
     <contextParameter comment="" name="FTP_HOST" prompt="FTP_HOST?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="62.23.163.233"/>
-    <contextParameter comment="" name="FTP_PASSWD" prompt="FTP_PASSWD?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_Password" value="enc:system.encryption.key.v1:7sRZvFBJTQnKDY6yr+r4sQyJWdvwsA6DxPua7/zlCHJk9BbH"/>
+    <contextParameter comment="" name="FTP_PASSWD" prompt="FTP_PASSWD?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_Password" value="enc:system.encryption.key.v1:BSbW68N62NznXN7xetbjk5yIa8nsYIJH6F2Cma3b2A9DQBSF"/>
     <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="PAULE_KA"/>
     <contextParameter comment="" name="FTP_PORT" prompt="FTP_PORT?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_Integer" value="22"/>
     <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="F:/WORKSPACE_TALEND/PAULE_KA/"/>
@@ -93,7 +93,7 @@
     <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG\"/>
     <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
     <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
-    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:tgzLK+f1Las+HHNsFx2mX4yNt9JtOwy/vcSIlKrYJH9X/LSzndw="/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:RIoqb+yXx5kx4oruTY0IB2mG2bklTjb5vLXco3OqztEWeonAnyo="/>
     <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
     <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
     <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
@@ -101,7 +101,7 @@
     <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value=""/>
     <contextParameter comment="" name="FTP_LOGIN" prompt="FTP_LOGIN?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="PKCATEST"/>
     <contextParameter comment="" name="FTP_HOST" prompt="FTP_HOST?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="62.23.163.233"/>
-    <contextParameter comment="" name="FTP_PASSWD" prompt="FTP_PASSWD?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_Password" value="enc:system.encryption.key.v1:Kv7LtYZTbsswIEGgE1n6900wGhWKf4b6At9Y39ScKtPWTitp"/>
+    <contextParameter comment="" name="FTP_PASSWD" prompt="FTP_PASSWD?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_Password" value="enc:system.encryption.key.v1:RyOsg/XqWvhQ+HUlz13NzDNqJ5F+740sDORkWMdjKEtjGpRJ"/>
     <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="PAULE_KA"/>
     <contextParameter comment="" name="FTP_PORT" prompt="FTP_PORT?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_Integer" value="22"/>
     <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="F:/WORKSPACE_TALEND/PAULE_KA/"/>
@@ -122,7 +122,7 @@
     <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG/"/>
     <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
     <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
-    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:sTQBEzUPS1BW+5c1dli5T3tvCXJ7lO1WF+IteliiwqN5NuLCbbA="/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:DG/968Y2nPtO73z+aV1v9ipZe2f0WSGW12czhhniQgudoaKwIVA="/>
     <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
     <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
     <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
@@ -130,7 +130,7 @@
     <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="PK_"/>
     <contextParameter comment="" name="FTP_LOGIN" prompt="FTP_LOGIN?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="PKCAPROD"/>
     <contextParameter comment="" name="FTP_HOST" prompt="FTP_HOST?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="109.24.165.178"/>
-    <contextParameter comment="" name="FTP_PASSWD" prompt="FTP_PASSWD?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_Password" value="enc:system.encryption.key.v1:cmmTfqywhl+ueCAdV0fekmlABDJMTeWJrzRWSjm6ZhNaO2pR"/>
+    <contextParameter comment="" name="FTP_PASSWD" prompt="FTP_PASSWD?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_Password" value="enc:system.encryption.key.v1:mBMXCjO1J87IkDkthoVDCeBvzaAtb48JniNfAtXQRE8+UfOd"/>
     <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="PAULE_KA"/>
     <contextParameter comment="" name="FTP_PORT" prompt="FTP_PORT?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_Integer" value="22"/>
     <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="F:/WORKSPACE_TALEND/PAULE_KA/"/>
@@ -151,7 +151,7 @@
     <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG/"/>
     <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
     <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
-    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:+mj39xNSUTPE/lki5CAoxl/AvAWKxAh6n5joex/EWqLzM3BTe1Y="/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:RcoLWOu1ZnYkZlg3tleZtcp2j8AdkL6II3IeFRGN58ifnh/vZ8o="/>
     <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
     <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
     <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
@@ -159,7 +159,7 @@
     <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="PK_"/>
     <contextParameter comment="" name="FTP_LOGIN" prompt="FTP_LOGIN?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="PKCATEST"/>
     <contextParameter comment="" name="FTP_HOST" prompt="FTP_HOST?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="109.24.165.178"/>
-    <contextParameter comment="" name="FTP_PASSWD" prompt="FTP_PASSWD?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_Password" value="enc:system.encryption.key.v1:gbNkhW1EvlplxlyFcdwizR3iXrAnxsTlqqYLA9bPzOQ60UN+"/>
+    <contextParameter comment="" name="FTP_PASSWD" prompt="FTP_PASSWD?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_Password" value="enc:system.encryption.key.v1:rV+xNvDvPKRanWBPsRZG9d+1LonjBraH5KyeF+ELiSBRvuaP"/>
     <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="PAULE_KA"/>
     <contextParameter comment="" name="FTP_PORT" prompt="FTP_PORT?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_Integer" value="22"/>
     <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="F:/WORKSPACE_TALEND/PAULE_KA/"/>
@@ -180,7 +180,7 @@
     <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG/"/>
     <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
     <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
-    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:hQ/R+bowQzaPTg+CgvLrMiieZQsOyz+5ie3PDe9JQvI1Qp7axcc="/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:vmva7HFKoHr7JNdQhH5xSaqVAAIh3kwS0NwAmxV10GeJAexZ+dY="/>
     <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
     <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
     <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
@@ -188,7 +188,7 @@
     <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value=""/>
     <contextParameter comment="" name="FTP_LOGIN" prompt="FTP_LOGIN?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="PKCATEST"/>
     <contextParameter comment="" name="FTP_HOST" prompt="FTP_HOST?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="62.23.163.233"/>
-    <contextParameter comment="" name="FTP_PASSWD" prompt="FTP_PASSWD?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_Password" value="enc:system.encryption.key.v1:w4c3B2rIPxSeXZ8j9tKSYhJC9FiPcAYLGvcV6JvqOMZ2SL1Z"/>
+    <contextParameter comment="" name="FTP_PASSWD" prompt="FTP_PASSWD?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_Password" value="enc:system.encryption.key.v1:j0TkH1rfphgT17gJex4TmGUI8u7VShGnIdB763ZVMbw8nIlv"/>
     <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="PAULE_KA"/>
     <contextParameter comment="" name="FTP_PORT" prompt="FTP_PORT?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_Integer" value="22"/>
     <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="D:/WORKSPACE_TALEND/PAULE_KA/"/>
@@ -209,7 +209,7 @@
     <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG/"/>
     <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
     <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
-    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:kjqaIEHcnY5J+t33elWJilg/z3/KlzuJbi958tG5GmcVu8blE4k="/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:VwdCaH38EbCO1le7VT5DLWnS20QifWymUiAapGBgrPA74ejhrG4="/>
     <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
     <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
     <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
@@ -217,7 +217,7 @@
     <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value=""/>
     <contextParameter comment="" name="FTP_LOGIN" prompt="FTP_LOGIN?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="PKCATEST"/>
     <contextParameter comment="" name="FTP_HOST" prompt="FTP_HOST?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="62.23.163.233"/>
-    <contextParameter comment="" name="FTP_PASSWD" prompt="FTP_PASSWD?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_Password" value="enc:system.encryption.key.v1:eQAoLq8uqkB9rXCcsXq9ureo5Aebg7ENTNJCWwM0G3K60Xop"/>
+    <contextParameter comment="" name="FTP_PASSWD" prompt="FTP_PASSWD?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_Password" value="enc:system.encryption.key.v1:+t26zjFiKayq9VdYiQC8FooE2j3aZJVw733/SOjOuZ/cf0zs"/>
     <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="PAULE_KA"/>
     <contextParameter comment="" name="FTP_PORT" prompt="FTP_PORT?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_Integer" value="22"/>
     <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_Hzo8sFjGEemYHfMRfnToXw" type="id_String" value="D:/WORKSPACE_TALEND/PAULE_KA/"/>
@@ -273,7 +273,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:cZ5IR+DAOWQXCGEHgFYlBPsOk7Bc2a+GE3UKXLjq"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:/qtDvhFFwjV4NOo/bJrn6BS6GhJCJCuAq6YOE1/v"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -308,7 +308,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Y7rgvspKVsLQ0QBgPeZV5ocHB/invUxzWBqthdVK"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:vLsM5aB1oBDjc+FmvNtu9/L5RIWOKvrt9JDGfhYX"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -377,7 +377,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_2"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
-    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="J_FTP_TEST_002_SSEQ"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="PKJ_FTP_TEST_002_SSEQ"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="ERP:_4GZeoDZqEeqr-8ZLu6UXEQ"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
@@ -653,13 +653,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_debd99c5-5e95-4df8-9b91-cf6ca8fdb471"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>9LMwFHcrGG8EGAmWlPoD04S/79nOLPONRw7FKE6wcvMeXPEU9S6TLDXNGWTwN0doKOajnPfK+DLX
-vNFQ5fQWXA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c6287764-5c92-41e4-b409-8cb827e02524"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>JII6CHmJTE6bXUYKV4cV2B4nu5gjY2ofV9OG7IE4OI/iFuh/7+KNSjQm7HungHM0AzjXYpyF7QPJ
-tJuuQXm9eA==</DigestValue></Reference></SignedInfo><SignatureValue>eVI68qzy/YASwg2ZMK2b/eO0IKFC0qBH6KI1z25Hmg4VZlO+NnhrsLOGZR3GKDQo8q4roWUM+JP5
-9wQ2luHkBTDen3p5GwUlfVY3mJY3huVkQofNIOM/WiKB0RuDs17aHDkwbIOvP+VoLWpGktZ4/4T9
-pwwMSxM4g/bcPEOEFvqWLpcnlDslQhOFaBbzoWsBZnM8vd00LUlekKV6zSdfYMiVdiS8AfMJW+dn
-sb2NXz0qn2gJWn1VEKNnFX9J01FalC3ihxi2sokKIorcqkxfWfRx0Bq4pik5Fff/68VXlFCBtfUz
-ez+3qr9e6oriEimkJHqj5k+gHZLGXWc7S3dqEQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_8ce62cee-a976-4dda-b036-18edd86ddf5e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+CcuTLoJx18eq7txp7eyiHDu/7qtvyAOi1Fd/XMyuoC2gAJQnP5z6pUvovBeNABPrkw63AGuJM8T
+CTPYe+BCqg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ea1b40d9-aaee-48c8-8a6a-05e6581be438"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>k9zw9hl/5nBADyAsMjAGYZYgZXwuI6UgNTIlQ/Rr9q40OmjOzrAkqbvp0Cwk2p97xaeijfzNK4CT
+Q0KxFPwhzw==</DigestValue></Reference></SignedInfo><SignatureValue>oDpTGB592tOFzuPMuLMNfTIqJFSHvVIREJP10AiaMklauiWvic9eUYj42eK+DrOxiNHwahh0mSx1
+hMyTMydfzMVz1Dk3GV+PvMNZZJzq41divqE9wYsH2X/yndYPs3re23OVv8CVSP7QrDv8RJTrBSXy
+4AV2lzblecbWpnTkVGWGI4/0dU1HljBq/bE8+V2+AzbiJtjuvUjUgJ6NVItiV56JvFFlxOib8UQp
+/gsZM2hAOqjHZal7+PsI3IrqBM/hf4+wVKZEw6MRLMWwSN1o3oX+uCnRrSAMCgFi9K7ReKJrR6mr
+9CejlaTHATpidLBEg6S9dYXjK7565gcp4MQIEQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -681,4 +681,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c6287764-5c92-41e4-b409-8cb827e02524" Target="#_debd99c5-5e95-4df8-9b91-cf6ca8fdb471"><Timestamp>2021-06-06 23:05:49</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ea1b40d9-aaee-48c8-8a6a-05e6581be438" Target="#_8ce62cee-a976-4dda-b036-18edd86ddf5e"><Timestamp>2021-06-06 23:09:53</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
