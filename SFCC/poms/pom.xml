@@ -102,7 +102,6 @@
     <module>jobs/process/SFCC/CUSTOMER/PIV_CUS_SFC/j_piv_cus_sfc_501_etl_0.2</module>
     <module>jobs/process/SFCC/Z_RECETTE/CUSTOMER/customer_xml_csv_0.1</module>
     <module>jobs/process/SFCC/CATEGORY_PRODUCT/SFC_CAT_ART_PIV/j_sfc_cat_art_piv_002_sseq_0.1</module>
-    <module>jobs/process/SFCC/ORDER/SFC_ORD_PIV/j_sfc_ord_piv_502_etl_arrondi_0.6</module>
     <module>jobs/process/SFCC/WORK_IMPORT/CUSTOMER/PIV_CUS_SFC/piv_cus_sfc_import_no_adr_0.2</module>
     <module>jobs/process/SFCC/Z_DEV/testchronopost_0.1</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_403_loa_data_lang_default_0.4</module>
@@ -168,6 +167,7 @@
     <module>jobs/process/SFCC/ORDER/SFC_ORD_PIV/pkj_sfc_ord_piv_501_etl_principal_0.3</module>
     <module>jobs/process/SFCC/ORDER/SFC_ORD_PIV/pkj_sfc_ord_piv_501_etl_principal_0.4</module>
     <module>jobs/process/SFCC/ORDER/SFC_ORD_PIV/pkj_sfc_ord_piv_501_etl_principal_0.5</module>
+    <module>jobs/process/SFCC/ORDER/SFC_ORD_PIV/pkj_sfc_ord_piv_502_etl_arrondi_0.6</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
