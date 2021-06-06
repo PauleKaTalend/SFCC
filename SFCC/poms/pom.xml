@@ -59,7 +59,6 @@
     <module>jobs/process/SFCC/Z_DEV/addsizedb_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/PIV_CUS_SFC/j_piv_cus_sfc_001_seq_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_PIV/j_sfc_cus_piv_501_loa_customer_info_1.0</module>
-    <module>jobs/process/SFCC/PRICE/PIV_PRI_SFC/j_piv_pri_sfc_501_etl_pivot_sfcc_0.1</module>
     <module>jobs/process/SFCC/PRICE/PIV_PRI_SFC/SEQ/bt_price_pivot_sfcc_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_PIV/j_sfc_cus_piv_501_loa_customer_info_0.2</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_NL_PIV/SEQ/pk_customer_nl_sfcc_pivot_0.1</module>
@@ -112,7 +111,6 @@
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_TEST/SEQ/eb_ftp_test_0.1</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_412_loa_size_0.4</module>
     <module>jobs/process/SFCC/WORK_IMPORT/SHOP/PIV_POS_SFC/j_piv_pos_sfc_001_seq_eb_0.1</module>
-    <module>jobs/process/SFCC/PRICE/PIV_PRI_SFC/j_piv_pri_sfc_501_etl_pivot_sfcc_0.2</module>
     <module>jobs/process/SFCC/WORK_IMPORT/CUSTOMER/PIV_CUS_SFC/piv_cus_sfc_import_0.2</module>
     <module>jobs/process/SFCC/ORDER_STATUS/SFC_ORD_STA_PIV/j_sfc_ord_sta_piv_001_seq_0.1</module>
     <module>jobs/process/SFCC/ARTICLE/SFC_ART_PIV/j_sfc_art_piv_002_sseq_0.1</module>
@@ -136,7 +134,6 @@
     <module>jobs/process/SFCC/WORK_IMPORT/SHOP/PIV_POS_SFC/j_piv_pos_sfc_002_sseq_0.1</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_TEST/SEQ/pk_ftp_test_0.1</module>
     <module>jobs/process/SFCC/ORDER_STATUS/SFC_ORD_STA_PIV/j_sfc_ord_sta_piv_002_sseq_0.1</module>
-    <module>jobs/process/SFCC/PRICE/PIV_PRI_SFC/j_piv_pri_sfc_501_etl_pivot_sfcc_0.3</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_201_ext_0.1</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_407_loa_article_color_0.4</module>
     <module>jobs/process/SFCC/Z_DEV/inv_eb_0.1</module>
@@ -168,6 +165,9 @@
     <module>jobs/process/SFCC/PRICE/PIV_PRI_SFC/pk_price_pivot_sfcc_0.1</module>
     <module>jobs/process/SFCC/PRICE/PIV_PRI_SFC/pkj_piv_pri_sfc_001_seq_0.1</module>
     <module>jobs/process/SFCC/PRICE/PIV_PRI_SFC/pkj_piv_pri_sfc_002_sseq_0.1</module>
+    <module>jobs/process/SFCC/PRICE/PIV_PRI_SFC/pkj_piv_pri_sfc_501_etl_pivot_sfcc_0.3</module>
+    <module>jobs/process/SFCC/PRICE/PIV_PRI_SFC/pkj_piv_pri_sfc_501_etl_pivot_sfcc_0.1</module>
+    <module>jobs/process/SFCC/PRICE/PIV_PRI_SFC/pkj_piv_pri_sfc_501_etl_pivot_sfcc_0.2</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
