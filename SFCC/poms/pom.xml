@@ -49,7 +49,6 @@
     <module>jobs/process/SFCC/ORDER_STATUS/SFC_ORD_STA_PIV/j_sfc_ord_sta_piv_501_etl_0.2</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_PROD/j_ftp_prod_010_data_to_staging_0.1</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_TEST/SEQ/bt_ftp_test_0.1</module>
-    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_405_loa_variant_color_0.4</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_409_loa_img_0.4</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_PIV/SEQ/pk_customer_sfcc_pivot_0.1</module>
     <module>jobs/process/SFCC/Z_DEV/addsizedb_0.1</module>
@@ -168,6 +167,7 @@
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_402_loa_data_no_lang_0.4</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_403_loa_data_lang_default_0.4</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_404_loa_data_lang_0.4</module>
+    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_405_loa_variant_color_0.4</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
