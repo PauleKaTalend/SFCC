@@ -34,7 +34,6 @@
     <module>jobs/process/SFCC/WORK_IMPORT/ORDER/PIV_ORD_SFC/j_piv_ord_sfc_501_etl_pivot_sfcc_0.1</module>
     <module>jobs/process/SFCC/INVENTORY/PIV_INV_SFC/SEQ/eb_inventory_pivot_sfcc_0.1</module>
     <module>jobs/joblets/rejet_file_ligne_0.1</module>
-    <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_PROD/SEQ/pk_ftp_prod_0.1</module>
     <module>jobs/process/SFCC/Z_DEV/smtp_0.1</module>
     <module>jobs/process/SFCC/CATEGORY_PRODUCT/PIV_CAT_ART_SFC/j_piv_art_cat_sfc_002_sseq_0.1</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_PROD/j_ftp_prod_001_seq_0.1</module>
@@ -168,6 +167,7 @@
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_412_loa_size_0.5</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pk_article_pivot_sfcc_0.1</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_TEST/pk_ftp_test_0.1</module>
+    <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_PROD/pk_ftp_prod_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
