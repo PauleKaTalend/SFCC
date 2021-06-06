@@ -11,9 +11,7 @@
   <modules>
     <module>code/routines</module>
     <module>jobs/process/SFCC/Z_DEV/addcolordb_0.1</module>
-    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/SEQ/bt_article_pivot_sfcc_0.1</module>
     <module>jobs/process/SFCC/CATEGORY_PRODUCT/PIV_CAT_ART_SFC/j_piv_art_cat_sfc_001_seq_0.1</module>
-    <module>jobs/process/SFCC/CATEGORY_PRODUCT/PIV_CAT_ART_SFC/SEQ/bt_category_article_pivot_sfcc_0.1</module>
     <module>jobs/process/SFCC/WORK_IMPORT/CUSTOMER/PIV_CUS_SFC/delta_sans_tel_0.2</module>
     <module>jobs/process/SFCC/Z_ARCHIVE/XAV/j_piv_art_sfc_501_article_sfc_pivot_xav_0.3</module>
     <module>jobs/process/SFCC/CATEGORY_PRODUCT/SFC_CAT_ART_PIV/bt_category_article_sfcc_pivot_0.1</module>
@@ -21,36 +19,25 @@
     <module>jobs/process/SFCC/Z_DEV/EB/split_cat_art_0.1</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_PROD/j_ftp_prod_020_data_from_staging_0.1</module>
     <module>jobs/process/SFCC/Z_DEV/BT/j_cus_xml_adr_first_name_correction_0.3</module>
-    <module>jobs/process/SFCC/ORDER_STATUS/SFC_ORD_STA_PIV/SEQ/eb_order_status_sfcc_pivot_0.1</module>
     <module>jobs/process/SFCC/Z_DEV/EB/gen_price_test_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/PIV_CUS_OPT_SFC/j_piv_cus_opt_sfc_001_seq_0.1</module>
-    <module>jobs/process/SFCC/ARTICLE/SFC_ART_PIV/j_sfc_art_piv_501_etl_0.2</module>
     <module>jobs/process/SFCC/CUSTOMER/PIV_CUS_OPT_SFC/SEQ/eb_customer_option_pivot_sfcc_0.1</module>
-    <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_PROD/SEQ/bt_ftp_prod_0.1</module>
-    <module>jobs/process/SFCC/INVENTORY/PIV_INV_SFC/x_j_piv_inv_sfc_501_etl_pivot_sfcc_0.1</module>
     <module>jobs/process/SFCC/WORK_IMPORT/ORDER/PIV_ORD_SFC/j_piv_ord_sfc_002_sseq_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_NL_PIV/j_sfc_cus_nl_piv_501_etl_0.3</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_NL_PIV/j_sfc_cus_nl_piv_001_seq_0.1</module>
     <module>jobs/process/SFCC/WORK_IMPORT/ORDER/PIV_ORD_SFC/j_piv_ord_sfc_501_etl_pivot_sfcc_0.1</module>
-    <module>jobs/process/SFCC/INVENTORY/PIV_INV_SFC/SEQ/eb_inventory_pivot_sfcc_0.1</module>
     <module>jobs/joblets/rejet_file_ligne_0.1</module>
     <module>jobs/process/SFCC/Z_DEV/smtp_0.1</module>
     <module>jobs/process/SFCC/CATEGORY_PRODUCT/PIV_CAT_ART_SFC/j_piv_art_cat_sfc_002_sseq_0.1</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_PROD/j_ftp_prod_001_seq_0.1</module>
-    <module>jobs/process/SFCC/PRICE/PIV_PRI_SFC/SEQ/eb_price_pivot_sfcc_0.1</module>
     <module>jobs/process/SFCC/WORK_IMPORT/ORDER/PIV_ORD_SFC/j_piv_ord_sfc_501_etl_pivot_sfcc_0.2</module>
     <module>jobs/process/SFCC/CUSTOMER/PIV_CUS_OPT_SFC/j_piv_cus_opt_sfc_002_sseq_0.1</module>
-    <module>jobs/process/SFCC/ORDER/SFC_ORD_PIV/copy_of_j_sfc_ord_piv_501_etl_principal_a_0.6</module>
-    <module>jobs/process/SFCC/ORDER/SFC_ORD_PIV/SEQ/bt_order_sfcc_pivot_0.1</module>
     <module>jobs/process/SFCC/CATEGORY_PRODUCT/PIV_CAT_ART_SFC/j_piv_art_cat_sfc_502_cat_delete_0.2</module>
-    <module>jobs/process/SFCC/ORDER_STATUS/SFC_ORD_STA_PIV/j_sfc_ord_sta_piv_501_etl_0.2</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_PROD/j_ftp_prod_010_data_to_staging_0.1</module>
-    <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_TEST/SEQ/bt_ftp_test_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_PIV/SEQ/pk_customer_sfcc_pivot_0.1</module>
     <module>jobs/process/SFCC/Z_DEV/addsizedb_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/PIV_CUS_SFC/j_piv_cus_sfc_001_seq_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_PIV/j_sfc_cus_piv_501_loa_customer_info_1.0</module>
-    <module>jobs/process/SFCC/PRICE/PIV_PRI_SFC/SEQ/bt_price_pivot_sfcc_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_PIV/j_sfc_cus_piv_501_loa_customer_info_0.2</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_NL_PIV/SEQ/pk_customer_nl_sfcc_pivot_0.1</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_TEST/j_ftp_test_010_data_to_integration_0.1</module>
@@ -58,23 +45,15 @@
     <module>jobs/process/SFCC/Z_DEV/transform_catalog_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_PIV/SEQ/bt_customer_sfcc_pivot_0.1</module>
     <module>jobs/process/SFCC/Z_DEV/testftp2_0.1</module>
-    <module>jobs/process/SFCC/ORDER_STATUS/PIV_ORD_STA_SFC/SEQ/bt_order_status_pivot_sfcc_0.1</module>
-    <module>jobs/process/SFCC/ARTICLE/SFC_ART_PIV/bt_article_sfcc_pivot_0.1</module>
-    <module>jobs/process/SFCC/INVENTORY/PIV_INV_SFC/SEQ/bt_inventory_pivot_sfcc_0.1</module>
     <module>jobs/process/SFCC/CATEGORY_PRODUCT/PIV_CAT_ART_SFC/j_piv_art_cat_sfc_501_etl_pivot_sfcc_v2_0.2</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_PIV/j_sfc_cus_piv_502_loa_custom_1.0</module>
     <module>jobs/process/SFCC/Z_DEV/test_0.1</module>
     <module>jobs/process/SFCC/CATEGORY_PRODUCT/SFC_CAT_ART_PIV/j_sfc_cat_art_piv_501_etl_0.2</module>
-    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_001_seq_0.1</module>
-    <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_PROD/SEQ/eb_ftp_prod_0.1</module>
-    <module>jobs/process/SFCC/ORDER/SFC_ORD_PIV/copy_of_j_sfc_ord_piv_501_etl_principal_0.6</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_TEST/j_ftp_test_001_seq_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/PIV_CUS_OPT_SFC/j_piv_cus_opt_sfc_501_etl_0.2</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_PIV/j_sfc_cus_piv_002_sseq_0.1</module>
     <module>jobs/process/SFCC/Z_DEV/testftp_0.1</module>
     <module>jobs/process/SFCC/CATEGORY_PRODUCT/PIV_CAT_ART_SFC/SEQ/pk_category_article_pivot_sfcc_0.1</module>
-    <module>jobs/process/SFCC/ORDER/SFC_ORD_PIV/dvsgdgds_0.1</module>
-    <module>jobs/process/SFCC/ORDER/SFC_ORD_PIV/j_sfc_ord_piv_001_seq_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/PIV_CUS_SFC/j_piv_cus_sfc_002_sseq_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/PIV_CUS_SFC/j_piv_cus_sfc_501_etl_0.2</module>
     <module>jobs/process/SFCC/Z_RECETTE/CUSTOMER/customer_xml_csv_0.1</module>
@@ -88,11 +67,8 @@
     <module>jobs/process/SFCC/WORK_IMPORT/ORDER/PIV_ORD_SFC/j_piv_ord_sfc_001_seq_0.1</module>
     <module>jobs/process/SFCC/Z_ARCHIVE/XAV/j_piv_art_sfc_501_article_sfc_pivot_test_0.3</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_PIV/j_sfc_cus_piv_503_clean_adr_1.0</module>
-    <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_TEST/SEQ/eb_ftp_test_0.1</module>
     <module>jobs/process/SFCC/WORK_IMPORT/SHOP/PIV_POS_SFC/j_piv_pos_sfc_001_seq_eb_0.1</module>
     <module>jobs/process/SFCC/WORK_IMPORT/CUSTOMER/PIV_CUS_SFC/piv_cus_sfc_import_0.2</module>
-    <module>jobs/process/SFCC/ORDER_STATUS/SFC_ORD_STA_PIV/j_sfc_ord_sta_piv_001_seq_0.1</module>
-    <module>jobs/process/SFCC/ARTICLE/SFC_ART_PIV/j_sfc_art_piv_002_sseq_0.1</module>
     <module>jobs/process/SFCC/WORK_IMPORT/SHOP/PIV_POS_SFC/j_piv_pos_sfc_001_seq_bt_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/PIV_CUS_SFC/j_piv_cus_sfc_501_etl_bonton_0.2</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_NL_PIV/SEQ/eb_customer_nl_sfcc_pivot_0.1</module>
@@ -109,7 +85,6 @@
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_TEST/j_ftp_test_002_sseq_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_NL_PIV/j_sfc_cus_nl_piv_002_sseq_0.1</module>
     <module>jobs/process/SFCC/WORK_IMPORT/SHOP/PIV_POS_SFC/j_piv_pos_sfc_002_sseq_0.1</module>
-    <module>jobs/process/SFCC/ORDER_STATUS/SFC_ORD_STA_PIV/j_sfc_ord_sta_piv_002_sseq_0.1</module>
     <module>jobs/process/SFCC/Z_DEV/inv_eb_0.1</module>
     <module>jobs/process/SFCC/WORK_IMPORT/SHOP/PIV_POS_SFC/j_piv_pos_sfc_501_etl_pivot_sfcc_0.1</module>
     <module>jobs/process/SFCC/Z_DEV/test_diff_0.1</module>
