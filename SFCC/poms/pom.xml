@@ -37,7 +37,6 @@
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_PIV/j_sfc_cus_piv_501_loa_customer_info_1.0</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_PIV/j_sfc_cus_piv_501_loa_customer_info_0.2</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_NL_PIV/SEQ/pk_customer_nl_sfcc_pivot_0.1</module>
-    <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_TEST/j_ftp_test_010_data_to_integration_0.1</module>
     <module>jobs/process/SFCC/Z_DEV/CLIENTS/supp_adr_0.2</module>
     <module>jobs/process/SFCC/Z_DEV/transform_catalog_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_PIV/SEQ/bt_customer_sfcc_pivot_0.1</module>
@@ -143,6 +142,7 @@
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_PROD/pkj_ftp_prod_030_data_prod_to_test_0.1</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_TEST/pkj_ftp_test_001_seq_0.1</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_TEST/pkj_ftp_test_002_sseq_0.1</module>
+    <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_TEST/pkj_ftp_test_010_data_to_integration_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
