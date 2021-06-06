@@ -2,21 +2,18 @@
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
     <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
-    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:6PPJObW0O5kuNXofqYg3c2MkwrlaKtzPqyXGPfexkfH69LS9MEo="/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:zEFmnRM2FEVbEPaUq5NaF0WAP2gIHdoJAXk/Qxy36oRZNwpLJjE="/>
     <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
     <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
-    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true"/>
-    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_vWtCUGYvEem-I8x6VHgMJw" type="id_String" value="D:/PAULE_KA/_DEV/SFCC/SFC_ORD_PIV/"/>
-    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_vWtCUGYvEem-I8x6VHgMJw" type="id_String" value="SFC_ORD_PIV"/>
-    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_vWtCUGYvEem-I8x6VHgMJw" type="id_String" value="PAULE_KA"/>
-    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT\"/>
-    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE\"/>
-    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT\"/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
+    <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT/"/>
+    <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE/"/>
+    <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT/"/>
     <contextParameter comment="" name="DIR_REJECT" prompt="DIR_REJECT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REJECT\"/>
     <contextParameter comment="" name="DIR_ERROR" prompt="DIR_ERROR?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ERROR\"/>
-    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT\"/>
-    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG\"/>
-    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP\"/>
+    <contextParameter comment="" name="DIR_OUTPUT" prompt="DIR_OUTPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="OUTPUT/"/>
+    <contextParameter comment="" name="DIR_LOG" prompt="DIR_LOG?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="LOG/"/>
+    <contextParameter comment="" name="DIR_TMP" prompt="DIR_TMP?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="TMP/"/>
     <contextParameter comment="ORD" name="FILE_SFCC_ORDER" prompt="FILE_SFCC_ORDER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ORD"/>
     <contextParameter comment="ITM_SFCC" name="FILE_SFCC_CATALOG" prompt="FILE_SFCC_CATALOG?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ITM_SFCC"/>
     <contextParameter comment="PLI_SFCC" name="FILE_SFCC_PRICE" prompt="FILE_SFCC_PRICE?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="PLI_SFCC"/>
@@ -35,17 +32,20 @@
     <contextParameter comment="POS_PIVOT" name="FILE_PIVOT_STORE" prompt="FILE_PIVOT_STORE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="POS_PIVOT"/>
     <contextParameter comment="ORH_PIVOT" name="FILE_PIVOT_ORD_HEADER" prompt="FILE_PIVOT_ORD_HEADER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORH_PIVOT"/>
     <contextParameter comment="SOR_PIVOT" name="FILE_PIVOT_ORD_STATUS" prompt="FILE_PIVOT_ORD_STATUS?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="SOR_PIVOT"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="D:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
   </context>
   <context confirmationNeeded="false" name="PRODUCTION">
     <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
     <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
     <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
-    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:UeE99Ej2gJJ9s+Gt9ovL7YMCnwdQWZaAg4Vn2TrBjugcRuUnJis="/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:HCRD7T9A5+vo3rMippbJM7ZjJsKSdiXr3UCTPnu8TbRt/4pnDAs="/>
     <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
-    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true"/>
-    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_vWtCUGYvEem-I8x6VHgMJw" type="id_String" value=""/>
-    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_vWtCUGYvEem-I8x6VHgMJw" type="id_String" value=""/>
-    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_vWtCUGYvEem-I8x6VHgMJw" type="id_String" value=""/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
     <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT\"/>
     <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE\"/>
     <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT\"/>
@@ -72,17 +72,20 @@
     <contextParameter comment="POS_PIVOT" name="FILE_PIVOT_STORE" prompt="FILE_PIVOT_STORE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="POS_PIVOT"/>
     <contextParameter comment="ORH_PIVOT" name="FILE_PIVOT_ORD_HEADER" prompt="FILE_PIVOT_ORD_HEADER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORH_PIVOT"/>
     <contextParameter comment="SOR_PIVOT" name="FILE_PIVOT_ORD_STATUS" prompt="FILE_PIVOT_ORD_STATUS?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="SOR_PIVOT"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="F:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
   </context>
   <context confirmationNeeded="false" name="RECETTE">
     <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
     <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
     <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
-    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:5NtRxrlYiLv1aaRo6MN7sLaM7v0GdsU5GGzLRe7Ndq5nQSdRQuQ="/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:BckYNSbGkLYNODjhp73cR3z6sCx63VzrlgUMljYB2fYiIS3Zh/U="/>
     <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
-    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true"/>
-    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_vWtCUGYvEem-I8x6VHgMJw" type="id_String" value=""/>
-    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_vWtCUGYvEem-I8x6VHgMJw" type="id_String" value=""/>
-    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_vWtCUGYvEem-I8x6VHgMJw" type="id_String" value=""/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
     <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT\"/>
     <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE\"/>
     <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT\"/>
@@ -109,17 +112,20 @@
     <contextParameter comment="POS_PIVOT" name="FILE_PIVOT_STORE" prompt="FILE_PIVOT_STORE?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="POS_PIVOT"/>
     <contextParameter comment="ORH_PIVOT" name="FILE_PIVOT_ORD_HEADER" prompt="FILE_PIVOT_ORD_HEADER?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="ORH_PIVOT"/>
     <contextParameter comment="SOR_PIVOT" name="FILE_PIVOT_ORD_STATUS" prompt="FILE_PIVOT_ORD_STATUS?" promptNeeded="false" repositoryContextId="_5YjyYEzAEemc-dtBBvVzLg" type="id_String" value="SOR_PIVOT"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="F:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
   </context>
   <context confirmationNeeded="false" name="Developpement">
     <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
     <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
-    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:a/GTNcPRL+tJysLkdUvjwNyetRlGutILJEWphpHgOW2+iTvQqvA="/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:f3wX7Brr3tTtLeXOifM2RUCdhpFgDQVCKPhCTh4gLQNiRiPnHXs="/>
     <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
     <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
-    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true"/>
-    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_vWtCUGYvEem-I8x6VHgMJw" type="id_String" value="D:/PAULE_KA/_DEV/SFCC/SFC_ORD_PIV/"/>
-    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_vWtCUGYvEem-I8x6VHgMJw" type="id_String" value="SFC_ORD_PIV"/>
-    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_vWtCUGYvEem-I8x6VHgMJw" type="id_String" value="PAULE_KA"/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
     <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT\"/>
     <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE\"/>
     <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT\"/>
@@ -146,17 +152,20 @@
     <contextParameter comment="CAT_SFCC" name="FILE_SFCC_CATEGORY" prompt="FILE_SFCC_CATEGORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CAT_SFCC"/>
     <contextParameter comment="CLI_SFCC" name="FILE_SFCC_CUSTOMER" prompt="FILE_SFCC_CUSTOMER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CLI_SFCC"/>
     <contextParameter comment="ORD" name="FILE_SFCC_ORDER" prompt="FILE_SFCC_ORDER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ORD"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="D:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
   </context>
   <context confirmationNeeded="false" name="Production">
     <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
     <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
-    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:kCNutOsp3gdX437S1HqfwHw6mzVntzAvETjwbtQKD2Iv6iDPfB8="/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:giMBqyTTo7mmWvDxsNK1D6oVS/WQVP0kItouBHOA289W1zW+J6I="/>
     <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
     <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
-    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true"/>
-    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_vWtCUGYvEem-I8x6VHgMJw" type="id_String" value=""/>
-    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_vWtCUGYvEem-I8x6VHgMJw" type="id_String" value=""/>
-    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_vWtCUGYvEem-I8x6VHgMJw" type="id_String" value=""/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
     <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT\"/>
     <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE\"/>
     <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT\"/>
@@ -183,17 +192,20 @@
     <contextParameter comment="CAT_SFCC" name="FILE_SFCC_CATEGORY" prompt="FILE_SFCC_CATEGORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CAT_SFCC"/>
     <contextParameter comment="CLI_SFCC" name="FILE_SFCC_CUSTOMER" prompt="FILE_SFCC_CUSTOMER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CLI_SFCC"/>
     <contextParameter comment="ORD" name="FILE_SFCC_ORDER" prompt="FILE_SFCC_ORDER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ORD"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="F:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
   </context>
   <context confirmationNeeded="false" name="Recette">
     <contextParameter comment="" name="DB_TECH_PORT" prompt="DB_TECH_PORT?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Integer" value="3306"/>
     <contextParameter comment="" name="DB_TECH_LOGIN" prompt="DB_TECH_LOGIN?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
-    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:v51USy9MzY0kunI37ahA8GUF8QGPCmzQvsg1d29af+16LD/Uu9I="/>
+    <contextParameter comment="" name="DB_TECH_PASSWORD" prompt="DB_TECH_PASSWORD?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_Password" value="enc:system.encryption.key.v1:W2E01kxwlqYY2JjF6V44T3c1UpVESQVMPlIZpl2kTbATY65ua1Y="/>
     <contextParameter comment="" name="DB_TECH_HOST" prompt="DB_TECH_HOST?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="localhost"/>
     <contextParameter comment="" name="DB_TECH_DATABASE" prompt="DB_TECH_DATABASE?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="pk_tech"/>
-    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true"/>
-    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_vWtCUGYvEem-I8x6VHgMJw" type="id_String" value=""/>
-    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_vWtCUGYvEem-I8x6VHgMJw" type="id_String" value=""/>
-    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_vWtCUGYvEem-I8x6VHgMJw" type="id_String" value=""/>
+    <contextParameter comment="" name="DB_TECH_ADD_PARAM" prompt="DB_TECH_ADD_PARAM?" promptNeeded="false" repositoryContextId="_-f9B4GSZEemlefGbIbAvhA" type="id_String" value="serverTimezone=UTC&amp;noDatetimeStringSync=true&amp;useSSL=false"/>
     <contextParameter comment="" name="DIR_INPUT" prompt="DIR_INPUT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="INPUT\"/>
     <contextParameter comment="" name="DIR_ARCHIVE" prompt="DIR_ARCHIVE?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="ARCHIVE\"/>
     <contextParameter comment="" name="DIR_REPORT" prompt="DIR_REPORT?" promptNeeded="false" repositoryContextId="_WO991FAbEemm4e-ZUx7ZdQ" type="id_String" value="REPORT\"/>
@@ -220,9 +232,15 @@
     <contextParameter comment="CAT_SFCC" name="FILE_SFCC_CATEGORY" prompt="FILE_SFCC_CATEGORY?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CAT_SFCC"/>
     <contextParameter comment="CLI_SFCC" name="FILE_SFCC_CUSTOMER" prompt="FILE_SFCC_CUSTOMER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="CLI_SFCC"/>
     <contextParameter comment="ORD" name="FILE_SFCC_ORDER" prompt="FILE_SFCC_ORDER?" promptNeeded="false" repositoryContextId="_KakDgFn2EemViZqYERbEhw" type="id_String" value="ORD"/>
+    <contextParameter comment="" name="PROJECT" prompt="PROJECT?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="CODE" prompt="CODE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="SUFFIX_FILE" prompt="SUFFIX_FILE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value=""/>
+    <contextParameter comment="" name="WORKSPACE" prompt="WORKSPACE?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="F:/WORKSPACE_DEFAULT/"/>
+    <contextParameter comment="" name="FLOW" prompt="FLOW?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
+    <contextParameter comment="" name="BRAND" prompt="BRAND?" promptNeeded="false" repositoryContextId="_PYHisGVnEem-CuBD_HMNuw" type="id_String" value="DEFAULT"/>
   </context>
   <parameters>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="128"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="128"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
@@ -260,7 +278,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:CDUdCF/XiWGs8CdBSzPb9C3j/JYHs738xPsewU+R"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:lYMrgiSVoYT3Dtxsz8cBRawslWFG2eSircnSlsNb"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -275,32 +293,32 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="true"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" value="true"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" value="context.WORKSPACE + context.DIR_LOG"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="context.WORKSPACE + context.PROJECT + &quot;/&quot; + context.FLOW + &quot;/&quot; +context.DIR_LOG"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="true"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" show="false" value="_6ody8GSZEemlefGbIbAvhA"/>
-    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tMysqlOutput"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tMysqlOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
     <elementParameter field="TEXT" name="URL" show="false" value=""/>
     <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
     <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value=""/>
-    <elementParameter field="TEXT" name="HOST" value="context.DB_TECH_HOST"/>
-    <elementParameter field="TEXT" name="PORT" value="context.DB_TECH_PORT"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="context.DB_TECH_HOST"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="context.DB_TECH_PORT"/>
     <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.DB_TECH_DATABASE"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="context.DB_TECH_DATABASE"/>
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.DB_TECH_DATABASE"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.DB_TECH_ADD_PARAM"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="context.DB_TECH_ADD_PARAM"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="context.DB_TECH_LOGIN"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Qwkdtsy1HZ21kl/8bsoFDRW4UBvvXg3eskILMcYCLg8ojvXu2myfBaSYtw9YbWd7ytkRmg=="/>
+    <elementParameter field="TEXT" name="USER" show="false" value="context.DB_TECH_LOGIN"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:FN9qfwL2f78MJii3SjCZw1FSTB1LxIZZAkok5vaNiNubL7SIb4oI4i4JsQYA8AYYIJealQ=="/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
-    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;TALEND_LOG_SFCC&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;TALEND_LOG_SFCC&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
     <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
@@ -327,16 +345,16 @@
     <routinesParameter id="_9Nl8IFIXEemsqf_w_675CQ" name="TalendStringUtil"/>
     <routinesParameter id="_9Nl8FlIXEemsqf_w_675CQ" name="TalendString"/>
   </parameters>
-  <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="-96" posY="128">
+  <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileList_1"/>
-    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.WORKSPACE + context.DIR_INPUT"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.WORKSPACE + context.PROJECT + &quot;/&quot; + context.FLOW + &quot;/&quot; +  context.DIR_INPUT"/>
     <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
     <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
     <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="YES"/>
-    <elementParameter field="CHECK" name="ERROR" value="true"/>
+    <elementParameter field="CHECK" name="ERROR" value="false"/>
     <elementParameter field="CHECK" name="GLOBEXPRESSIONS" value="true"/>
     <elementParameter field="TABLE" name="FILES">
-      <elementValue elementRef="FILEMASK" value="context.FILE_SFCC_ORDER + &quot;*&quot;"/>
+      <elementValue elementRef="FILEMASK" value="context.SUFFIX_FILE +context.FILE_SFCC_ORDER + &quot;*&quot;"/>
     </elementParameter>
     <elementParameter field="RADIO" name="ORDER_BY_NOTHING" value="true"/>
     <elementParameter field="RADIO" name="ORDER_BY_FILENAME" value="false"/>
@@ -349,7 +367,7 @@
     <elementParameter field="CHECK" name="FORMAT_FILEPATH_TO_SLASH" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tFileInputXML" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="128">
+  <node componentName="tFileInputXML" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputXML_1"/>
     <elementParameter field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILEPATH&quot;))"/>
     <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;/&quot;"/>
@@ -383,7 +401,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="256" posY="128">
+  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="416" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tXMLMap_1"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="false"/>
@@ -441,10 +459,16 @@
       <column comment="" key="false" length="255" name="currency_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="net_price_ttc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="net_price_ht" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="prix_base_ht" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="prix_base_ttc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="prix_base_ht" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="promo_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="vat_rate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="credit_note" nullable="true" originalLength="100" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="net_price_cur_ttc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="net_price_cur_ht" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="prix_base_cur_ttc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="prix_base_cur_ht" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="currency_curr_id" nullable="true" originalLength="100" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="FLOW" label="metadata" name="payments">
       <column comment="" key="false" length="255" name="origine" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -461,13 +485,35 @@
       <column comment="" key="false" length="255" name="seq_num" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="status_pt" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata connector="FLOW" label="debugRow" name="debugRow">
-      <column comment="" key="false" length="-1" name="newColumn" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="newColumn1" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    <metadata connector="FLOW" label="shipping" name="shipping">
+      <column comment="" key="false" length="255" name="origine" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="time_extract" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="order_sfcc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="order_erp" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="site_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="order_date" nullable="true" pattern="&quot;dd/MM/yyy HH:mm:ss&quot;" precision="-1" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="customer_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="location_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Product_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="order_qty" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="currency_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="net_price_ttc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="net_price_ht" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="prix_base_ttc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="prix_base_ht" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="promo_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="vat_rate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="credit_note" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="net_price_cur_ttc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="net_price_cur_ht" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="prix_base_cur_ttc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="prix_base_cur_ht" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="currency_curr_id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" label="outTEST" name="outTEST">
       <column comment="" key="false" length="-1" name="value" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="attribute_id" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="value_1" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="attribute_id2" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendXMLMap:XmlMapData">
       <inputTrees lookupMode="LOAD_ONCE" matchingMode="ALL_ROWS" name="row1">
@@ -477,11 +523,11 @@
             <children defaultValue="http://www.demandware.com/xml/impex/order/2006-10-31" name="(default)" nodeType="NAME_SPACE" type="id_String" xpath="row1.order:/orders/xmlns:"/>
             <children main="true" name="order" optional="true" type="id_String" xpath="row1.order:/orders/order">
               <children name="mode" nodeType="ATTRIBUT" type="id_String" xpath="row1.order:/orders/order/@mode"/>
-              <children name="order-no" nodeType="ATTRIBUT" outgoingConnections="//@node.2/@nodeData/@connections.0 //@node.2/@nodeData/@connections.1 //@node.2/@nodeData/@connections.2" type="id_String" xpath="row1.order:/orders/order/@order-no"/>
-              <children name="order-date" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.3 //@node.2/@nodeData/@connections.4 //@node.2/@nodeData/@connections.5" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss.SSS'Z'&quot;" type="id_Date" xpath="row1.order:/orders/order/order-date"/>
+              <children name="order-no" nodeType="ATTRIBUT" outgoingConnections="//@node.2/@nodeData/@connections.0 //@node.2/@nodeData/@connections.1 //@node.2/@nodeData/@connections.2 //@node.2/@nodeData/@connections.69" type="id_String" xpath="row1.order:/orders/order/@order-no"/>
+              <children name="order-date" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.3 //@node.2/@nodeData/@connections.4 //@node.2/@nodeData/@connections.5 //@node.2/@nodeData/@connections.71" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss.SSS'Z'&quot;" type="id_Date" xpath="row1.order:/orders/order/order-date"/>
               <children name="created-by" optional="true" type="id_String" xpath="row1.order:/orders/order/created-by"/>
               <children name="original-order-no" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.6" type="id_String" xpath="row1.order:/orders/order/original-order-no"/>
-              <children name="currency" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.7 //@node.2/@nodeData/@connections.8" type="id_String" xpath="row1.order:/orders/order/currency"/>
+              <children name="currency" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.7 //@node.2/@nodeData/@connections.8 //@node.2/@nodeData/@connections.78" type="id_String" xpath="row1.order:/orders/order/currency"/>
               <children name="customer-locale" optional="true" type="id_String" xpath="row1.order:/orders/order/customer-locale"/>
               <children name="taxation" optional="true" type="id_String" xpath="row1.order:/orders/order/taxation"/>
               <children name="source-code" optional="true" type="id_String" xpath="row1.order:/orders/order/source-code">
@@ -490,29 +536,29 @@
               </children>
               <children name="affiliate-partner-name" optional="true" type="id_String" xpath="row1.order:/orders/order/affiliate-partner-name"/>
               <children name="affiliate-partner-id" optional="true" type="id_String" xpath="row1.order:/orders/order/affiliate-partner-id"/>
-              <children name="invoice-no" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.53 //@node.2/@nodeData/@connections.54 //@node.2/@nodeData/@connections.55" type="id_String" xpath="row1.order:/orders/order/invoice-no"/>
+              <children name="invoice-no" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.49 //@node.2/@nodeData/@connections.50 //@node.2/@nodeData/@connections.51 //@node.2/@nodeData/@connections.70" type="id_String" xpath="row1.order:/orders/order/invoice-no"/>
               <children name="customer" optional="true" type="id_String" xpath="row1.order:/orders/order/customer">
                 <children name="guest" optional="true" type="id_Boolean" xpath="row1.order:/orders/order/customer/guest"/>
-                <children name="customer-no" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.9 //@node.2/@nodeData/@connections.10" type="id_String" xpath="row1.order:/orders/order/customer/customer-no"/>
+                <children name="customer-no" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.9 //@node.2/@nodeData/@connections.10 //@node.2/@nodeData/@connections.72" type="id_String" xpath="row1.order:/orders/order/customer/customer-no"/>
                 <children name="customer-name" optional="true" type="id_String" xpath="row1.order:/orders/order/customer/customer-name"/>
                 <children name="customer-email" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.11 //@node.2/@nodeData/@connections.12" type="id_String" xpath="row1.order:/orders/order/customer/customer-email"/>
                 <children name="billing-address" optional="true" type="id_String" xpath="row1.order:/orders/order/customer/billing-address">
                   <children name="salutation" optional="true" type="id_String" xpath="row1.order:/orders/order/customer/billing-address/salutation"/>
                   <children name="title" optional="true" type="id_String" xpath="row1.order:/orders/order/customer/billing-address/title"/>
-                  <children name="first-name" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.58" type="id_String" xpath="row1.order:/orders/order/customer/billing-address/first-name"/>
+                  <children name="first-name" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.54" type="id_String" xpath="row1.order:/orders/order/customer/billing-address/first-name"/>
                   <children name="second-name" optional="true" type="id_String" xpath="row1.order:/orders/order/customer/billing-address/second-name"/>
-                  <children name="last-name" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.59" type="id_String" xpath="row1.order:/orders/order/customer/billing-address/last-name"/>
+                  <children name="last-name" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.55" type="id_String" xpath="row1.order:/orders/order/customer/billing-address/last-name"/>
                   <children name="suffix" optional="true" type="id_String" xpath="row1.order:/orders/order/customer/billing-address/suffix"/>
                   <children name="company-name" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.13" type="id_String" xpath="row1.order:/orders/order/customer/billing-address/company-name"/>
                   <children name="job-title" optional="true" type="id_String" xpath="row1.order:/orders/order/customer/billing-address/job-title"/>
-                  <children name="address1" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.52" type="id_String" xpath="row1.order:/orders/order/customer/billing-address/address1"/>
+                  <children name="address1" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.48" type="id_String" xpath="row1.order:/orders/order/customer/billing-address/address1"/>
                   <children name="address2" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.14" type="id_String" xpath="row1.order:/orders/order/customer/billing-address/address2"/>
                   <children name="suite" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.15" type="id_String" xpath="row1.order:/orders/order/customer/billing-address/suite"/>
                   <children name="postbox" optional="true" type="id_String" xpath="row1.order:/orders/order/customer/billing-address/postbox"/>
                   <children name="city" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.16" type="id_String" xpath="row1.order:/orders/order/customer/billing-address/city"/>
                   <children name="postal-code" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.17" type="id_String" xpath="row1.order:/orders/order/customer/billing-address/postal-code"/>
                   <children name="state-code" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.18" type="id_String" xpath="row1.order:/orders/order/customer/billing-address/state-code"/>
-                  <children name="country-code" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.19 //@node.2/@nodeData/@connections.43" type="id_String" xpath="row1.order:/orders/order/customer/billing-address/country-code"/>
+                  <children name="country-code" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.19 //@node.2/@nodeData/@connections.42" type="id_String" xpath="row1.order:/orders/order/customer/billing-address/country-code"/>
                   <children name="phone" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.20" type="id_String" xpath="row1.order:/orders/order/customer/billing-address/phone"/>
                   <children name="custom-attributes" optional="true" type="id_String" xpath="row1.order:/orders/order/customer/billing-address/custom-attributes">
                     <children name="custom-attribute" optional="true" type="id_String" xpath="row1.order:/orders/order/customer/billing-address/custom-attributes/custom-attribute">
@@ -527,8 +573,8 @@
               <children name="status" optional="true" type="id_String" xpath="row1.order:/orders/order/status">
                 <children name="order-status" optional="true" type="id_String" xpath="row1.order:/orders/order/status/order-status"/>
                 <children name="shipping-status" optional="true" type="id_String" xpath="row1.order:/orders/order/status/shipping-status"/>
-                <children name="confirmation-status" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.60" type="id_String" xpath="row1.order:/orders/order/status/confirmation-status"/>
-                <children name="payment-status" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.44" type="id_String" xpath="row1.order:/orders/order/status/payment-status"/>
+                <children name="confirmation-status" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.56" type="id_String" xpath="row1.order:/orders/order/status/confirmation-status"/>
+                <children name="payment-status" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.43" type="id_String" xpath="row1.order:/orders/order/status/payment-status"/>
                 <children name="export-status" optional="true" type="id_String" xpath="row1.order:/orders/order/status/export-status"/>
               </children>
               <children name="business-type" optional="true" type="id_String" xpath="row1.order:/orders/order/business-type"/>
@@ -541,15 +587,15 @@
               <children name="cancel-code" optional="true" type="id_String" xpath="row1.order:/orders/order/cancel-code"/>
               <children name="cancel-description" optional="true" type="id_String" xpath="row1.order:/orders/order/cancel-description"/>
               <children main="true" name="product-lineitems" optional="true" type="id_String" xpath="row1.order:/orders/order/product-lineitems">
-                <children loop="true" main="true" name="product-lineitem" optional="true" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem">
-                  <children name="net-price" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.47" type="id_BigDecimal" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/net-price"/>
-                  <children name="tax" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.50" type="id_BigDecimal" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/tax"/>
-                  <children name="gross-price" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.46" type="id_BigDecimal" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/gross-price"/>
-                  <children name="base-price" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.48 //@node.2/@nodeData/@connections.49" type="id_BigDecimal" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/base-price"/>
+                <children main="true" name="product-lineitem" optional="true" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem">
+                  <children name="net-price" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.60" type="id_BigDecimal" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/net-price"/>
+                  <children name="tax" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.46" type="id_BigDecimal" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/tax"/>
+                  <children name="gross-price" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.59" type="id_BigDecimal" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/gross-price"/>
+                  <children name="base-price" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.45 //@node.2/@nodeData/@connections.61" type="id_BigDecimal" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/base-price"/>
                   <children name="lineitem-text" optional="true" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/lineitem-text"/>
                   <children name="tax-basis" optional="true" type="id_BigDecimal" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/tax-basis"/>
                   <children name="position" optional="true" type="id_BigDecimal" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/position"/>
-                  <children name="product-id" outgoingConnections="//@node.2/@nodeData/@connections.21" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/product-id"/>
+                  <children loop="true" main="true" name="product-id" outgoingConnections="//@node.2/@nodeData/@connections.21" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/product-id"/>
                   <children name="product-name" optional="true" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/product-name"/>
                   <children name="quantity" outgoingConnections="//@node.2/@nodeData/@connections.22" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/quantity">
                     <children name="unit" nodeType="ATTRIBUT" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/quantity/@unit"/>
@@ -638,7 +684,7 @@
                         <children name="custom-attribute" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/bundled-product-lineitems/bundled-product-lineitem/custom-attributes/custom-attribute">
                           <children name="attribute-id" nodeType="ATTRIBUT" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/bundled-product-lineitems/bundled-product-lineitem/custom-attributes/custom-attribute/@attribute-id"/>
                           <children name="lang" nodeType="ATTRIBUT" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/bundled-product-lineitems/bundled-product-lineitem/custom-attributes/custom-attribute/@lang"/>
-                          <children name="value" optional="true" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/bundled-product-lineitems/bundled-product-lineitem/custom-attributes/custom-attribute/value"/>
+                          <children name="value" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.91" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/bundled-product-lineitems/bundled-product-lineitem/custom-attributes/custom-attribute/value"/>
                         </children>
                       </children>
                     </children>
@@ -707,20 +753,20 @@
                   <children name="external-line-item-text" optional="true" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/external-line-item-text"/>
                   <children name="custom-attributes" optional="true" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/custom-attributes">
                     <children name="custom-attribute" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/custom-attributes/custom-attribute">
-                      <children name="attribute-id" nodeType="ATTRIBUT" outgoingConnections="//@node.2/@nodeData/@connections.65" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/custom-attributes/custom-attribute/@attribute-id"/>
+                      <children name="attribute-id" nodeType="ATTRIBUT" outgoingConnections="//@node.2/@nodeData/@connections.92 //@node.2/@nodeData/@connections.93" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/custom-attributes/custom-attribute/@attribute-id"/>
                       <children name="lang" nodeType="ATTRIBUT" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/custom-attributes/custom-attribute/@lang"/>
-                      <children name="value" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.64" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/custom-attributes/custom-attribute/value"/>
+                      <children name="value" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.105" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/custom-attributes/custom-attribute/value"/>
                     </children>
                   </children>
                   <children name="price-adjustments" optional="true" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments">
                     <children name="price-adjustment" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment">
-                      <children name="net-price" type="id_BigDecimal" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment/net-price"/>
-                      <children name="tax" type="id_BigDecimal" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment/tax"/>
-                      <children name="gross-price" type="id_BigDecimal" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment/gross-price"/>
-                      <children name="base-price" type="id_BigDecimal" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment/base-price"/>
+                      <children name="net-price" outgoingConnections="//@node.2/@nodeData/@connections.100" type="id_BigDecimal" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment/net-price"/>
+                      <children name="tax" outgoingConnections="//@node.2/@nodeData/@connections.103" type="id_BigDecimal" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment/tax"/>
+                      <children name="gross-price" outgoingConnections="//@node.2/@nodeData/@connections.97" type="id_BigDecimal" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment/gross-price"/>
+                      <children name="base-price" outgoingConnections="//@node.2/@nodeData/@connections.65" type="id_BigDecimal" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment/base-price"/>
                       <children name="lineitem-text" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment/lineitem-text"/>
                       <children name="tax-basis" type="id_BigDecimal" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment/tax-basis"/>
-                      <children name="promotion-id" outgoingConnections="//@node.2/@nodeData/@connections.24" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment/promotion-id"/>
+                      <children name="promotion-id" outgoingConnections="//@node.2/@nodeData/@connections.95" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment/promotion-id"/>
                       <children name="coupon-id" optional="true" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment/coupon-id"/>
                       <children name="reason-code" optional="true" type="id_String" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment/reason-code"/>
                       <children name="manual" optional="true" type="id_Boolean" xpath="row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment/manual"/>
@@ -785,10 +831,10 @@
               </children>
               <children name="shipping-lineitems" optional="true" type="id_String" xpath="row1.order:/orders/order/shipping-lineitems">
                 <children name="shipping-lineitem" optional="true" type="id_String" xpath="row1.order:/orders/order/shipping-lineitems/shipping-lineitem">
-                  <children name="net-price" type="id_BigDecimal" xpath="row1.order:/orders/order/shipping-lineitems/shipping-lineitem/net-price"/>
-                  <children name="tax" type="id_BigDecimal" xpath="row1.order:/orders/order/shipping-lineitems/shipping-lineitem/tax"/>
-                  <children name="gross-price" type="id_BigDecimal" xpath="row1.order:/orders/order/shipping-lineitems/shipping-lineitem/gross-price"/>
-                  <children name="base-price" type="id_BigDecimal" xpath="row1.order:/orders/order/shipping-lineitems/shipping-lineitem/base-price"/>
+                  <children name="net-price" outgoingConnections="//@node.2/@nodeData/@connections.79" type="id_BigDecimal" xpath="row1.order:/orders/order/shipping-lineitems/shipping-lineitem/net-price"/>
+                  <children name="tax" outgoingConnections="//@node.2/@nodeData/@connections.82" type="id_BigDecimal" xpath="row1.order:/orders/order/shipping-lineitems/shipping-lineitem/tax"/>
+                  <children name="gross-price" outgoingConnections="//@node.2/@nodeData/@connections.80" type="id_BigDecimal" xpath="row1.order:/orders/order/shipping-lineitems/shipping-lineitem/gross-price"/>
+                  <children name="base-price" outgoingConnections="//@node.2/@nodeData/@connections.81 //@node.2/@nodeData/@connections.83" type="id_BigDecimal" xpath="row1.order:/orders/order/shipping-lineitems/shipping-lineitem/base-price"/>
                   <children name="lineitem-text" type="id_String" xpath="row1.order:/orders/order/shipping-lineitems/shipping-lineitem/lineitem-text"/>
                   <children name="tax-basis" type="id_BigDecimal" xpath="row1.order:/orders/order/shipping-lineitems/shipping-lineitem/tax-basis"/>
                   <children name="price-adjustments" optional="true" type="id_String" xpath="row1.order:/orders/order/shipping-lineitems/shipping-lineitem/price-adjustments">
@@ -838,7 +884,7 @@
                   </children>
                   <children name="item-id" optional="true" type="id_String" xpath="row1.order:/orders/order/shipping-lineitems/shipping-lineitem/item-id"/>
                   <children name="shipment-id" optional="true" type="id_String" xpath="row1.order:/orders/order/shipping-lineitems/shipping-lineitem/shipment-id"/>
-                  <children name="tax-rate" type="id_Double" xpath="row1.order:/orders/order/shipping-lineitems/shipping-lineitem/tax-rate"/>
+                  <children name="tax-rate" outgoingConnections="//@node.2/@nodeData/@connections.84" type="id_Double" xpath="row1.order:/orders/order/shipping-lineitems/shipping-lineitem/tax-rate"/>
                   <children name="custom-attributes" optional="true" type="id_String" xpath="row1.order:/orders/order/shipping-lineitems/shipping-lineitem/custom-attributes">
                     <children name="custom-attribute" type="id_String" xpath="row1.order:/orders/order/shipping-lineitems/shipping-lineitem/custom-attributes/custom-attribute">
                       <children name="attribute-id" nodeType="ATTRIBUT" type="id_String" xpath="row1.order:/orders/order/shipping-lineitems/shipping-lineitem/custom-attributes/custom-attribute/@attribute-id"/>
@@ -854,26 +900,26 @@
                   <children name="status" optional="true" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/status">
                     <children name="shipping-status" optional="true" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/status/shipping-status"/>
                   </children>
-                  <children name="shipping-method" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.25" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-method"/>
+                  <children name="shipping-method" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.24" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-method"/>
                   <children name="tracking-number" optional="true" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/tracking-number"/>
                   <children name="shipping-address" optional="true" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address">
                     <children name="salutation" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/salutation"/>
                     <children name="title" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/title"/>
-                    <children name="first-name" outgoingConnections="//@node.2/@nodeData/@connections.56" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/first-name"/>
+                    <children name="first-name" outgoingConnections="//@node.2/@nodeData/@connections.52" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/first-name"/>
                     <children name="second-name" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/second-name"/>
-                    <children name="last-name" outgoingConnections="//@node.2/@nodeData/@connections.57" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/last-name"/>
+                    <children name="last-name" outgoingConnections="//@node.2/@nodeData/@connections.53" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/last-name"/>
                     <children name="suffix" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/suffix"/>
-                    <children name="company-name" outgoingConnections="//@node.2/@nodeData/@connections.26" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/company-name"/>
+                    <children name="company-name" outgoingConnections="//@node.2/@nodeData/@connections.25" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/company-name"/>
                     <children name="job-title" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/job-title"/>
-                    <children name="address1" outgoingConnections="//@node.2/@nodeData/@connections.27" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/address1"/>
-                    <children name="address2" outgoingConnections="//@node.2/@nodeData/@connections.28" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/address2"/>
-                    <children name="suite" outgoingConnections="//@node.2/@nodeData/@connections.29" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/suite"/>
+                    <children name="address1" outgoingConnections="//@node.2/@nodeData/@connections.26" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/address1"/>
+                    <children name="address2" outgoingConnections="//@node.2/@nodeData/@connections.27" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/address2"/>
+                    <children name="suite" outgoingConnections="//@node.2/@nodeData/@connections.28" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/suite"/>
                     <children name="postbox" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/postbox"/>
-                    <children name="city" outgoingConnections="//@node.2/@nodeData/@connections.30" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/city"/>
-                    <children name="postal-code" outgoingConnections="//@node.2/@nodeData/@connections.31" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/postal-code"/>
-                    <children name="state-code" outgoingConnections="//@node.2/@nodeData/@connections.32" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/state-code"/>
-                    <children name="country-code" outgoingConnections="//@node.2/@nodeData/@connections.33" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/country-code"/>
-                    <children name="phone" outgoingConnections="//@node.2/@nodeData/@connections.34" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/phone"/>
+                    <children name="city" outgoingConnections="//@node.2/@nodeData/@connections.29" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/city"/>
+                    <children name="postal-code" outgoingConnections="//@node.2/@nodeData/@connections.30" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/postal-code"/>
+                    <children name="state-code" outgoingConnections="//@node.2/@nodeData/@connections.31" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/state-code"/>
+                    <children name="country-code" outgoingConnections="//@node.2/@nodeData/@connections.32" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/country-code"/>
+                    <children name="phone" outgoingConnections="//@node.2/@nodeData/@connections.33" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/phone"/>
                     <children name="custom-attributes" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/custom-attributes">
                       <children name="custom-attribute" optional="true" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/custom-attributes/custom-attribute">
                         <children name="attribute-id" nodeType="ATTRIBUT" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/shipping-address/custom-attributes/custom-attribute/@attribute-id"/>
@@ -897,7 +943,7 @@
                           <children name="base-price" type="id_BigDecimal" xpath="row1.order:/orders/order/shipments/shipment/totals/merchandize-total/price-adjustments/price-adjustment/base-price"/>
                           <children name="lineitem-text" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/totals/merchandize-total/price-adjustments/price-adjustment/lineitem-text"/>
                           <children name="tax-basis" type="id_BigDecimal" xpath="row1.order:/orders/order/shipments/shipment/totals/merchandize-total/price-adjustments/price-adjustment/tax-basis"/>
-                          <children name="promotion-id" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/totals/merchandize-total/price-adjustments/price-adjustment/promotion-id"/>
+                          <children name="promotion-id" outgoingConnections="//@node.2/@nodeData/@connections.94" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/totals/merchandize-total/price-adjustments/price-adjustment/promotion-id"/>
                           <children name="coupon-id" optional="true" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/totals/merchandize-total/price-adjustments/price-adjustment/coupon-id"/>
                           <children name="reason-code" optional="true" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/totals/merchandize-total/price-adjustments/price-adjustment/reason-code"/>
                           <children name="manual" optional="true" type="id_Boolean" xpath="row1.order:/orders/order/shipments/shipment/totals/merchandize-total/price-adjustments/price-adjustment/manual"/>
@@ -1138,9 +1184,9 @@
                   </children>
                   <children name="custom-attributes" optional="true" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/custom-attributes">
                     <children name="custom-attribute" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/custom-attributes/custom-attribute">
-                      <children name="attribute-id" nodeType="ATTRIBUT" outgoingConnections="//@node.2/@nodeData/@connections.62 //@node.2/@nodeData/@connections.68" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/custom-attributes/custom-attribute/@attribute-id"/>
+                      <children name="attribute-id" nodeType="ATTRIBUT" outgoingConnections="//@node.2/@nodeData/@connections.58" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/custom-attributes/custom-attribute/@attribute-id"/>
                       <children name="lang" nodeType="ATTRIBUT" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/custom-attributes/custom-attribute/@lang"/>
-                      <children name="value" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.63" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/custom-attributes/custom-attribute/value"/>
+                      <children name="value" optional="true" type="id_String" xpath="row1.order:/orders/order/shipments/shipment/custom-attributes/custom-attribute/value"/>
                     </children>
                   </children>
                 </children>
@@ -1152,9 +1198,9 @@
                   <children name="gross-price" type="id_BigDecimal" xpath="row1.order:/orders/order/totals/merchandize-total/gross-price"/>
                   <children name="price-adjustments" type="id_String" xpath="row1.order:/orders/order/totals/merchandize-total/price-adjustments">
                     <children name="price-adjustment" type="id_String" xpath="row1.order:/orders/order/totals/merchandize-total/price-adjustments/price-adjustment">
-                      <children name="net-price" type="id_BigDecimal" xpath="row1.order:/orders/order/totals/merchandize-total/price-adjustments/price-adjustment/net-price"/>
-                      <children name="tax" type="id_BigDecimal" xpath="row1.order:/orders/order/totals/merchandize-total/price-adjustments/price-adjustment/tax"/>
-                      <children name="gross-price" type="id_BigDecimal" xpath="row1.order:/orders/order/totals/merchandize-total/price-adjustments/price-adjustment/gross-price"/>
+                      <children name="net-price" outgoingConnections="//@node.2/@nodeData/@connections.99" type="id_BigDecimal" xpath="row1.order:/orders/order/totals/merchandize-total/price-adjustments/price-adjustment/net-price"/>
+                      <children name="tax" outgoingConnections="//@node.2/@nodeData/@connections.104" type="id_BigDecimal" xpath="row1.order:/orders/order/totals/merchandize-total/price-adjustments/price-adjustment/tax"/>
+                      <children name="gross-price" outgoingConnections="//@node.2/@nodeData/@connections.98" type="id_BigDecimal" xpath="row1.order:/orders/order/totals/merchandize-total/price-adjustments/price-adjustment/gross-price"/>
                       <children name="base-price" type="id_BigDecimal" xpath="row1.order:/orders/order/totals/merchandize-total/price-adjustments/price-adjustment/base-price"/>
                       <children name="lineitem-text" type="id_String" xpath="row1.order:/orders/order/totals/merchandize-total/price-adjustments/price-adjustment/lineitem-text"/>
                       <children name="tax-basis" type="id_BigDecimal" xpath="row1.order:/orders/order/totals/merchandize-total/price-adjustments/price-adjustment/tax-basis"/>
@@ -1399,9 +1445,9 @@
               </children>
               <children name="payments" optional="true" type="id_String" xpath="row1.order:/orders/order/payments">
                 <children name="payment" optional="true" type="id_String" xpath="row1.order:/orders/order/payments/payment">
-                  <children name="amount" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.35" type="id_BigDecimal" xpath="row1.order:/orders/order/payments/payment/amount"/>
-                  <children name="processor-id" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.45" type="id_String" xpath="row1.order:/orders/order/payments/payment/processor-id"/>
-                  <children name="transaction-id" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.36" type="id_String" xpath="row1.order:/orders/order/payments/payment/transaction-id"/>
+                  <children name="amount" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.34" type="id_BigDecimal" xpath="row1.order:/orders/order/payments/payment/amount"/>
+                  <children name="processor-id" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.44" type="id_String" xpath="row1.order:/orders/order/payments/payment/processor-id"/>
+                  <children name="transaction-id" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.35" type="id_String" xpath="row1.order:/orders/order/payments/payment/transaction-id"/>
                   <children name="transaction-type" optional="true" type="id_String" xpath="row1.order:/orders/order/payments/payment/transaction-type"/>
                   <children name="custom-attributes" optional="true" type="id_String" xpath="row1.order:/orders/order/payments/payment/custom-attributes">
                     <children name="custom-attribute" type="id_String" xpath="row1.order:/orders/order/payments/payment/custom-attributes/custom-attribute">
@@ -1413,7 +1459,7 @@
                   <children name="ek-id" optional="true" type="id_Integer" xpath="row1.order:/orders/order/payments/payment/ek-id"/>
                   <children choice="true" name="payment(choice)" optional="true" type="id_String" xpath="row1.order:/orders/order/payments/payment/payment(choice)">
                     <children name="credit-card" type="id_String" xpath="row1.order:/orders/order/payments/payment/credit-card">
-                      <children name="card-type" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.61" type="id_String" xpath="row1.order:/orders/order/payments/payment/credit-card/card-type"/>
+                      <children name="card-type" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.57" type="id_String" xpath="row1.order:/orders/order/payments/payment/credit-card/card-type"/>
                       <children name="card-number" optional="true" type="id_String" xpath="row1.order:/orders/order/payments/payment/credit-card/card-number"/>
                       <children name="card-holder" optional="true" type="id_String" xpath="row1.order:/orders/order/payments/payment/credit-card/card-holder"/>
                       <children name="card-token" optional="true" type="id_String" xpath="row1.order:/orders/order/payments/payment/credit-card/card-token"/>
@@ -1509,47 +1555,47 @@
                 </children>
               </children>
               <children name="external-order-no" optional="true" type="id_String" xpath="row1.order:/orders/order/external-order-no"/>
-              <children name="external-order-status" optional="true" type="id_String" xpath="row1.order:/orders/order/external-order-status"/>
+              <children filterOutGoingConnections="//@node.2/@nodeData/@connections.66" name="external-order-status" optional="true" type="id_String" xpath="row1.order:/orders/order/external-order-status"/>
               <children name="external-order-text" optional="true" type="id_String" xpath="row1.order:/orders/order/external-order-text"/>
               <children name="place-date" optional="true" pattern="&quot;dd-MM-yyyy&quot;" type="id_Date" xpath="row1.order:/orders/order/place-date"/>
               <children name="custom-attributes" optional="true" type="id_String" xpath="row1.order:/orders/order/custom-attributes">
                 <children name="custom-attribute" type="id_String" xpath="row1.order:/orders/order/custom-attributes/custom-attribute">
-                  <children name="attribute-id" nodeType="ATTRIBUT" outgoingConnections="//@node.2/@nodeData/@connections.67" type="id_String" xpath="row1.order:/orders/order/custom-attributes/custom-attribute/@attribute-id"/>
+                  <children name="attribute-id" nodeType="ATTRIBUT" type="id_String" xpath="row1.order:/orders/order/custom-attributes/custom-attribute/@attribute-id"/>
                   <children name="lang" nodeType="ATTRIBUT" type="id_String" xpath="row1.order:/orders/order/custom-attributes/custom-attribute/@lang"/>
-                  <children name="value" optional="true" outgoingConnections="//@node.2/@nodeData/@connections.66" type="id_String" xpath="row1.order:/orders/order/custom-attributes/custom-attribute/value"/>
+                  <children name="value" optional="true" type="id_String" xpath="row1.order:/orders/order/custom-attributes/custom-attribute/value"/>
                 </children>
               </children>
             </children>
           </children>
         </nodes>
       </inputTrees>
-      <outputTrees activateExpressionFilter="true" expressionFilter="" name="headers">
-        <nodes expression="&quot;PK_SFC&quot;" name="origine" type="id_String" xpath="headers/origine"/>
-        <nodes expression=" Var.time_extract" incomingConnections="//@node.2/@nodeData/@connections.37" name="time_extract" type="id_String" xpath="headers/time_extract"/>
+      <outputTrees activateExpressionFilter="true" expressionFilter="Relational.ISNULL([row1.order:/orders/order/external-order-status])||[row1.order:/orders/order/external-order-status].equals(&quot;&quot;)" filterIncomingConnections="//@node.2/@nodeData/@connections.66" name="headers">
+        <nodes expression="context.BRAND + &quot;_SFC&quot;" name="origine" type="id_String" xpath="headers/origine"/>
+        <nodes expression=" Var.time_extract" incomingConnections="//@node.2/@nodeData/@connections.36" name="time_extract" type="id_String" xpath="headers/time_extract"/>
         <nodes expression="[row1.order:/orders/order/original-order-no] " incomingConnections="//@node.2/@nodeData/@connections.6" name="order_sfcc" type="id_String" xpath="headers/order_sfcc"/>
-        <nodes expression=" [row1.order:/orders/order/invoice-no]" incomingConnections="//@node.2/@nodeData/@connections.53" name="order_erp" type="id_String" xpath="headers/order_erp"/>
-        <nodes expression=" Var.site_id" incomingConnections="//@node.2/@nodeData/@connections.41" name="site_id" type="id_String" xpath="headers/site_id"/>
+        <nodes expression=" [row1.order:/orders/order/invoice-no]" incomingConnections="//@node.2/@nodeData/@connections.49" name="order_erp" type="id_String" xpath="headers/order_erp"/>
+        <nodes expression=" Var.site_id" incomingConnections="//@node.2/@nodeData/@connections.40" name="site_id" type="id_String" xpath="headers/site_id"/>
         <nodes expression="[row1.order:/orders/order/order-date]" incomingConnections="//@node.2/@nodeData/@connections.3" name="order_date" pattern="&quot;dd/MM/yyy HH:mm:ss&quot;" type="id_Date" xpath="headers/order_date"/>
         <nodes expression="[row1.order:/orders/order/customer/customer-no]" incomingConnections="//@node.2/@nodeData/@connections.9" name="customer_id" type="id_String" xpath="headers/customer_id"/>
         <nodes expression="" name="location_id" type="id_String" xpath="headers/location_id"/>
-        <nodes expression="[row1.order:/orders/order/shipments/shipment/shipping-method]" incomingConnections="//@node.2/@nodeData/@connections.25" name="transport_id" type="id_String" xpath="headers/transport_id"/>
-        <nodes expression="!Relational.ISNULL([row1.order:/orders/order/shipments/shipment/custom-attributes/custom-attribute/@attribute-id])&amp;&amp;[row1.order:/orders/order/shipments/shipment/custom-attributes/custom-attribute/@attribute-id].equals(&quot;fromChronopostPickupLocationId&quot;)?&quot;fromChronopostPickupLocationId&quot;:&quot;&quot; " incomingConnections="//@node.2/@nodeData/@connections.68" name="fromPickupLocationId" pattern="" type="id_String" xpath="headers/fromPickupLocationId"/>
-        <nodes expression="[row1.order:/orders/order/shipments/shipment/shipping-address/first-name] " incomingConnections="//@node.2/@nodeData/@connections.56" name="liv_firstname" type="id_String" xpath="headers/liv_firstname"/>
-        <nodes expression="[row1.order:/orders/order/shipments/shipment/shipping-address/last-name] " incomingConnections="//@node.2/@nodeData/@connections.57" name="liv_lastname" pattern="" type="id_String" xpath="headers/liv_lastname"/>
-        <nodes expression="[row1.order:/orders/order/shipments/shipment/shipping-address/company-name] " incomingConnections="//@node.2/@nodeData/@connections.26" name="liv_companyName" pattern="" type="id_String" xpath="headers/liv_companyName"/>
-        <nodes expression="[row1.order:/orders/order/shipments/shipment/shipping-address/address1]" incomingConnections="//@node.2/@nodeData/@connections.27" name="liv_adr1" type="id_String" xpath="headers/liv_adr1"/>
-        <nodes expression="[row1.order:/orders/order/shipments/shipment/shipping-address/address2] " incomingConnections="//@node.2/@nodeData/@connections.28" name="liv_adr2" type="id_String" xpath="headers/liv_adr2"/>
-        <nodes expression="[row1.order:/orders/order/shipments/shipment/shipping-address/suite] " incomingConnections="//@node.2/@nodeData/@connections.29" name="liv_adr3" type="id_String" xpath="headers/liv_adr3"/>
-        <nodes expression="[row1.order:/orders/order/shipments/shipment/shipping-address/postal-code]" incomingConnections="//@node.2/@nodeData/@connections.31" name="liv_zipcode" type="id_String" xpath="headers/liv_zipcode"/>
-        <nodes expression="[row1.order:/orders/order/shipments/shipment/shipping-address/city]" incomingConnections="//@node.2/@nodeData/@connections.30" name="liv_town" type="id_String" xpath="headers/liv_town"/>
-        <nodes expression="[row1.order:/orders/order/shipments/shipment/shipping-address/country-code]" incomingConnections="//@node.2/@nodeData/@connections.33" name="liv_country" type="id_String" xpath="headers/liv_country"/>
+        <nodes expression="[row1.order:/orders/order/shipments/shipment/shipping-method]" incomingConnections="//@node.2/@nodeData/@connections.24" name="transport_id" type="id_String" xpath="headers/transport_id"/>
+        <nodes expression="!Relational.ISNULL([row1.order:/orders/order/shipments/shipment/custom-attributes/custom-attribute/@attribute-id])&amp;&amp;[row1.order:/orders/order/shipments/shipment/custom-attributes/custom-attribute/@attribute-id].equals(&quot;fromChronopostPickupLocationId&quot;)?&quot;fromChronopostPickupLocationId&quot;:&quot;&quot; " incomingConnections="//@node.2/@nodeData/@connections.58" name="fromPickupLocationId" pattern="" type="id_String" xpath="headers/fromPickupLocationId"/>
+        <nodes expression="[row1.order:/orders/order/shipments/shipment/shipping-address/first-name] " incomingConnections="//@node.2/@nodeData/@connections.52" name="liv_firstname" type="id_String" xpath="headers/liv_firstname"/>
+        <nodes expression="[row1.order:/orders/order/shipments/shipment/shipping-address/last-name] " incomingConnections="//@node.2/@nodeData/@connections.53" name="liv_lastname" pattern="" type="id_String" xpath="headers/liv_lastname"/>
+        <nodes expression="[row1.order:/orders/order/shipments/shipment/shipping-address/company-name] " incomingConnections="//@node.2/@nodeData/@connections.25" name="liv_companyName" pattern="" type="id_String" xpath="headers/liv_companyName"/>
+        <nodes expression="[row1.order:/orders/order/shipments/shipment/shipping-address/address1]" incomingConnections="//@node.2/@nodeData/@connections.26" name="liv_adr1" type="id_String" xpath="headers/liv_adr1"/>
+        <nodes expression="[row1.order:/orders/order/shipments/shipment/shipping-address/address2] " incomingConnections="//@node.2/@nodeData/@connections.27" name="liv_adr2" type="id_String" xpath="headers/liv_adr2"/>
+        <nodes expression="[row1.order:/orders/order/shipments/shipment/shipping-address/suite] " incomingConnections="//@node.2/@nodeData/@connections.28" name="liv_adr3" type="id_String" xpath="headers/liv_adr3"/>
+        <nodes expression="[row1.order:/orders/order/shipments/shipment/shipping-address/postal-code]" incomingConnections="//@node.2/@nodeData/@connections.30" name="liv_zipcode" type="id_String" xpath="headers/liv_zipcode"/>
+        <nodes expression="[row1.order:/orders/order/shipments/shipment/shipping-address/city]" incomingConnections="//@node.2/@nodeData/@connections.29" name="liv_town" type="id_String" xpath="headers/liv_town"/>
+        <nodes expression="[row1.order:/orders/order/shipments/shipment/shipping-address/country-code]" incomingConnections="//@node.2/@nodeData/@connections.32" name="liv_country" type="id_String" xpath="headers/liv_country"/>
         <nodes expression="[row1.order:/orders/order/customer/customer-email]" incomingConnections="//@node.2/@nodeData/@connections.11" name="liv_email" type="id_String" xpath="headers/liv_email"/>
-        <nodes expression="[row1.order:/orders/order/shipments/shipment/shipping-address/phone]" incomingConnections="//@node.2/@nodeData/@connections.34" name="liv_phone" type="id_String" xpath="headers/liv_phone"/>
-        <nodes expression="[row1.order:/orders/order/shipments/shipment/shipping-address/state-code] " incomingConnections="//@node.2/@nodeData/@connections.32" name="liv_area" type="id_String" xpath="headers/liv_area"/>
-        <nodes expression="[row1.order:/orders/order/customer/billing-address/first-name] " incomingConnections="//@node.2/@nodeData/@connections.58" name="fac_firstname" type="id_String" xpath="headers/fac_firstname"/>
-        <nodes expression="[row1.order:/orders/order/customer/billing-address/last-name] " incomingConnections="//@node.2/@nodeData/@connections.59" name="fac_lastname" pattern="" type="id_String" xpath="headers/fac_lastname"/>
+        <nodes expression="[row1.order:/orders/order/shipments/shipment/shipping-address/phone]" incomingConnections="//@node.2/@nodeData/@connections.33" name="liv_phone" type="id_String" xpath="headers/liv_phone"/>
+        <nodes expression="[row1.order:/orders/order/shipments/shipment/shipping-address/state-code] " incomingConnections="//@node.2/@nodeData/@connections.31" name="liv_area" type="id_String" xpath="headers/liv_area"/>
+        <nodes expression="[row1.order:/orders/order/customer/billing-address/first-name] " incomingConnections="//@node.2/@nodeData/@connections.54" name="fac_firstname" type="id_String" xpath="headers/fac_firstname"/>
+        <nodes expression="[row1.order:/orders/order/customer/billing-address/last-name] " incomingConnections="//@node.2/@nodeData/@connections.55" name="fac_lastname" pattern="" type="id_String" xpath="headers/fac_lastname"/>
         <nodes expression="[row1.order:/orders/order/customer/billing-address/company-name] " incomingConnections="//@node.2/@nodeData/@connections.13" name="fac_companyName" pattern="" type="id_String" xpath="headers/fac_companyName"/>
-        <nodes expression=" [row1.order:/orders/order/customer/billing-address/address1]" incomingConnections="//@node.2/@nodeData/@connections.52" name="fac_adr1" type="id_String" xpath="headers/fac_adr1"/>
+        <nodes expression=" [row1.order:/orders/order/customer/billing-address/address1]" incomingConnections="//@node.2/@nodeData/@connections.48" name="fac_adr1" type="id_String" xpath="headers/fac_adr1"/>
         <nodes expression="[row1.order:/orders/order/customer/billing-address/address2] " incomingConnections="//@node.2/@nodeData/@connections.14" name="fac_adr2" type="id_String" xpath="headers/fac_adr2"/>
         <nodes expression="[row1.order:/orders/order/customer/billing-address/suite] " incomingConnections="//@node.2/@nodeData/@connections.15" name="fac_adr3" type="id_String" xpath="headers/fac_adr3"/>
         <nodes expression="[row1.order:/orders/order/customer/billing-address/postal-code]" incomingConnections="//@node.2/@nodeData/@connections.17" name="fac_zipcode" type="id_String" xpath="headers/fac_zipcode"/>
@@ -1558,56 +1604,102 @@
         <nodes expression="[row1.order:/orders/order/customer/customer-email]" incomingConnections="//@node.2/@nodeData/@connections.12" name="fac_email" type="id_String" xpath="headers/fac_email"/>
         <nodes expression="[row1.order:/orders/order/customer/billing-address/phone]" incomingConnections="//@node.2/@nodeData/@connections.20" name="fac_phone" type="id_String" xpath="headers/fac_phone"/>
         <nodes expression="[row1.order:/orders/order/customer/billing-address/state-code] " incomingConnections="//@node.2/@nodeData/@connections.18" name="fac_area" type="id_String" xpath="headers/fac_area"/>
-        <nodes expression=" [row1.order:/orders/order/customer/billing-address/country-code]" incomingConnections="//@node.2/@nodeData/@connections.43" name="geo_zone" type="id_String" xpath="headers/geo_zone"/>
-        <nodes expression="[row1.order:/orders/order/status/confirmation-status]" incomingConnections="//@node.2/@nodeData/@connections.60" name="statut_cmd" type="id_String" xpath="headers/statut_cmd"/>
+        <nodes expression=" [row1.order:/orders/order/customer/billing-address/country-code]" incomingConnections="//@node.2/@nodeData/@connections.42" name="geo_zone" type="id_String" xpath="headers/geo_zone"/>
+        <nodes expression="[row1.order:/orders/order/status/confirmation-status]" incomingConnections="//@node.2/@nodeData/@connections.56" name="statut_cmd" type="id_String" xpath="headers/statut_cmd"/>
       </outputTrees>
       <outputTrees name="lines">
-        <nodes expression="&quot;PK_SFC&quot;" name="origine" type="id_String" xpath="lines/origine"/>
-        <nodes expression=" Var.time_extract" incomingConnections="//@node.2/@nodeData/@connections.38" name="time_extract" type="id_String" xpath="lines/time_extract"/>
+        <nodes expression="context.BRAND + &quot;_SFC&quot;" name="origine" type="id_String" xpath="lines/origine"/>
+        <nodes expression=" Var.time_extract" incomingConnections="//@node.2/@nodeData/@connections.37" name="time_extract" type="id_String" xpath="lines/time_extract"/>
         <nodes expression="[row1.order:/orders/order/@order-no]" incomingConnections="//@node.2/@nodeData/@connections.0" name="order_sfcc" type="id_String" xpath="lines/order_sfcc"/>
-        <nodes expression=" [row1.order:/orders/order/invoice-no]" incomingConnections="//@node.2/@nodeData/@connections.54" name="order_erp" type="id_String" xpath="lines/order_erp"/>
-        <nodes expression=" Var.site_id" incomingConnections="//@node.2/@nodeData/@connections.42" name="site_id" type="id_String" xpath="lines/site_id"/>
+        <nodes expression=" [row1.order:/orders/order/invoice-no]" incomingConnections="//@node.2/@nodeData/@connections.50" name="order_erp" type="id_String" xpath="lines/order_erp"/>
+        <nodes expression=" Var.site_id" incomingConnections="//@node.2/@nodeData/@connections.41" name="site_id" type="id_String" xpath="lines/site_id"/>
         <nodes expression="[row1.order:/orders/order/order-date]" incomingConnections="//@node.2/@nodeData/@connections.4" name="order_date" pattern="&quot;dd/MM/yyy HH:mm:ss&quot;" type="id_Date" xpath="lines/order_date"/>
         <nodes expression="[row1.order:/orders/order/customer/customer-no]" incomingConnections="//@node.2/@nodeData/@connections.10" name="customer_id" type="id_String" xpath="lines/customer_id"/>
         <nodes expression="" name="location_id" type="id_String" xpath="lines/location_id"/>
         <nodes expression="[row1.order:/orders/order/product-lineitems/product-lineitem/product-id]" incomingConnections="//@node.2/@nodeData/@connections.21" name="Product_id" type="id_String" xpath="lines/Product_id"/>
         <nodes expression="[row1.order:/orders/order/product-lineitems/product-lineitem/quantity]" incomingConnections="//@node.2/@nodeData/@connections.22" name="order_qty" type="id_String" xpath="lines/order_qty"/>
         <nodes expression=" [row1.order:/orders/order/currency]" incomingConnections="//@node.2/@nodeData/@connections.7" name="currency_id" type="id_String" xpath="lines/currency_id"/>
-        <nodes expression=" [row1.order:/orders/order/product-lineitems/product-lineitem/gross-price]" incomingConnections="//@node.2/@nodeData/@connections.46" name="net_price_ttc" type="id_BigDecimal" xpath="lines/net_price_ttc"/>
-        <nodes expression=" [row1.order:/orders/order/product-lineitems/product-lineitem/net-price]" incomingConnections="//@node.2/@nodeData/@connections.47" name="net_price_ht" type="id_BigDecimal" xpath="lines/net_price_ht"/>
-        <nodes expression=" Var.prix_base_ht" incomingConnections="//@node.2/@nodeData/@connections.51" name="prix_base_ht" type="id_BigDecimal" xpath="lines/prix_base_ht"/>
-        <nodes expression=" [row1.order:/orders/order/product-lineitems/product-lineitem/base-price]" incomingConnections="//@node.2/@nodeData/@connections.48" name="prix_base_ttc" type="id_BigDecimal" xpath="lines/prix_base_ttc"/>
-        <nodes expression="[row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment/promotion-id]" incomingConnections="//@node.2/@nodeData/@connections.24" name="promo_code" type="id_String" xpath="lines/promo_code"/>
+        <nodes expression=" Var.net_price_ttc" incomingConnections="//@node.2/@nodeData/@connections.62" name="net_price_ttc" type="id_BigDecimal" xpath="lines/net_price_ttc"/>
+        <nodes expression=" Var.net_price_ht" incomingConnections="//@node.2/@nodeData/@connections.63" name="net_price_ht" type="id_BigDecimal" xpath="lines/net_price_ht"/>
+        <nodes expression=" Var.prix_base_ttc" incomingConnections="//@node.2/@nodeData/@connections.64" name="prix_base_ttc" type="id_BigDecimal" xpath="lines/prix_base_ttc"/>
+        <nodes expression=" Var.prix_base_ht" incomingConnections="//@node.2/@nodeData/@connections.47" name="prix_base_ht" type="id_BigDecimal" xpath="lines/prix_base_ht"/>
+        <nodes expression=" Var.promotion_id" incomingConnections="//@node.2/@nodeData/@connections.96" name="promo_code" type="id_String" xpath="lines/promo_code"/>
         <nodes expression="[row1.order:/orders/order/product-lineitems/product-lineitem/tax-rate] " incomingConnections="//@node.2/@nodeData/@connections.23" name="vat_rate" type="id_Double" xpath="lines/vat_rate"/>
+        <nodes expression="Var.credit_note" incomingConnections="//@node.2/@nodeData/@connections.85" name="credit_note" pattern="" type="id_String" xpath="lines/credit_note"/>
+        <nodes expression="Var.net_price_cur_ttc" incomingConnections="//@node.2/@nodeData/@connections.86" name="net_price_cur_ttc" pattern="&quot;dd-MM-yyyy&quot;" type="id_String" xpath="lines/net_price_cur_ttc"/>
+        <nodes expression="Var.net_price_cur_ht" incomingConnections="//@node.2/@nodeData/@connections.87" name="net_price_cur_ht" pattern="&quot;dd-MM-yyyy&quot;" type="id_String" xpath="lines/net_price_cur_ht"/>
+        <nodes expression="Var.prix_base_cur_ttc" incomingConnections="//@node.2/@nodeData/@connections.89" name="prix_base_cur_ttc" pattern="&quot;dd-MM-yyyy&quot;" type="id_String" xpath="lines/prix_base_cur_ttc"/>
+        <nodes expression="Var.prix_base_cur_ht" incomingConnections="//@node.2/@nodeData/@connections.88" name="prix_base_cur_ht" pattern="&quot;dd-MM-yyyy&quot;" type="id_String" xpath="lines/prix_base_cur_ht"/>
+        <nodes expression="Var.currency_curr_id" incomingConnections="//@node.2/@nodeData/@connections.90" name="currency_curr_id" pattern="" type="id_String" xpath="lines/currency_curr_id"/>
       </outputTrees>
       <outputTrees name="payments">
-        <nodes expression="&quot;PK_SFC&quot;" name="origine" type="id_String" xpath="payments/origine"/>
-        <nodes expression=" Var.time_extract" incomingConnections="//@node.2/@nodeData/@connections.39" name="time_extract" type="id_String" xpath="payments/time_extract"/>
+        <nodes expression="context.BRAND + &quot;_SFC&quot;" name="origine" type="id_String" xpath="payments/origine"/>
+        <nodes expression=" Var.time_extract" incomingConnections="//@node.2/@nodeData/@connections.38" name="time_extract" type="id_String" xpath="payments/time_extract"/>
         <nodes expression="[row1.order:/orders/order/@order-no]" incomingConnections="//@node.2/@nodeData/@connections.1" name="order_sfcc" type="id_String" xpath="payments/order_sfcc"/>
-        <nodes expression=" [row1.order:/orders/order/invoice-no]" incomingConnections="//@node.2/@nodeData/@connections.55" name="order_erp" type="id_String" xpath="payments/order_erp"/>
-        <nodes expression=" Var.site_id" incomingConnections="//@node.2/@nodeData/@connections.40" name="site_id" type="id_String" xpath="payments/site_id"/>
+        <nodes expression=" [row1.order:/orders/order/invoice-no]" incomingConnections="//@node.2/@nodeData/@connections.51" name="order_erp" type="id_String" xpath="payments/order_erp"/>
+        <nodes expression=" Var.site_id" incomingConnections="//@node.2/@nodeData/@connections.39" name="site_id" type="id_String" xpath="payments/site_id"/>
         <nodes expression="[row1.order:/orders/order/order-date]" incomingConnections="//@node.2/@nodeData/@connections.5" name="date_reglt" pattern="&quot;dd/MM/yyy HH:mm:ss&quot;" type="id_Date" xpath="payments/date_reglt"/>
-        <nodes expression="[row1.order:/orders/order/payments/payment/amount]" incomingConnections="//@node.2/@nodeData/@connections.35" name="mont_pt" type="id_BigDecimal" xpath="payments/mont_pt"/>
-        <nodes expression=" [row1.order:/orders/order/payments/payment/processor-id]" incomingConnections="//@node.2/@nodeData/@connections.45" name="reg_mod" type="id_String" xpath="payments/reg_mod"/>
-        <nodes expression="[row1.order:/orders/order/payments/payment/credit-card/card-type]" incomingConnections="//@node.2/@nodeData/@connections.61" name="card_type" pattern="" type="id_String" xpath="payments/card_type"/>
+        <nodes expression="[row1.order:/orders/order/payments/payment/amount]" incomingConnections="//@node.2/@nodeData/@connections.34" name="mont_pt" type="id_BigDecimal" xpath="payments/mont_pt"/>
+        <nodes expression=" [row1.order:/orders/order/payments/payment/processor-id]" incomingConnections="//@node.2/@nodeData/@connections.44" name="reg_mod" type="id_String" xpath="payments/reg_mod"/>
+        <nodes expression="[row1.order:/orders/order/payments/payment/credit-card/card-type]" incomingConnections="//@node.2/@nodeData/@connections.57" name="card_type" pattern="" type="id_String" xpath="payments/card_type"/>
         <nodes expression="[row1.order:/orders/order/currency]" incomingConnections="//@node.2/@nodeData/@connections.8" name="currency" type="id_String" xpath="payments/currency"/>
-        <nodes expression="[row1.order:/orders/order/payments/payment/transaction-id]" incomingConnections="//@node.2/@nodeData/@connections.36" name="transact_id" type="id_String" xpath="payments/transact_id"/>
+        <nodes expression="[row1.order:/orders/order/payments/payment/transaction-id]" incomingConnections="//@node.2/@nodeData/@connections.35" name="transact_id" type="id_String" xpath="payments/transact_id"/>
         <nodes expression="Numeric.sequence([row1.order:/orders/order/@order-no],1,1).toString() " incomingConnections="//@node.2/@nodeData/@connections.2" name="seq_num" type="id_String" xpath="payments/seq_num"/>
-        <nodes expression="[row1.order:/orders/order/status/payment-status]" incomingConnections="//@node.2/@nodeData/@connections.44" name="status_pt" type="id_String" xpath="payments/status_pt"/>
+        <nodes expression="[row1.order:/orders/order/status/payment-status]" incomingConnections="//@node.2/@nodeData/@connections.43" name="status_pt" type="id_String" xpath="payments/status_pt"/>
       </outputTrees>
-      <outputTrees name="debugRow">
-        <nodes expression="&quot;toto : &quot; + [row1.order:/orders/order/shipments/shipment/custom-attributes/custom-attribute/@attribute-id] " incomingConnections="//@node.2/@nodeData/@connections.62" name="newColumn" pattern="" type="id_String" xpath="debugRow/newColumn"/>
-        <nodes expression="[row1.order:/orders/order/shipments/shipment/custom-attributes/custom-attribute/value] " incomingConnections="//@node.2/@nodeData/@connections.63" name="newColumn1" pattern="" type="id_String" xpath="debugRow/newColumn1"/>
-        <nodes expression="[row1.order:/orders/order/product-lineitems/product-lineitem/custom-attributes/custom-attribute/value]" incomingConnections="//@node.2/@nodeData/@connections.64" name="value" type="id_String" xpath="debugRow/value"/>
-        <nodes expression="[row1.order:/orders/order/product-lineitems/product-lineitem/custom-attributes/custom-attribute/@attribute-id]" incomingConnections="//@node.2/@nodeData/@connections.65" name="attribute_id" type="id_String" xpath="debugRow/attribute_id"/>
-        <nodes expression="[row1.order:/orders/order/custom-attributes/custom-attribute/value]" incomingConnections="//@node.2/@nodeData/@connections.66" name="value_1" type="id_String" xpath="debugRow/value_1"/>
-        <nodes expression="[row1.order:/orders/order/custom-attributes/custom-attribute/@attribute-id]" incomingConnections="//@node.2/@nodeData/@connections.67" name="attribute_id2" type="id_String" xpath="debugRow/attribute_id2"/>
+      <outputTrees activateExpressionFilter="true" expressionFilter="" name="shipping">
+        <nodes expression="context.BRAND + &quot;_SFC&quot;" name="origine" pattern="&quot;dd-MM-yyyy&quot;" type="id_String" xpath="shipping/origine"/>
+        <nodes expression=" Var.time_extract" incomingConnections="//@node.2/@nodeData/@connections.68" name="time_extract" pattern="&quot;dd-MM-yyyy&quot;" type="id_String" xpath="shipping/time_extract"/>
+        <nodes expression="[row1.order:/orders/order/@order-no]" incomingConnections="//@node.2/@nodeData/@connections.69" name="order_sfcc" pattern="&quot;dd-MM-yyyy&quot;" type="id_String" xpath="shipping/order_sfcc"/>
+        <nodes expression=" [row1.order:/orders/order/invoice-no]" incomingConnections="//@node.2/@nodeData/@connections.70" name="order_erp" pattern="&quot;dd-MM-yyyy&quot;" type="id_String" xpath="shipping/order_erp"/>
+        <nodes expression=" Var.site_id" incomingConnections="//@node.2/@nodeData/@connections.67" name="site_id" pattern="&quot;dd-MM-yyyy&quot;" type="id_String" xpath="shipping/site_id"/>
+        <nodes expression="[row1.order:/orders/order/order-date]" incomingConnections="//@node.2/@nodeData/@connections.71" name="order_date" pattern="&quot;dd/MM/yyy HH:mm:ss&quot;" type="id_Date" xpath="shipping/order_date"/>
+        <nodes expression="[row1.order:/orders/order/customer/customer-no]" incomingConnections="//@node.2/@nodeData/@connections.72" name="customer_id" pattern="&quot;dd-MM-yyyy&quot;" type="id_String" xpath="shipping/customer_id"/>
+        <nodes name="location_id" pattern="&quot;dd-MM-yyyy&quot;" type="id_String" xpath="shipping/location_id"/>
+        <nodes expression="Var.SHIPPING" incomingConnections="//@node.2/@nodeData/@connections.73" name="Product_id" pattern="&quot;dd-MM-yyyy&quot;" type="id_String" xpath="shipping/Product_id"/>
+        <nodes expression="" name="order_qty" pattern="&quot;dd-MM-yyyy&quot;" type="id_String" xpath="shipping/order_qty"/>
+        <nodes expression=" [row1.order:/orders/order/currency]" incomingConnections="//@node.2/@nodeData/@connections.78" name="currency_id" pattern="&quot;dd-MM-yyyy&quot;" type="id_String" xpath="shipping/currency_id"/>
+        <nodes expression="Var.shipping_net_price_ttc" incomingConnections="//@node.2/@nodeData/@connections.74" name="net_price_ttc" pattern="&quot;dd-MM-yyyy&quot;" type="id_BigDecimal" xpath="shipping/net_price_ttc"/>
+        <nodes expression="Var.shipping_net_price_ht" incomingConnections="//@node.2/@nodeData/@connections.75" name="net_price_ht" pattern="&quot;dd-MM-yyyy&quot;" type="id_BigDecimal" xpath="shipping/net_price_ht"/>
+        <nodes expression="Var.shipping_prix_base_ttc" incomingConnections="//@node.2/@nodeData/@connections.77" name="prix_base_ttc" pattern="&quot;dd-MM-yyyy&quot;" type="id_BigDecimal" xpath="shipping/prix_base_ttc"/>
+        <nodes expression="Var.shipping_prix_base_ht" incomingConnections="//@node.2/@nodeData/@connections.76" name="prix_base_ht" pattern="&quot;dd-MM-yyyy&quot;" type="id_BigDecimal" xpath="shipping/prix_base_ht"/>
+        <nodes expression="" name="promo_code" pattern="&quot;dd-MM-yyyy&quot;" type="id_String" xpath="shipping/promo_code"/>
+        <nodes expression="[row1.order:/orders/order/shipping-lineitems/shipping-lineitem/tax-rate] " incomingConnections="//@node.2/@nodeData/@connections.84" name="vat_rate" pattern="&quot;dd-MM-yyyy&quot;" type="id_Double" xpath="shipping/vat_rate"/>
+        <nodes expression="" name="credit_note" pattern="" type="id_String" xpath="shipping/credit_note"/>
+        <nodes expression="" name="net_price_cur_ttc" pattern="&quot;dd-MM-yyyy&quot;" type="id_BigDecimal" xpath="shipping/net_price_cur_ttc"/>
+        <nodes expression="" name="net_price_cur_ht" pattern="&quot;dd-MM-yyyy&quot;" type="id_BigDecimal" xpath="shipping/net_price_cur_ht"/>
+        <nodes expression="" name="prix_base_cur_ttc" pattern="&quot;dd-MM-yyyy&quot;" type="id_BigDecimal" xpath="shipping/prix_base_cur_ttc"/>
+        <nodes expression="" name="prix_base_cur_ht" pattern="&quot;dd-MM-yyyy&quot;" type="id_BigDecimal" xpath="shipping/prix_base_cur_ht"/>
+        <nodes expression="" name="currency_curr_id" pattern="" type="id_String" xpath="shipping/currency_curr_id"/>
+      </outputTrees>
+      <outputTrees name="outTEST">
+        <nodes expression="[row1.order:/orders/order/product-lineitems/product-lineitem/custom-attributes/custom-attribute[contains(attribute-id,'geInternationalDiscountedPrice')]/value] " name="value" type="id_String" xpath="outTEST/value"/>
+        <nodes expression="[row1.order:/orders/order/product-lineitems/product-lineitem/custom-attributes/custom-attribute[contains(attribute-id,'geInternationalDiscountedPrice')]] " name="newColumn" pattern="" type="id_String" xpath="outTEST/newColumn"/>
+        <nodes expression="[row1.order:/orders/order/product-lineitems/product-lineitem/custom-attributes/custom-attribute/value]" incomingConnections="//@node.2/@nodeData/@connections.105" name="value_1" type="id_String" xpath="outTEST/value_1"/>
       </outputTrees>
       <varTables name="Var">
-        <nodes expression=" " name="Sequence" type="id_String"/>
-        <nodes expression="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILE&quot;)).split(&quot;_&quot;)[2].replace(&quot;.xml&quot;, &quot;&quot;) " name="time_extract" outgoingConnections="//@node.2/@nodeData/@connections.37 //@node.2/@nodeData/@connections.38 //@node.2/@nodeData/@connections.39" type="id_String"/>
-        <nodes expression="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILE&quot;)).split(&quot;-&quot;)[1] " name="site_id" outgoingConnections="//@node.2/@nodeData/@connections.40 //@node.2/@nodeData/@connections.41 //@node.2/@nodeData/@connections.42" type="id_String"/>
-        <nodes expression="[row1.order:/orders/order/product-lineitems/product-lineitem/base-price].subtract([row1.order:/orders/order/product-lineitems/product-lineitem/tax]) " incomingConnections="//@node.2/@nodeData/@connections.49 //@node.2/@nodeData/@connections.50" name="prix_base_ht" outgoingConnections="//@node.2/@nodeData/@connections.51" type="id_BigDecimal"/>
+        <nodes expression="Numeric.sequence(&quot;s1&quot;,1,1) " name="Sequense" outgoingConnections="//@node.2/@nodeData/@connections.101 //@node.2/@nodeData/@connections.102" type="id_Integer"/>
+        <nodes expression="!Relational.ISNULL([row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment/gross-price])?[row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment/gross-price]: !Relational.ISNULL([row1.order:/orders/order/totals/merchandize-total/price-adjustments/price-adjustment/gross-price])&amp;&amp;Var.Sequense==1?[row1.order:/orders/order/totals/merchandize-total/price-adjustments/price-adjustment/gross-price]:new BigDecimal(&quot;0&quot;) " incomingConnections="//@node.2/@nodeData/@connections.97 //@node.2/@nodeData/@connections.98 //@node.2/@nodeData/@connections.101" name="promotionAjustementBase" type="id_BigDecimal"/>
+        <nodes expression="!Relational.ISNULL([row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment/net-price])?[row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment/net-price]: !Relational.ISNULL([row1.order:/orders/order/totals/merchandize-total/price-adjustments/price-adjustment/net-price])&amp;&amp;Var.Sequense==1?[row1.order:/orders/order/totals/merchandize-total/price-adjustments/price-adjustment/net-price]:new BigDecimal(&quot;0&quot;) " incomingConnections="//@node.2/@nodeData/@connections.99 //@node.2/@nodeData/@connections.100 //@node.2/@nodeData/@connections.102" name="promotionAjustementNet" type="id_BigDecimal"/>
+        <nodes expression="!Relational.ISNULL([row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment/tax])?[row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment/tax]: !Relational.ISNULL([row1.order:/orders/order/totals/merchandize-total/price-adjustments/price-adjustment/tax])&amp;&amp;Var.Sequense==1?[row1.order:/orders/order/totals/merchandize-total/price-adjustments/price-adjustment/tax]:new BigDecimal(&quot;0&quot;) " incomingConnections="//@node.2/@nodeData/@connections.103 //@node.2/@nodeData/@connections.104" name="promotionAjustementTax" type="id_BigDecimal"/>
+        <nodes expression="!Relational.ISNULL([row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment/promotion-id])?[row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment/promotion-id]:&#13;&#10;!Relational.ISNULL([row1.order:/orders/order/shipments/shipment/totals/merchandize-total/price-adjustments/price-adjustment/promotion-id])?[row1.order:/orders/order/shipments/shipment/totals/merchandize-total/price-adjustments/price-adjustment/promotion-id]:&quot;&quot; " incomingConnections="//@node.2/@nodeData/@connections.94 //@node.2/@nodeData/@connections.95" name="promotion_id" outgoingConnections="//@node.2/@nodeData/@connections.96" type="id_String"/>
+        <nodes expression="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILE&quot;)).split(&quot;_&quot;)[2].replace(&quot;.xml&quot;, &quot;&quot;) " name="time_extract" outgoingConnections="//@node.2/@nodeData/@connections.36 //@node.2/@nodeData/@connections.37 //@node.2/@nodeData/@connections.38 //@node.2/@nodeData/@connections.68" type="id_String"/>
+        <nodes expression="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILE&quot;)).split(&quot;-&quot;)[1] " name="site_id" outgoingConnections="//@node.2/@nodeData/@connections.39 //@node.2/@nodeData/@connections.40 //@node.2/@nodeData/@connections.41 //@node.2/@nodeData/@connections.67" type="id_String"/>
+        <nodes expression="[row1.order:/orders/order/product-lineitems/product-lineitem/gross-price].add(Var.promotionAjustementNet).add(Var.promotionAjustementTax) " incomingConnections="//@node.2/@nodeData/@connections.59" name="net_price_ttc" outgoingConnections="//@node.2/@nodeData/@connections.62" type="id_BigDecimal"/>
+        <nodes expression="[row1.order:/orders/order/product-lineitems/product-lineitem/net-price].add(Var.promotionAjustementNet) " incomingConnections="//@node.2/@nodeData/@connections.60" name="net_price_ht" outgoingConnections="//@node.2/@nodeData/@connections.63" type="id_BigDecimal"/>
+        <nodes expression="[row1.order:/orders/order/product-lineitems/product-lineitem/base-price].subtract([row1.order:/orders/order/product-lineitems/product-lineitem/tax]) " incomingConnections="//@node.2/@nodeData/@connections.45 //@node.2/@nodeData/@connections.46" name="prix_base_ht" outgoingConnections="//@node.2/@nodeData/@connections.47" type="id_BigDecimal"/>
+        <nodes expression="/*!Relational.ISNULL([row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment/base-price])?&#13;&#10;[row1.order:/orders/order/product-lineitems/product-lineitem/base-price].add([row1.order:/orders/order/product-lineitems/product-lineitem/price-adjustments/price-adjustment/base-price])&#13;&#10;:*/[row1.order:/orders/order/product-lineitems/product-lineitem/base-price] " incomingConnections="//@node.2/@nodeData/@connections.61 //@node.2/@nodeData/@connections.65" name="prix_base_ttc" outgoingConnections="//@node.2/@nodeData/@connections.64" type="id_BigDecimal"/>
+        <nodes expression="&quot;SHIPPING&quot;" name="SHIPPING" outgoingConnections="//@node.2/@nodeData/@connections.73" type="id_String"/>
+        <nodes expression=" [row1.order:/orders/order/shipping-lineitems/shipping-lineitem/gross-price]" incomingConnections="//@node.2/@nodeData/@connections.80" name="shipping_net_price_ttc" outgoingConnections="//@node.2/@nodeData/@connections.74" type="id_BigDecimal"/>
+        <nodes expression="[row1.order:/orders/order/shipping-lineitems/shipping-lineitem/net-price] " incomingConnections="//@node.2/@nodeData/@connections.79" name="shipping_net_price_ht" outgoingConnections="//@node.2/@nodeData/@connections.75" type="id_BigDecimal"/>
+        <nodes expression="[row1.order:/orders/order/shipping-lineitems/shipping-lineitem/base-price] " incomingConnections="//@node.2/@nodeData/@connections.83" name="shipping_prix_base_ttc" outgoingConnections="//@node.2/@nodeData/@connections.77" type="id_BigDecimal"/>
+        <nodes expression="[row1.order:/orders/order/shipping-lineitems/shipping-lineitem/base-price].subtract([row1.order:/orders/order/shipping-lineitems/shipping-lineitem/tax]) " incomingConnections="//@node.2/@nodeData/@connections.81 //@node.2/@nodeData/@connections.82" name="shipping_prix_base_ht" outgoingConnections="//@node.2/@nodeData/@connections.76" type="id_BigDecimal"/>
+        <nodes name="credit_note" outgoingConnections="//@node.2/@nodeData/@connections.85" type="id_String"/>
+        <nodes expression="!Relational.ISNULL([row1.order:/orders/order/product-lineitems/product-lineitem/bundled-product-lineitems/custom-attributes/custom-attribute/@attribute-id])&amp;&amp;[row1.order:/orders/order/product-lineitems/product-lineitem/custom-attributes/custom-attribute/@attribute-id=&quot;geInternationalDiscountedPrice&quot;].equals(&quot;geInternationalDiscountedPrice&quot;)?[row1.order:/orders/order/product-lineitems/product-lineitem/bundled-product-lineitems/bundled-product-lineitem/custom-attributes/custom-attribute/value]:null " incomingConnections="//@node.2/@nodeData/@connections.91 //@node.2/@nodeData/@connections.92" name="net_price_cur_ttc" outgoingConnections="//@node.2/@nodeData/@connections.86" type="id_String"/>
+        <nodes expression="!Relational.ISNULL([row1.order:/orders/order/product-lineitems/product-lineitem/bundled-product-lineitems/custom-attributes/custom-attribute/@attribute-id])&amp;&amp;[row1.order:/orders/order/product-lineitems/product-lineitem/custom-attributes/custom-attribute/@attribute-id=&quot;geInternationalDiscountedPrice&quot;].equals(&quot;geInternationalDiscountedPrice&quot;)?[row1.order:/orders/order/product-lineitems/product-lineitem/bundled-product-lineitems/bundled-product-lineitem/custom-attributes/custom-attribute]:null " incomingConnections="//@node.2/@nodeData/@connections.93" name="net_price_cur_ht" nullable="true" outgoingConnections="//@node.2/@nodeData/@connections.87" type="id_String"/>
+        <nodes name="prix_base_cur_ttc" outgoingConnections="//@node.2/@nodeData/@connections.89" type="id_String"/>
+        <nodes name="prix_base_cur_ht" outgoingConnections="//@node.2/@nodeData/@connections.88" type="id_String"/>
+        <nodes name="currency_curr_id" outgoingConnections="//@node.2/@nodeData/@connections.90" type="id_String"/>
       </varTables>
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.1" target="//@node.2/@nodeData/@outputTrees.1/@nodes.2" xsi:type="TalendXMLMap:Connection"/>
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.1" target="//@node.2/@nodeData/@outputTrees.2/@nodes.2" xsi:type="TalendXMLMap:Connection"/>
@@ -1633,7 +1725,6 @@
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.24/@children.0/@children.7" target="//@node.2/@nodeData/@outputTrees.1/@nodes.8" xsi:type="TalendXMLMap:Connection"/>
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.24/@children.0/@children.9" target="//@node.2/@nodeData/@outputTrees.1/@nodes.9" xsi:type="TalendXMLMap:Connection"/>
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.24/@children.0/@children.10" target="//@node.2/@nodeData/@outputTrees.1/@nodes.16" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.24/@children.0/@children.23/@children.0/@children.6" target="//@node.2/@nodeData/@outputTrees.1/@nodes.15" xsi:type="TalendXMLMap:Connection"/>
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.27/@children.0/@children.2" target="//@node.2/@nodeData/@outputTrees.0/@nodes.8" xsi:type="TalendXMLMap:Connection"/>
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.27/@children.0/@children.4/@children.6" target="//@node.2/@nodeData/@outputTrees.0/@nodes.12" xsi:type="TalendXMLMap:Connection"/>
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.27/@children.0/@children.4/@children.8" target="//@node.2/@nodeData/@outputTrees.0/@nodes.13" xsi:type="TalendXMLMap:Connection"/>
@@ -1646,21 +1737,18 @@
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.27/@children.0/@children.4/@children.16" target="//@node.2/@nodeData/@outputTrees.0/@nodes.20" xsi:type="TalendXMLMap:Connection"/>
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.29/@children.0/@children.0" target="//@node.2/@nodeData/@outputTrees.2/@nodes.6" xsi:type="TalendXMLMap:Connection"/>
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.29/@children.0/@children.2" target="//@node.2/@nodeData/@outputTrees.2/@nodes.10" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.1" target="//@node.2/@nodeData/@outputTrees.0/@nodes.1" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.1" target="//@node.2/@nodeData/@outputTrees.1/@nodes.1" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.1" target="//@node.2/@nodeData/@outputTrees.2/@nodes.1" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.2" target="//@node.2/@nodeData/@outputTrees.2/@nodes.4" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.2" target="//@node.2/@nodeData/@outputTrees.0/@nodes.4" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.2" target="//@node.2/@nodeData/@outputTrees.1/@nodes.4" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.5" target="//@node.2/@nodeData/@outputTrees.0/@nodes.1" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.5" target="//@node.2/@nodeData/@outputTrees.1/@nodes.1" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.5" target="//@node.2/@nodeData/@outputTrees.2/@nodes.1" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.6" target="//@node.2/@nodeData/@outputTrees.2/@nodes.4" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.6" target="//@node.2/@nodeData/@outputTrees.0/@nodes.4" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.6" target="//@node.2/@nodeData/@outputTrees.1/@nodes.4" xsi:type="TalendXMLMap:Connection"/>
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.12/@children.4/@children.15" target="//@node.2/@nodeData/@outputTrees.0/@nodes.34" xsi:type="TalendXMLMap:Connection"/>
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.14/@children.3" target="//@node.2/@nodeData/@outputTrees.2/@nodes.12" xsi:type="TalendXMLMap:Connection"/>
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.29/@children.0/@children.1" target="//@node.2/@nodeData/@outputTrees.2/@nodes.7" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.24/@children.0/@children.2" target="//@node.2/@nodeData/@outputTrees.1/@nodes.11" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.24/@children.0/@children.0" target="//@node.2/@nodeData/@outputTrees.1/@nodes.12" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.24/@children.0/@children.3" target="//@node.2/@nodeData/@outputTrees.1/@nodes.14" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.24/@children.0/@children.3" target="//@node.2/@nodeData/@varTables.0/@nodes.3" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.24/@children.0/@children.1" target="//@node.2/@nodeData/@varTables.0/@nodes.3" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.3" target="//@node.2/@nodeData/@outputTrees.1/@nodes.13" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.24/@children.0/@children.3" target="//@node.2/@nodeData/@varTables.0/@nodes.9" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.24/@children.0/@children.1" target="//@node.2/@nodeData/@varTables.0/@nodes.9" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.9" target="//@node.2/@nodeData/@outputTrees.1/@nodes.14" xsi:type="TalendXMLMap:Connection"/>
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.12/@children.4/@children.8" target="//@node.2/@nodeData/@outputTrees.0/@nodes.25" xsi:type="TalendXMLMap:Connection"/>
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.11" target="//@node.2/@nodeData/@outputTrees.0/@nodes.3" xsi:type="TalendXMLMap:Connection"/>
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.11" target="//@node.2/@nodeData/@outputTrees.1/@nodes.3" xsi:type="TalendXMLMap:Connection"/>
@@ -1671,23 +1759,64 @@
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.12/@children.4/@children.4" target="//@node.2/@nodeData/@outputTrees.0/@nodes.23" xsi:type="TalendXMLMap:Connection"/>
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.14/@children.2" target="//@node.2/@nodeData/@outputTrees.0/@nodes.35" xsi:type="TalendXMLMap:Connection"/>
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.29/@children.0/@children.6/@children.0/@children.0" target="//@node.2/@nodeData/@outputTrees.2/@nodes.8" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.27/@children.0/@children.8/@children.0/@children.0" target="//@node.2/@nodeData/@outputTrees.3/@nodes.0" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.27/@children.0/@children.8/@children.0/@children.2" target="//@node.2/@nodeData/@outputTrees.3/@nodes.1" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.24/@children.0/@children.22/@children.0/@children.2" target="//@node.2/@nodeData/@outputTrees.3/@nodes.2" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.24/@children.0/@children.22/@children.0/@children.0" target="//@node.2/@nodeData/@outputTrees.3/@nodes.3" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.36/@children.0/@children.2" target="//@node.2/@nodeData/@outputTrees.3/@nodes.4" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.36/@children.0/@children.0" target="//@node.2/@nodeData/@outputTrees.3/@nodes.5" xsi:type="TalendXMLMap:Connection"/>
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.27/@children.0/@children.8/@children.0/@children.0" target="//@node.2/@nodeData/@outputTrees.0/@nodes.9" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.24/@children.0/@children.2" target="//@node.2/@nodeData/@varTables.0/@nodes.7" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.24/@children.0/@children.0" target="//@node.2/@nodeData/@varTables.0/@nodes.8" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.24/@children.0/@children.3" target="//@node.2/@nodeData/@varTables.0/@nodes.10" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.7" target="//@node.2/@nodeData/@outputTrees.1/@nodes.11" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.8" target="//@node.2/@nodeData/@outputTrees.1/@nodes.12" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.10" target="//@node.2/@nodeData/@outputTrees.1/@nodes.13" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.24/@children.0/@children.23/@children.0/@children.3" target="//@node.2/@nodeData/@varTables.0/@nodes.10" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.33" target="//@node.2/@nodeData/@outputTrees.0" xsi:type="TalendXMLMap:FilterConnection"/>
+      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.6" target="//@node.2/@nodeData/@outputTrees.3/@nodes.4" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.5" target="//@node.2/@nodeData/@outputTrees.3/@nodes.1" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.1" target="//@node.2/@nodeData/@outputTrees.3/@nodes.2" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.11" target="//@node.2/@nodeData/@outputTrees.3/@nodes.3" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.2" target="//@node.2/@nodeData/@outputTrees.3/@nodes.5" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.12/@children.1" target="//@node.2/@nodeData/@outputTrees.3/@nodes.6" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.11" target="//@node.2/@nodeData/@outputTrees.3/@nodes.8" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.12" target="//@node.2/@nodeData/@outputTrees.3/@nodes.11" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.13" target="//@node.2/@nodeData/@outputTrees.3/@nodes.12" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.15" target="//@node.2/@nodeData/@outputTrees.3/@nodes.14" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.14" target="//@node.2/@nodeData/@outputTrees.3/@nodes.13" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.5" target="//@node.2/@nodeData/@outputTrees.3/@nodes.10" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.26/@children.0/@children.0" target="//@node.2/@nodeData/@varTables.0/@nodes.13" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.26/@children.0/@children.2" target="//@node.2/@nodeData/@varTables.0/@nodes.12" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.26/@children.0/@children.3" target="//@node.2/@nodeData/@varTables.0/@nodes.15" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.26/@children.0/@children.1" target="//@node.2/@nodeData/@varTables.0/@nodes.15" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.26/@children.0/@children.3" target="//@node.2/@nodeData/@varTables.0/@nodes.14" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.26/@children.0/@children.9" target="//@node.2/@nodeData/@outputTrees.3/@nodes.16" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.16" target="//@node.2/@nodeData/@outputTrees.1/@nodes.17" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.17" target="//@node.2/@nodeData/@outputTrees.1/@nodes.18" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.18" target="//@node.2/@nodeData/@outputTrees.1/@nodes.19" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.20" target="//@node.2/@nodeData/@outputTrees.1/@nodes.21" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.19" target="//@node.2/@nodeData/@outputTrees.1/@nodes.20" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.21" target="//@node.2/@nodeData/@outputTrees.1/@nodes.22" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.24/@children.0/@children.16/@children.0/@children.4/@children.0/@children.2" target="//@node.2/@nodeData/@varTables.0/@nodes.17" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.24/@children.0/@children.22/@children.0/@children.0" target="//@node.2/@nodeData/@varTables.0/@nodes.17" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.24/@children.0/@children.22/@children.0/@children.0" target="//@node.2/@nodeData/@varTables.0/@nodes.18" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.27/@children.0/@children.7/@children.0/@children.3/@children.0/@children.6" target="//@node.2/@nodeData/@varTables.0/@nodes.4" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.24/@children.0/@children.23/@children.0/@children.6" target="//@node.2/@nodeData/@varTables.0/@nodes.4" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.4" target="//@node.2/@nodeData/@outputTrees.1/@nodes.15" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.24/@children.0/@children.23/@children.0/@children.2" target="//@node.2/@nodeData/@varTables.0/@nodes.1" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.28/@children.0/@children.3/@children.0/@children.2" target="//@node.2/@nodeData/@varTables.0/@nodes.1" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.28/@children.0/@children.3/@children.0/@children.0" target="//@node.2/@nodeData/@varTables.0/@nodes.2" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.24/@children.0/@children.23/@children.0/@children.0" target="//@node.2/@nodeData/@varTables.0/@nodes.2" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.0" target="//@node.2/@nodeData/@varTables.0/@nodes.1" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@varTables.0/@nodes.0" target="//@node.2/@nodeData/@varTables.0/@nodes.2" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.24/@children.0/@children.23/@children.0/@children.1" target="//@node.2/@nodeData/@varTables.0/@nodes.3" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.28/@children.0/@children.3/@children.0/@children.1" target="//@node.2/@nodeData/@varTables.0/@nodes.3" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.2/@children.24/@children.0/@children.22/@children.0/@children.2" target="//@node.2/@nodeData/@outputTrees.4/@nodes.2" xsi:type="TalendXMLMap:Connection"/>
     </nodeData>
   </node>
-  <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="128">
+  <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFlowToIterate_1"/>
     <elementParameter field="CHECK" name="DEFAULT_MAP" value="true"/>
     <elementParameter field="TABLE" name="MAP" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFlowToIterate_1"/>
   </node>
-  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="128">
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="704" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_1"/>
     <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
     <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
@@ -1811,11 +1940,11 @@
       <column comment="" key="false" length="255" name="status_cmd" nullable="true" originalLength="255" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="128">
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="864" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_1"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.WORKSPACE + context.DIR_OUTPUT + context.FILE_PIVOT_ORD_HEADER + &quot;_&quot; +((String)globalMap.get(&quot;headers.order_sfcc&quot;))+&quot;_&quot; +((String)globalMap.get(&quot;HORODATAGE&quot;)) + &quot;.csv&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.WORKSPACE + context.PROJECT + &quot;/&quot; + context.FLOW + &quot;/&quot; + context.DIR_OUTPUT +context.SUFFIX_FILE + context.FILE_PIVOT_ORD_HEADER + &quot;_&quot; +((String)globalMap.get(&quot;headers.order_sfcc&quot;))+&quot;_&quot; +((String)globalMap.get(&quot;HORODATAGE&quot;)) + &quot;.csv&quot;"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
     <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n\n&quot;"/>
@@ -1881,21 +2010,21 @@
       <column comment="" key="false" length="255" name="status_cmd" nullable="true" originalLength="255" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="256">
+  <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFlowToIterate_2"/>
     <elementParameter field="CHECK" name="DEFAULT_MAP" value="true"/>
     <elementParameter field="TABLE" name="MAP" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFlowToIterate_2"/>
   </node>
-  <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="352">
+  <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFlowToIterate_3"/>
     <elementParameter field="CHECK" name="DEFAULT_MAP" value="true"/>
     <elementParameter field="TABLE" name="MAP" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFlowToIterate_3"/>
   </node>
-  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="256">
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="704" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_2"/>
     <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
     <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
@@ -1926,14 +2055,26 @@
       <elementValue elementRef="VALUE" value="((BigDecimal)globalMap.get(&quot;lines.net_price_ttc&quot;))"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="net_price_ht"/>
       <elementValue elementRef="VALUE" value="((BigDecimal)globalMap.get(&quot;lines.net_price_ht&quot;))"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="prix_base_ht"/>
-      <elementValue elementRef="VALUE" value="((BigDecimal)globalMap.get(&quot;lines.prix_base_ht&quot;))"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="prix_base_ttc"/>
       <elementValue elementRef="VALUE" value="((BigDecimal)globalMap.get(&quot;lines.prix_base_ttc&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="prix_base_ht"/>
+      <elementValue elementRef="VALUE" value="((BigDecimal)globalMap.get(&quot;lines.prix_base_ht&quot;))"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="promo_code"/>
       <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;lines.promo_code&quot;))"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="vat_rate"/>
       <elementValue elementRef="VALUE" value="((Double)globalMap.get(&quot;lines.vat_rate&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="credit_note"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;lines.credit_note&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="net_price_cur_ttc"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;lines.net_price_cur_ttc&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="net_price_cur_ht"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;lines.net_price_cur_ht&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="prix_base_cur_ttc"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;lines.prix_base_cur_ttc&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="prix_base_cur_ht"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;lines.prix_base_cur_ht&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="currency_cur_id"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;lines.currency_cur_id&quot;))"/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
     <elementParameter field="TABLE" name="INTABLE" show="false"/>
@@ -1956,13 +2097,19 @@
       <column comment="" key="false" length="255" name="currency_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="net_price_ttc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="net_price_ht" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="prix_base_ht" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="prix_base_ttc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="prix_base_ht" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="promo_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="vat_rate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="credit_note" nullable="true" originalLength="100" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="net_price_cur_ttc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="net_price_cur_ht" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="prix_base_cur_ttc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="prix_base_cur_ht" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="currency_cur_id" nullable="true" originalLength="100" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="352">
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="704" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_3"/>
     <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
     <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
@@ -2017,14 +2164,14 @@
       <column comment="" key="false" length="255" name="status_pt" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="256">
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="864" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_2"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.WORKSPACE + context.DIR_OUTPUT + context.FILE_PIVOT_ORD_LINE + &quot;_&quot; +((String)globalMap.get(&quot;lines.order_sfcc&quot;))+&quot;_&quot; +((String)globalMap.get(&quot;HORODATAGE&quot;)) + &quot;.csv&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.WORKSPACE + context.PROJECT + &quot;/&quot; + context.FLOW + &quot;/&quot; + context.DIR_OUTPUT + context.SUFFIX_FILE +context.FILE_PIVOT_ORD_LINE + &quot;_&quot; +((String)globalMap.get(&quot;lines.order_sfcc&quot;))+&quot;_&quot; +((String)globalMap.get(&quot;HORODATAGE&quot;)) + &quot;.csv&quot;"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n\n&quot;"/>
     <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true"/>
-    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n\n&quot;"/>
     <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
     <elementParameter field="CHECK" name="APPEND" value="true"/>
     <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
@@ -2062,20 +2209,26 @@
       <column comment="" key="false" length="255" name="currency_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="net_price_ttc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="net_price_ht" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="prix_base_ht" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="prix_base_ttc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="prix_base_ht" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="promo_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="vat_rate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="credit_note" nullable="true" originalLength="100" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="net_price_cur_ttc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="net_price_cur_ht" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="prix_base_cur_ttc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="prix_base_cur_ht" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="currency_cur_id" nullable="true" originalLength="100" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="352">
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="864" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_3"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.WORKSPACE + context.DIR_OUTPUT + context.FILE_PIVOT_PAYMENT + &quot;_&quot; +((String)globalMap.get(&quot;payments.order_sfcc&quot;))+&quot;_&quot; +((String)globalMap.get(&quot;HORODATAGE&quot;)) + &quot;.csv&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.WORKSPACE + context.PROJECT + &quot;/&quot; + context.FLOW + &quot;/&quot; + context.DIR_OUTPUT +context.SUFFIX_FILE + context.FILE_PIVOT_PAYMENT + &quot;_&quot; +((String)globalMap.get(&quot;payments.order_sfcc&quot;))+&quot;_&quot; +((String)globalMap.get(&quot;HORODATAGE&quot;)) + &quot;.csv&quot;"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n\n&quot;"/>
     <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true"/>
-    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n\n&quot;"/>
     <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
     <elementParameter field="CHECK" name="APPEND" value="false"/>
     <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
@@ -2115,7 +2268,151 @@
       <column comment="" key="false" length="255" name="status_pt" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tSetGlobalVar" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="-64">
+  <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="448">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFlowToIterate_4"/>
+    <elementParameter field="CHECK" name="DEFAULT_MAP" value="true"/>
+    <elementParameter field="TABLE" name="MAP" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFlowToIterate_4"/>
+  </node>
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="704" posY="448">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_4"/>
+    <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
+    <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
+    <elementParameter field="TABLE" name="VALUES">
+      <elementValue elementRef="SCHEMA_COLUMN" value="origine"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;shipping.origine&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="time_extract"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;shipping.time_extract&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="order_sfcc"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;shipping.order_sfcc&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="order_erp"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;shipping.order_erp&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="site_id"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;shipping.site_id&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="order_date"/>
+      <elementValue elementRef="VALUE" value="((Date)globalMap.get(&quot;shipping.order_date&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="customer_id"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;shipping.customer_id&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="location_id"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;shipping.location_id&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Product_id"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;shipping.Product_id&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="order_qty"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;shipping.order_qty&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="currency_id"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;shipping.currency_id&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="net_price_ttc"/>
+      <elementValue elementRef="VALUE" value="((BigDecimal)globalMap.get(&quot;shipping.net_price_ttc&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="net_price_ht"/>
+      <elementValue elementRef="VALUE" value="((BigDecimal)globalMap.get(&quot;shipping.net_price_ht&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="prix_base_ht"/>
+      <elementValue elementRef="VALUE" value="((BigDecimal)globalMap.get(&quot;shipping.prix_base_ht&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="prix_base_ttc"/>
+      <elementValue elementRef="VALUE" value="((BigDecimal)globalMap.get(&quot;shipping.prix_base_ttc&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="promo_code"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;shipping.promo_code&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="vat_rate"/>
+      <elementValue elementRef="VALUE" value="((Double)globalMap.get(&quot;shipping.vat_rate&quot;))"/>
+    </elementParameter>
+    <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
+    <elementParameter field="TABLE" name="INTABLE" show="false"/>
+    <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
+    <elementParameter field="MEMO" name="INLINECONTENT" show="false" value=""/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tFixedFlowInput_4">
+      <column comment="" key="false" length="255" name="origine" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="time_extract" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="order_sfcc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="order_erp" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="site_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="order_date" nullable="true" pattern="&quot;dd/MM/yyy HH:mm:ss&quot;" precision="-1" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="customer_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="location_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Product_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="order_qty" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="currency_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="net_price_ttc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="net_price_ht" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="prix_base_ht" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="prix_base_ttc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="promo_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="vat_rate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="864" posY="448">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_4"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.WORKSPACE + context.PROJECT + &quot;/&quot; + context.FLOW + &quot;/&quot; + context.DIR_OUTPUT + context.SUFFIX_FILE +context.FILE_PIVOT_ORD_LINE + &quot;_&quot; +((String)globalMap.get(&quot;lines.order_sfcc&quot;))+&quot;_&quot; +((String)globalMap.get(&quot;HORODATAGE&quot;)) + &quot;.csv&quot;"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n\n&quot;"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="APPEND" value="true"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
+    <elementParameter field="CHECK" name="COMPRESS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="true"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;\\&quot;"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="1"/>
+    <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" show="false" value="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="90"/>
+    <elementParameter field="TEXT" name="LABEL" value="ORDER_LINE"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tFileOutputDelimited_4">
+      <column comment="" key="false" length="255" name="origine" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="time_extract" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="order_sfcc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="order_erp" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="site_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="order_date" nullable="true" pattern="&quot;dd/MM/yyy HH:mm:ss&quot;" precision="-1" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="customer_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="location_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Product_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="order_qty" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="currency_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="net_price_ttc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="net_price_ht" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="prix_base_ht" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="prix_base_ttc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="promo_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="vat_rate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogRow_1"/>
+  </node>
+  <node componentName="tSetGlobalVar" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="64" posY="-64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSetGlobalVar_1"/>
     <elementParameter field="TABLE" name="VARIABLES">
       <elementValue elementRef="KEY" value="&quot;HORODATAGE&quot;"/>
@@ -2123,46 +2420,6 @@
     </elementParameter>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tSetGlobalVar_1"/>
-  </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="192" posY="256">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
-    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
-    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
-    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
-    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
-    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;|&quot;"/>
-    <elementParameter field="CHECK" name="PRINT_HEADER" show="false" value="true"/>
-    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" show="false" value="false"/>
-    <elementParameter field="CHECK" name="PRINT_COLNAMES" show="false" value="false"/>
-    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" show="false" value="false"/>
-    <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn1"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="value"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="attribute_id"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="value_1"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="attribute_id2"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
-    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="debugRow" name="tLogRow_1">
-      <column comment="" key="false" length="-1" name="newColumn" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="newColumn1" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="value" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="attribute_id" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="value_1" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="attribute_id2" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
-    </metadata>
   </node>
   <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFileList_1" offsetLabelX="0" offsetLabelY="0" source="tFileList_1" target="tFileInputXML_1">
     <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
@@ -2192,10 +2449,13 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="payments"/>
   </connection>
-  <connection connectorName="FLOW" label="debugRow" lineStyle="0" metaname="debugRow" offsetLabelX="0" offsetLabelY="0" outputId="4" source="tXMLMap_1" target="tLogRow_1">
+  <connection connectorName="FLOW" label="shipping" lineStyle="0" metaname="shipping" offsetLabelX="0" offsetLabelY="0" outputId="4" source="tXMLMap_1" target="tFlowToIterate_4">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="debugRow"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="shipping"/>
+  </connection>
+  <connection connectorName="FLOW" label="outTEST" lineStyle="0" metaname="outTEST" offsetLabelX="0" offsetLabelY="0" outputId="5" source="tXMLMap_1" target="tLogRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="outTEST"/>
   </connection>
   <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFlowToIterate_1" offsetLabelX="0" offsetLabelY="0" source="tFlowToIterate_1" target="tFixedFlowInput_1">
     <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
@@ -2259,6 +2519,24 @@
       <elementValue elementRef="TRACE_COLUMN" value="vat_rate"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="prix_base_cur_ttc"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="credit_note"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="net_price_cur_ttc"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="currency_cur_id"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="prix_base_cur_ht"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="net_price_cur_ht"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
@@ -2293,6 +2571,44 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row4"/>
   </connection>
+  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFlowToIterate_4" offsetLabelX="0" offsetLabelY="0" source="tFlowToIterate_4" target="tFixedFlowInput_4">
+    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+    <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate5"/>
+  </connection>
+  <connection connectorName="FLOW" label="row5" lineStyle="0" metaname="tFixedFlowInput_4" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_4" target="tFileOutputDelimited_4">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="net_price_ht"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="prix_base_ht"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="prix_base_ttc"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Product_id"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="promo_code"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="order_qty"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="currency_id"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="net_price_ttc"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="vat_rate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row5"/>
+  </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tSetGlobalVar_1" offsetLabelX="0" offsetLabelY="0" source="tSetGlobalVar_1" target="tFileList_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
   </connection>
@@ -2306,18 +2622,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
-  </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c3a65e8d-4b01-4e25-8c25-6c5e461b02b9"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>62vKSdO05nOGr1qJz2wD5iqKIAL6x7f1ED0YOyy1KeQkeQb3cM4vLN+zXdevy1tna1RUBMC32nV/
-Kl1HrLw5EA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_db0e557e-12e2-461d-82d2-28c8a366ed6c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>c5mJ+4C4Y/AYZSs9id17AviOdyU+3ih6wqSIwHbvLraO3qUZrS7nxBfuO0ERhnTCIYx0S4sD7yjo
-AIakT6CsOA==</DigestValue></Reference></SignedInfo><SignatureValue>pIotCuDzMDveC96EMPgP3tdmyTmtXS4MDPhCiCUuDw6gpgWhqOAyqA3rcSpBlgbWIjEZpZGFP9CK
-MwO/bHzd0pG5TkO0C/Ra6OfMWfUwAZZdABxwXIN1FRmvHmegFRCLqPrKs57O1waJVE4PmVLnQyJH
-l/x9brZr+SXzcUJWPJRKev3EqdVGLKzx16T+0oEoT4TsHSTqpnaGZHZeP38hkTH/YzU4kuG4P1eq
-++jPIl3vYL9kVeIXH6cVD4urHbWXrySAtXPGYBffcKqu14ju+zA0risBd1XlIMnGJwMeT0UmitHE
-vMEaUjWq7ZgToQVXJTfkxd5lGyEo/CzaZs7NOA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a9cec1d5-0c24-432a-bf34-c6ce4c503cea"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>/BmgPrmCuFMSkM+TBPcmSqwLfF6HZec/CNjQIY59X2Rfj29qzn9UlCcE1MeZZkIr9qOGsveW2jiV
+Q6zLBE/79A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4b89a549-06c6-41ec-98a4-72d694f60e6d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>v9/05qK/P6JZ4JqXg1O0SmEM/UFebrPan6YqaVWnecnpHp/YWfF5Vpfe7g+wftYpLNVGwbFHdKG2
+IeTbDrD2hA==</DigestValue></Reference></SignedInfo><SignatureValue>jz6GJpXYOf03dpQeIdq98t/36WtojcygP/IcPAEzzot/WyMeCWB+JcI6jdUsxJzHuXPqL+nbqYEC
+oSdil6cVZ4ufOwwjFCIUM7KKOTRvMYJtfeL9PqyHLxoSpM3llPvsfk0fIBt3RUq66Lz0NktEG3tz
+f6B/H5Fh+4VFHvrG0vRR3mzXRsS6zj1+NPGLJcBW92j0mQjvDE/U2uNLEMpDR56ySYgEqkskMMe8
+/wKhChNTbTn/Dn7vtR1r0geZjV1eCrUwSysGV2hbCtdzhjfSLitcaU+k1lSr0vYmtIY3xuzFYUY7
+2MeBbPp+SemruA8UqfrX8OodMtbGZVMyLu617Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -2339,4 +2650,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_db0e557e-12e2-461d-82d2-28c8a366ed6c" Target="#_c3a65e8d-4b01-4e25-8c25-6c5e461b02b9"><Timestamp>2021-05-01 01:40:22</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4b89a549-06c6-41ec-98a4-72d694f60e6d" Target="#_a9cec1d5-0c24-432a-bf34-c6ce4c503cea"><Timestamp>2021-06-06 22:55:22</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
