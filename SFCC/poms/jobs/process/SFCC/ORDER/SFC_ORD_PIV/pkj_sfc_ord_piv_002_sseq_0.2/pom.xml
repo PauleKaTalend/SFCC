@@ -9,22 +9,22 @@
     <relativePath>../../../../../../</relativePath>
   </parent>
   <groupId>org.example.sfcc.job</groupId>
-  <artifactId>J_SFC_ORD_PIV_002_SSEQ</artifactId>
+  <artifactId>PKJ_SFC_ORD_PIV_002_SSEQ</artifactId>
   <version>0.2.0</version>
-  <name>SFCC J_SFC_ORD_PIV_002_SSEQ-0.2.0 (0.1,Jobs)</name>
+  <name>SFCC PKJ_SFC_ORD_PIV_002_SSEQ-0.2.0 (0.2,Jobs)</name>
   <properties>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
     <current.test.resources.dir>${basedir}/src/test/resources</current.test.resources.dir>
     <current.int-resources.dir>${basedir}/src/main/resources</current.int-resources.dir>
-    <talend.job.version>0.1</talend.job.version>
+    <talend.job.version>0.2</talend.job.version>
     <talend.project.name.lowercase>sfcc</talend.project.name.lowercase>
     <talend.job.path>sfcc</talend.job.path>
     <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
     <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
     <talend.project.name>SFCC</talend.project.name>
     <talend.product.version>7.3.1.20200219_1130</talend.product.version>
-    <talend.job.finalName>j_sfc_ord_piv_002_sseq_0_1</talend.job.finalName>
+    <talend.job.finalName>pkj_sfc_ord_piv_002_sseq_0_2</talend.job.finalName>
     <talend.pigudf.groupid>org.example.sfcc.pigudf</talend.pigudf.groupid>
     <talend.routine.groupid>org.example.sfcc.code</talend.routine.groupid>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
@@ -33,7 +33,7 @@
     <talend.job.context>Default</talend.job.context>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
     <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
-    <talend.job.name>J_SFC_ORD_PIV_002_SSEQ</talend.job.name>
+    <talend.job.name>PKJ_SFC_ORD_PIV_002_SSEQ</talend.job.name>
     <talend.job.id>_RgST4FYjEeml3tIAvMaKSg</talend.job.id>
     <talend.project.id>0</talend.project.id>
     <talend.job.folder>sfcc/order/sfc_ord_piv/</talend.job.folder>
@@ -76,6 +76,11 @@
       <groupId>org.dom4j</groupId>
       <artifactId>dom4j</artifactId>
       <version>2.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>jakarta-oro-2.0.8</artifactId>
+      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
@@ -124,17 +129,32 @@
     </dependency>
     <dependency>
       <groupId>org.example.sfcc.job</groupId>
+      <artifactId>J_SFC_ORD_PIV_503_ETL_MOVE_TO_ORDER_STATUS</artifactId>
+      <version>0.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.example.sfcc.job</groupId>
+      <artifactId>J_SFC_ORD_PIV_504_ETL_RENAME_BAD</artifactId>
+      <version>0.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.example.sfcc.job</groupId>
       <artifactId>J_SFC_ORD_PIV_501_ETL_PRINCIPAL</artifactId>
       <version>0.2.0</version>
     </dependency>
     <dependency>
-      <groupId>org.example.ref_tools.job</groupId>
-      <artifactId>SFTP_PUT_FILES</artifactId>
+      <groupId>org.example.sfcc.job</groupId>
+      <artifactId>J_SFC_ORD_PIV_502_ETL_ARRONDI</artifactId>
       <version>0.2.0</version>
     </dependency>
     <dependency>
       <groupId>org.example.ref_tools.job</groupId>
       <artifactId>SFTP_GET_FILES</artifactId>
+      <version>0.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.example.ref_tools.job</groupId>
+      <artifactId>SFTP_PUT_FILES_AND_ARCHIVE</artifactId>
       <version>0.2.0</version>
     </dependency>
   </dependencies>
