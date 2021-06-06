@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2021-06-07T00:55:49.617+0200">
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2021-06-07T00:56:44.762+0200">
   <deletedFolders>process/SFCC/ARTICLE/SFC_ART_PIV</deletedFolders>
   <deletedFolders>process/SFCC/ORDER_STATUS/SFC_ORD_STA_PIV/SEQ</deletedFolders>
   <deletedFolders>process/SFCC/ORDER_STATUS/SFC_ORD_STA_PIV</deletedFolders>
@@ -29,4 +29,5 @@
   <deletedItems id="_PFb0kNlVEemDIq8hTg-exw" path="SFCC/ORDER_STATUS/SFC_ORD_STA_PIV" type="PROCESS"/>
   <deletedItems id="_DKr3MNTeEemsbpo3ixRgmA" path="SFCC/PRICE/PIV_PRI_SFC/SEQ" type="PROCESS"/>
   <deletedItems id="_gPOucOMWEemsaK_K-uz8bA" path="SFCC/PRICE/PIV_PRI_SFC/SEQ" type="PROCESS"/>
+  <deletedItems id="_38KpACk2EemJSI61fHaYjA" path="SFCC/INVENTORY/PIV_INV_SFC" type="PROCESS"/>
 </recyclebin:RecycleBin>
