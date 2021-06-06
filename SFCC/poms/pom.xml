@@ -17,7 +17,6 @@
     <module>jobs/process/SFCC/CATEGORY_PRODUCT/SFC_CAT_ART_PIV/bt_category_article_sfcc_pivot_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_PIV/j_sfc_cus_piv_001_seq_0.1</module>
     <module>jobs/process/SFCC/Z_DEV/EB/split_cat_art_0.1</module>
-    <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_PROD/j_ftp_prod_020_data_from_staging_0.1</module>
     <module>jobs/process/SFCC/Z_DEV/BT/j_cus_xml_adr_first_name_correction_0.3</module>
     <module>jobs/process/SFCC/Z_DEV/EB/gen_price_test_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/PIV_CUS_OPT_SFC/j_piv_cus_opt_sfc_001_seq_0.1</module>
@@ -143,6 +142,7 @@
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_PROD/pkj_ftp_prod_001_seq_0.1</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_PROD/pkj_ftp_prod_002_sseq_0.1</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_PROD/pkj_ftp_prod_010_data_to_staging_0.1</module>
+    <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_PROD/pkj_ftp_prod_020_data_from_staging_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
