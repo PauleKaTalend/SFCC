@@ -30,7 +30,6 @@
     <module>jobs/process/SFCC/ARTICLE/SFC_ART_PIV/j_sfc_art_piv_501_etl_0.2</module>
     <module>jobs/process/SFCC/CUSTOMER/PIV_CUS_OPT_SFC/SEQ/eb_customer_option_pivot_sfcc_0.1</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_PROD/SEQ/bt_ftp_prod_0.1</module>
-    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_002_sseq_0.1</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_412_loa_size_0.6</module>
     <module>jobs/process/SFCC/INVENTORY/PIV_INV_SFC/x_j_piv_inv_sfc_501_etl_pivot_sfcc_0.1</module>
     <module>jobs/process/SFCC/WORK_IMPORT/ORDER/PIV_ORD_SFC/j_piv_ord_sfc_002_sseq_0.1</module>
@@ -168,6 +167,7 @@
     <module>jobs/process/SFCC/PRICE/PIV_PRI_SFC/pkj_piv_pri_sfc_501_etl_pivot_sfcc_0.3</module>
     <module>jobs/process/SFCC/PRICE/PIV_PRI_SFC/pkj_piv_pri_sfc_501_etl_pivot_sfcc_0.1</module>
     <module>jobs/process/SFCC/PRICE/PIV_PRI_SFC/pkj_piv_pri_sfc_501_etl_pivot_sfcc_0.2</module>
+    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_002_sseq_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
