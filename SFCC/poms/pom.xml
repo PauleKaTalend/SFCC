@@ -77,7 +77,6 @@
     <module>jobs/process/SFCC/Z_DEV/test_0.1</module>
     <module>jobs/process/SFCC/CATEGORY_PRODUCT/SFC_CAT_ART_PIV/j_sfc_cat_art_piv_501_etl_0.2</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_001_seq_0.1</module>
-    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_201_ext_0.2</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_PROD/SEQ/eb_ftp_prod_0.1</module>
     <module>jobs/process/SFCC/ORDER/SFC_ORD_PIV/copy_of_j_sfc_ord_piv_501_etl_principal_0.6</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_TEST/j_ftp_test_001_seq_0.1</module>
@@ -133,7 +132,6 @@
     <module>jobs/process/SFCC/WORK_IMPORT/SHOP/PIV_POS_SFC/j_piv_pos_sfc_002_sseq_0.1</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_TEST/SEQ/pk_ftp_test_0.1</module>
     <module>jobs/process/SFCC/ORDER_STATUS/SFC_ORD_STA_PIV/j_sfc_ord_sta_piv_002_sseq_0.1</module>
-    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_201_ext_0.1</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_407_loa_article_color_0.4</module>
     <module>jobs/process/SFCC/Z_DEV/inv_eb_0.1</module>
     <module>jobs/process/SFCC/WORK_IMPORT/SHOP/PIV_POS_SFC/j_piv_pos_sfc_501_etl_pivot_sfcc_0.1</module>
@@ -168,6 +166,8 @@
     <module>jobs/process/SFCC/PRICE/PIV_PRI_SFC/pkj_piv_pri_sfc_501_etl_pivot_sfcc_0.1</module>
     <module>jobs/process/SFCC/PRICE/PIV_PRI_SFC/pkj_piv_pri_sfc_501_etl_pivot_sfcc_0.2</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_002_sseq_0.1</module>
+    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_201_ext_0.2</module>
+    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_201_ext_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
