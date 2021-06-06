@@ -9,22 +9,22 @@
     <relativePath>../../../../../../</relativePath>
   </parent>
   <groupId>org.example.sfcc.job</groupId>
-  <artifactId>J_PIV_ART_SFC_411_LOA_COLOR</artifactId>
+  <artifactId>PKJ_PIV_ART_SFC_411_LOA_COLOR</artifactId>
   <version>0.2.0</version>
-  <name>SFCC J_PIV_ART_SFC_411_LOA_COLOR-0.2.0 (0.4,Jobs)</name>
+  <name>SFCC PKJ_PIV_ART_SFC_411_LOA_COLOR-0.2.0 (0.6,Jobs)</name>
   <properties>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
     <current.test.resources.dir>${basedir}/src/test/resources</current.test.resources.dir>
     <current.int-resources.dir>${basedir}/src/main/resources</current.int-resources.dir>
-    <talend.job.version>0.4</talend.job.version>
+    <talend.job.version>0.6</talend.job.version>
     <talend.project.name.lowercase>sfcc</talend.project.name.lowercase>
     <talend.job.path>sfcc</talend.job.path>
     <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
     <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
     <talend.project.name>SFCC</talend.project.name>
     <talend.product.version>7.3.1.20200219_1130</talend.product.version>
-    <talend.job.finalName>j_piv_art_sfc_411_loa_color_0_4</talend.job.finalName>
+    <talend.job.finalName>pkj_piv_art_sfc_411_loa_color_0_6</talend.job.finalName>
     <talend.pigudf.groupid>org.example.sfcc.pigudf</talend.pigudf.groupid>
     <talend.routine.groupid>org.example.sfcc.code</talend.routine.groupid>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
@@ -33,7 +33,7 @@
     <talend.job.context>Default</talend.job.context>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
     <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
-    <talend.job.name>J_PIV_ART_SFC_411_LOA_COLOR</talend.job.name>
+    <talend.job.name>PKJ_PIV_ART_SFC_411_LOA_COLOR</talend.job.name>
     <talend.job.id>__6CsgH4PEemm8LghonQTPA</talend.job.id>
     <talend.project.id>0</talend.project.id>
     <talend.job.folder>sfcc/article/piv_art_sfc/</talend.job.folder>
@@ -46,11 +46,6 @@
       <groupId>net.minidev</groupId>
       <artifactId>accessors-smart</artifactId>
       <version>1.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>advancedPersistentLookupLib-1.2</artifactId>
-      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.ow2.asm</groupId>
@@ -68,11 +63,6 @@
       <version>1.8.0</version>
     </dependency>
     <dependency>
-      <groupId>commons-collections</groupId>
-      <artifactId>commons-collections</artifactId>
-      <version>3.2.2</version>
-    </dependency>
-    <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
       <version>3.8.1</version>
@@ -88,14 +78,19 @@
       <version>2.1.1</version>
     </dependency>
     <dependency>
-      <groupId>jaxen</groupId>
-      <artifactId>jaxen</artifactId>
-      <version>1.1.6</version>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>external_sort</artifactId>
+      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>jboss-serialization</artifactId>
+      <artifactId>jakarta-oro-2.0.8</artifactId>
       <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>jaxen</groupId>
+      <artifactId>jaxen</artifactId>
+      <version>1.1.6</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
@@ -106,11 +101,6 @@
       <groupId>net.minidev</groupId>
       <artifactId>json-smart</artifactId>
       <version>2.2.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.logging.log4j</groupId>
-      <artifactId>log4j-1.2-api</artifactId>
-      <version>2.12.1</version>
     </dependency>
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
@@ -133,11 +123,6 @@
       <version>1.8.0</version>
     </dependency>
     <dependency>
-      <groupId>mysql</groupId>
-      <artifactId>mysql-connector-java</artifactId>
-      <version>8.0.18</version>
-    </dependency>
-    <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
       <version>1.7.25</version>
@@ -150,11 +135,6 @@
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>talendcsv</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>trove</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>

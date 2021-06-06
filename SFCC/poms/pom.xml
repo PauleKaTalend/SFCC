@@ -72,15 +72,12 @@
     <module>jobs/process/SFCC/ORDER/SFC_ORD_PIV/copy_of_j_sfc_ord_piv_501_etl_principal_0.6</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_TEST/j_ftp_test_001_seq_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/PIV_CUS_OPT_SFC/j_piv_cus_opt_sfc_501_etl_0.2</module>
-    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_411_loa_color_0.4</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_PIV/j_sfc_cus_piv_002_sseq_0.1</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_412_loa_size_0.5</module>
     <module>jobs/process/SFCC/Z_DEV/testftp_0.1</module>
     <module>jobs/process/SFCC/CATEGORY_PRODUCT/PIV_CAT_ART_SFC/SEQ/pk_category_article_pivot_sfcc_0.1</module>
     <module>jobs/process/SFCC/ORDER/SFC_ORD_PIV/dvsgdgds_0.1</module>
     <module>jobs/process/SFCC/ORDER/SFC_ORD_PIV/j_sfc_ord_piv_001_seq_0.1</module>
-    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_411_loa_color_0.6</module>
-    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_411_loa_color_0.5</module>
     <module>jobs/process/SFCC/CUSTOMER/PIV_CUS_SFC/j_piv_cus_sfc_002_sseq_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/PIV_CUS_SFC/j_piv_cus_sfc_501_etl_0.2</module>
     <module>jobs/process/SFCC/Z_RECETTE/CUSTOMER/customer_xml_csv_0.1</module>
@@ -168,6 +165,9 @@
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_409_loa_img_0.4</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_410_loa_cross_sell_0.5</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_410_loa_cross_sell_0.4</module>
+    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_411_loa_color_0.6</module>
+    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_411_loa_color_0.4</module>
+    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_411_loa_color_0.5</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
