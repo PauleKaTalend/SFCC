@@ -91,7 +91,6 @@
     <module>jobs/process/SFCC/CATEGORY_PRODUCT/SFC_CAT_ART_PIV/j_sfc_cat_art_piv_002_sseq_0.1</module>
     <module>jobs/process/SFCC/WORK_IMPORT/CUSTOMER/PIV_CUS_SFC/piv_cus_sfc_import_no_adr_0.2</module>
     <module>jobs/process/SFCC/Z_DEV/testchronopost_0.1</module>
-    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_403_loa_data_lang_default_0.4</module>
     <module>jobs/process/SFCC/Z_DEV/copy_img_on_ftp_0.1</module>
     <module>jobs/process/SFCC/Z_DEV/renameimg_0.1</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/SEQ/pk_article_pivot_sfcc_0.1</module>
@@ -168,6 +167,7 @@
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_401_loa_pivot_sfcc_0.2</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_401_loa_pivot_sfcc_0.3</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_402_loa_data_no_lang_0.4</module>
+    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_403_loa_data_lang_default_0.4</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
