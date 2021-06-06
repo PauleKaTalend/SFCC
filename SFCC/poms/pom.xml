@@ -140,7 +140,6 @@
     <module>jobs/process/SFCC/CUSTOMER/PIV_CUS_SFC/j_piv_cus_sfc_501_etl_bonton_0.2</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_NL_PIV/SEQ/eb_customer_nl_sfcc_pivot_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_PIV/j_sfc_cus_piv_501_loa_customer_info_0.3</module>
-    <module>jobs/process/SFCC/ORDER_STATUS/PIV_ORD_STA_SFC/SEQ/pk_order_status_pivot_sfcc_0.1</module>
     <module>jobs/process/SFCC/INVENTORY/PIV_INV_SFC/j_piv_inv_sfc_501_etl_pivot_sfcc2_0.1</module>
     <module>jobs/process/SFCC/INVENTORY/PIV_INV_SFC/SEQ/pk_inventory_pivot_sfcc_0.1</module>
     <module>jobs/process/SFCC/ORDER_STATUS/PIV_ORD_STA_SFC/j_piv_sta_ord_sfc_501_etl_pivot_sfcc_0.1</module>
@@ -168,6 +167,7 @@
     <module>jobs/process/SFCC/Z_DEV/test_diff_0.1</module>
     <module>../../REF_COMMON/poms</module>
     <module>../../REF_TOOLS/poms</module>
+    <module>jobs/process/SFCC/ORDER_STATUS/PIV_ORD_STA_SFC/pk_order_status_pivot_sfcc_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
