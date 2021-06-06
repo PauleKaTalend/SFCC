@@ -104,7 +104,6 @@
     <module>jobs/process/SFCC/WORK_IMPORT/CUSTOMER/PIV_CUS_SFC/piv_cus_sfc_import_0.2</module>
     <module>jobs/process/SFCC/ORDER_STATUS/SFC_ORD_STA_PIV/j_sfc_ord_sta_piv_001_seq_0.1</module>
     <module>jobs/process/SFCC/ARTICLE/SFC_ART_PIV/j_sfc_art_piv_002_sseq_0.1</module>
-    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_408_loa_article_color_size_0.4</module>
     <module>jobs/process/SFCC/WORK_IMPORT/SHOP/PIV_POS_SFC/j_piv_pos_sfc_001_seq_bt_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/PIV_CUS_SFC/j_piv_cus_sfc_501_etl_bonton_0.2</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_NL_PIV/SEQ/eb_customer_nl_sfcc_pivot_0.1</module>
@@ -168,6 +167,7 @@
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_405_loa_variant_color_0.4</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_406_loa_variant_color_size_0.4</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_407_loa_article_color_0.4</module>
+    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_408_loa_article_color_size_0.4</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
