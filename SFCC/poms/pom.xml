@@ -94,7 +94,6 @@
     <module>jobs/process/SFCC/ORDER/SFC_ORD_PIV/dvsgdgds_0.1</module>
     <module>jobs/process/SFCC/ORDER/SFC_ORD_PIV/j_sfc_ord_piv_001_seq_0.1</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_411_loa_color_0.6</module>
-    <module>jobs/process/SFCC/PRICE/PIV_PRI_SFC/SEQ/pk_price_pivot_sfcc_0.1</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_411_loa_color_0.5</module>
     <module>jobs/process/SFCC/CUSTOMER/PIV_CUS_SFC/j_piv_cus_sfc_002_sseq_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/PIV_CUS_SFC/j_piv_cus_sfc_501_etl_0.2</module>
@@ -168,6 +167,7 @@
     <module>jobs/process/SFCC/INVENTORY/PIV_INV_SFC/pkj_piv_inv_sfc_001_seq_0.1</module>
     <module>jobs/process/SFCC/INVENTORY/PIV_INV_SFC/pkj_piv_inv_sfc_002_sseq_0.1</module>
     <module>jobs/process/SFCC/INVENTORY/PIV_INV_SFC/pk_inventory_pivot_sfcc_0.1</module>
+    <module>jobs/process/SFCC/PRICE/PIV_PRI_SFC/pk_price_pivot_sfcc_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
