@@ -9,9 +9,9 @@
     <relativePath>../../../../../../</relativePath>
   </parent>
   <groupId>org.example.sfcc.job</groupId>
-  <artifactId>J_PIV_ART_SFC_412_LOA_SIZE</artifactId>
+  <artifactId>PKJ_PIV_ART_SFC_412_LOA_SIZE</artifactId>
   <version>0.2.0</version>
-  <name>SFCC J_PIV_ART_SFC_412_LOA_SIZE-0.2.0 (0.6,Jobs)</name>
+  <name>SFCC PKJ_PIV_ART_SFC_412_LOA_SIZE-0.2.0 (0.6,Jobs)</name>
   <properties>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
@@ -24,16 +24,16 @@
     <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
     <talend.project.name>SFCC</talend.project.name>
     <talend.product.version>7.3.1.20200219_1130</talend.product.version>
-    <talend.job.finalName>j_piv_art_sfc_412_loa_size_0_6</talend.job.finalName>
+    <talend.job.finalName>pkj_piv_art_sfc_412_loa_size_0_6</talend.job.finalName>
     <talend.pigudf.groupid>org.example.sfcc.pigudf</talend.pigudf.groupid>
     <talend.routine.groupid>org.example.sfcc.code</talend.routine.groupid>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
-    <talend.job.jvmargs>-Xms256M -Xmx1024M </talend.job.jvmargs>
+    <talend.job.jvmargs>-Xms256M -Xmx1024M -Dfile.encoding=UTF-8 </talend.job.jvmargs>
     <talend.job.stat>true</talend.job.stat>
     <talend.job.context>Default</talend.job.context>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
     <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
-    <talend.job.name>J_PIV_ART_SFC_412_LOA_SIZE</talend.job.name>
+    <talend.job.name>PKJ_PIV_ART_SFC_412_LOA_SIZE</talend.job.name>
     <talend.job.id>_Do15gH4QEemm8LghonQTPA</talend.job.id>
     <talend.project.id>0</talend.project.id>
     <talend.job.folder>sfcc/article/piv_art_sfc/</talend.job.folder>
