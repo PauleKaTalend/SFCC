@@ -10,8 +10,6 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>code/routines</module>
-    <module>../../REF_COMMON/poms</module>
-    <module>../../REF_TOOLS/poms</module>
     <module>jobs/process/SFCC/Z_DEV/addcolordb_0.1</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/SEQ/bt_article_pivot_sfcc_0.1</module>
     <module>jobs/process/SFCC/ORDER/SFC_ORD_PIV/SEQ/pk_order_sfcc_pivot_0.1</module>
@@ -168,6 +166,8 @@
     <module>jobs/process/SFCC/Z_DEV/inv_eb_0.1</module>
     <module>jobs/process/SFCC/WORK_IMPORT/SHOP/PIV_POS_SFC/j_piv_pos_sfc_501_etl_pivot_sfcc_0.1</module>
     <module>jobs/process/SFCC/Z_DEV/test_diff_0.1</module>
+    <module>../../REF_COMMON/poms</module>
+    <module>../../REF_TOOLS/poms</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
