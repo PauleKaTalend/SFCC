@@ -22,7 +22,6 @@
     <module>jobs/process/SFCC/Z_DEV/EB/split_cat_art_0.1</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_410_loa_cross_sell_0.4</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_PROD/j_ftp_prod_020_data_from_staging_0.1</module>
-    <module>jobs/process/SFCC/ORDER/SFC_ORD_PIV/j_sfc_ord_piv_503_etl_move_to_order_status_0.3</module>
     <module>jobs/process/SFCC/Z_DEV/BT/j_cus_xml_adr_first_name_correction_0.3</module>
     <module>jobs/process/SFCC/ORDER_STATUS/SFC_ORD_STA_PIV/SEQ/eb_order_status_sfcc_pivot_0.1</module>
     <module>jobs/process/SFCC/Z_DEV/EB/gen_price_test_0.1</module>
@@ -168,6 +167,7 @@
     <module>jobs/process/SFCC/ORDER/SFC_ORD_PIV/pkj_sfc_ord_piv_501_etl_principal_0.4</module>
     <module>jobs/process/SFCC/ORDER/SFC_ORD_PIV/pkj_sfc_ord_piv_501_etl_principal_0.5</module>
     <module>jobs/process/SFCC/ORDER/SFC_ORD_PIV/pkj_sfc_ord_piv_502_etl_arrondi_0.6</module>
+    <module>jobs/process/SFCC/ORDER/SFC_ORD_PIV/pkj_sfc_ord_piv_503_etl_move_to_order_status_0.3</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
