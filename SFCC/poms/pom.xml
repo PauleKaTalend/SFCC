@@ -18,7 +18,6 @@
     <module>jobs/process/SFCC/Z_ARCHIVE/XAV/j_piv_art_sfc_501_article_sfc_pivot_xav_0.3</module>
     <module>jobs/process/SFCC/CATEGORY_PRODUCT/SFC_CAT_ART_PIV/bt_category_article_sfcc_pivot_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_PIV/j_sfc_cus_piv_001_seq_0.1</module>
-    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_401_loa_pivot_sfcc_0.3</module>
     <module>jobs/process/SFCC/Z_DEV/EB/split_cat_art_0.1</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_410_loa_cross_sell_0.4</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_PROD/j_ftp_prod_020_data_from_staging_0.1</module>
@@ -26,7 +25,6 @@
     <module>jobs/process/SFCC/ORDER_STATUS/SFC_ORD_STA_PIV/SEQ/eb_order_status_sfcc_pivot_0.1</module>
     <module>jobs/process/SFCC/Z_DEV/EB/gen_price_test_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/PIV_CUS_OPT_SFC/j_piv_cus_opt_sfc_001_seq_0.1</module>
-    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_401_loa_pivot_sfcc_0.2</module>
     <module>jobs/process/SFCC/ARTICLE/SFC_ART_PIV/j_sfc_art_piv_501_etl_0.2</module>
     <module>jobs/process/SFCC/CUSTOMER/PIV_CUS_OPT_SFC/SEQ/eb_customer_option_pivot_sfcc_0.1</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_PROD/SEQ/bt_ftp_prod_0.1</module>
@@ -63,8 +61,6 @@
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_NL_PIV/SEQ/pk_customer_nl_sfcc_pivot_0.1</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_TEST/j_ftp_test_010_data_to_integration_0.1</module>
     <module>jobs/process/SFCC/Z_DEV/CLIENTS/supp_adr_0.2</module>
-    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_401_loa_pivot_sfcc_0.1</module>
-    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/j_piv_art_sfc_401_loa_pivot_sfcc_0.4</module>
     <module>jobs/process/SFCC/Z_DEV/transform_catalog_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_PIV/SEQ/bt_customer_sfcc_pivot_0.1</module>
     <module>jobs/process/SFCC/Z_DEV/testftp2_0.1</module>
@@ -168,6 +164,10 @@
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_002_sseq_0.1</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_201_ext_0.2</module>
     <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_201_ext_0.1</module>
+    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_401_loa_pivot_sfcc_0.4</module>
+    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_401_loa_pivot_sfcc_0.1</module>
+    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_401_loa_pivot_sfcc_0.2</module>
+    <module>jobs/process/SFCC/ARTICLE/PIV_ART_SFC/pkj_piv_art_sfc_401_loa_pivot_sfcc_0.3</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
