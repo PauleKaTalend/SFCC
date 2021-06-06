@@ -28,7 +28,7 @@
     <talend.pigudf.groupid>org.example.sfcc.pigudf</talend.pigudf.groupid>
     <talend.routine.groupid>org.example.sfcc.code</talend.routine.groupid>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
-    <talend.job.jvmargs>-Xms256M -Xmx1024M -Dfile.encoding=UTF-8</talend.job.jvmargs>
+    <talend.job.jvmargs>-Xms256M -Xmx1024M -Dfile.encoding=UTF-8 </talend.job.jvmargs>
     <talend.job.stat>true</talend.job.stat>
     <talend.job.context>Default</talend.job.context>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
@@ -36,7 +36,7 @@
     <talend.job.name>PK_FTP_PROD</talend.job.name>
     <talend.job.id>_GKaOUD3yEeqjcZ6uqdLGMw</talend.job.id>
     <talend.project.id>0</talend.project.id>
-    <talend.job.folder>sfcc/ftp_file_managment/ftp_prod/seq/</talend.job.folder>
+    <talend.job.folder>sfcc/ftp_file_managment/ftp_prod/</talend.job.folder>
     <talend.job.framework></talend.job.framework>
     <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
     <talend.job.type>Standard</talend.job.type>
@@ -154,7 +154,7 @@
     </dependency>
     <dependency>
       <groupId>org.example.sfcc.job</groupId>
-      <artifactId>J_FTP_PROD_002_SSEQ</artifactId>
+      <artifactId>PKJ_FTP_PROD_002_SSEQ</artifactId>
       <version>1.11.0</version>
     </dependency>
   </dependencies>
@@ -269,8 +269,8 @@
       <properties>
         <talend.pigudf.excludes.set>org.talend.pigudf.${talend.project.name.lowercase}:*</talend.pigudf.excludes.set>
         <talend.libraries.excludes.set>${talend.libraries.includes.set}</talend.libraries.excludes.set>
-        <talend.jobs.excludes.set>${project.groupId}:*</talend.jobs.excludes.set>
         <talend.code.excludes.set>org.talend.code.${talend.project.name.lowercase}:*</talend.code.excludes.set>
+        <talend.jobs.excludes.set>${project.groupId}:*</talend.jobs.excludes.set>
         <talend.libraries.includes.set>org.talend.libraries:*</talend.libraries.includes.set>
         <current.job.binaries.include>${project.groupId}:${project.artifactId}:${project.version}</current.job.binaries.include>
       </properties>
