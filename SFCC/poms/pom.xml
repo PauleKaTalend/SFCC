@@ -11,7 +11,6 @@
   <modules>
     <module>code/routines</module>
     <module>jobs/process/SFCC/Z_DEV/addcolordb_0.1</module>
-    <module>jobs/process/SFCC/CATEGORY_PRODUCT/PIV_CAT_ART_SFC/j_piv_art_cat_sfc_001_seq_0.1</module>
     <module>jobs/process/SFCC/WORK_IMPORT/CUSTOMER/PIV_CUS_SFC/delta_sans_tel_0.2</module>
     <module>jobs/process/SFCC/Z_ARCHIVE/XAV/j_piv_art_sfc_501_article_sfc_pivot_xav_0.3</module>
     <module>jobs/process/SFCC/CATEGORY_PRODUCT/SFC_CAT_ART_PIV/bt_category_article_sfcc_pivot_0.1</module>
@@ -143,6 +142,7 @@
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_TEST/pkj_ftp_test_010_data_to_integration_0.1</module>
     <module>jobs/process/SFCC/FTP_FILE_MANAGMENT/FTP_TEST/pkj_ftp_test_020_data_from_integration_0.1</module>
     <module>jobs/process/SFCC/CATEGORY_PRODUCT/PIV_CAT_ART_SFC/pk_category_article_pivot_sfcc_0.1</module>
+    <module>jobs/process/SFCC/CATEGORY_PRODUCT/PIV_CAT_ART_SFC/pkj_piv_art_cat_sfc_001_seq_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
