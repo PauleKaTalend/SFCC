@@ -124,7 +124,6 @@
     <module>jobs/process/SFCC/CUSTOMER/PIV_CUS_SFC/j_piv_cus_sfc_501_etl_bonton_0.2</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_NL_PIV/SEQ/eb_customer_nl_sfcc_pivot_0.1</module>
     <module>jobs/process/SFCC/CUSTOMER/SFC_CUS_PIV/j_sfc_cus_piv_501_loa_customer_info_0.3</module>
-    <module>jobs/process/SFCC/INVENTORY/PIV_INV_SFC/SEQ/pk_inventory_pivot_sfcc_0.1</module>
     <module>jobs/process/SFCC/Z_DEV/sendsize_0.1</module>
     <module>jobs/process/SFCC/WORK_IMPORT/SHOP/PIV_POS_SFC/j_piv_pos_sfc_001_seq_pk_0.1</module>
     <module>jobs/process/SFCC/Z_DEV/deletebadimg_0.1</module>
@@ -168,6 +167,7 @@
     <module>jobs/process/SFCC/INVENTORY/PIV_INV_SFC/pkj_piv_inv_sfc_501_etl_pivot_sfcc_0.1</module>
     <module>jobs/process/SFCC/INVENTORY/PIV_INV_SFC/pkj_piv_inv_sfc_001_seq_0.1</module>
     <module>jobs/process/SFCC/INVENTORY/PIV_INV_SFC/pkj_piv_inv_sfc_002_sseq_0.1</module>
+    <module>jobs/process/SFCC/INVENTORY/PIV_INV_SFC/pk_inventory_pivot_sfcc_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
