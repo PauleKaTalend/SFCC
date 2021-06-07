@@ -118,6 +118,11 @@
       <version>6.0.0</version>
     </dependency>
     <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>talendcsv</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
       <groupId>org.example.sfcc.code</groupId>
       <artifactId>routines</artifactId>
       <version>7.3.1</version>
@@ -154,7 +159,7 @@
     </dependency>
     <dependency>
       <groupId>org.example.sfcc.job</groupId>
-      <artifactId>J_FTP_PROD_002_SSEQ</artifactId>
+      <artifactId>PKJ_FTP_PROD_002_SSEQ</artifactId>
       <version>1.11.0</version>
     </dependency>
   </dependencies>

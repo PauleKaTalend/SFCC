@@ -118,18 +118,23 @@
       <version>6.0.0</version>
     </dependency>
     <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>talendcsv</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
       <groupId>org.example.sfcc.code</groupId>
       <artifactId>routines</artifactId>
       <version>7.3.1</version>
     </dependency>
     <dependency>
       <groupId>org.example.sfcc.job</groupId>
-      <artifactId>J_FTP_TEST_020_DATA_FROM_INTEGRATION</artifactId>
+      <artifactId>PKJ_FTP_TEST_020_DATA_FROM_INTEGRATION</artifactId>
       <version>0.1.0</version>
     </dependency>
     <dependency>
       <groupId>org.example.sfcc.job</groupId>
-      <artifactId>J_FTP_TEST_010_DATA_TO_INTEGRATION</artifactId>
+      <artifactId>PKJ_FTP_TEST_010_DATA_TO_INTEGRATION</artifactId>
       <version>0.1.0</version>
     </dependency>
   </dependencies>

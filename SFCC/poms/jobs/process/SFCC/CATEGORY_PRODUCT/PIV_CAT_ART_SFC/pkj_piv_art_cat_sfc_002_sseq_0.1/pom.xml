@@ -118,18 +118,23 @@
       <version>6.0.0</version>
     </dependency>
     <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>talendcsv</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
       <groupId>org.example.sfcc.code</groupId>
       <artifactId>routines</artifactId>
       <version>7.3.1</version>
     </dependency>
     <dependency>
       <groupId>org.example.sfcc.job</groupId>
-      <artifactId>J_PIV_ART_CAT_SFC_501_ETL_PIVOT_SFCC_V2</artifactId>
+      <artifactId>PKJ_PIV_ART_CAT_SFC_501_ETL_PIVOT_SFCC_V2</artifactId>
       <version>0.2.0</version>
     </dependency>
     <dependency>
       <groupId>org.example.sfcc.job</groupId>
-      <artifactId>J_PIV_ART_CAT_SFC_502_CAT_DELETE</artifactId>
+      <artifactId>PKJ_PIV_ART_CAT_SFC_502_CAT_DELETE</artifactId>
       <version>0.2.0</version>
     </dependency>
     <dependency>

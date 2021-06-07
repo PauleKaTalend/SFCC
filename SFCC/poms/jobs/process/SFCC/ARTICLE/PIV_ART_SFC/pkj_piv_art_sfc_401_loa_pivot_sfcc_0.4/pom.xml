@@ -118,53 +118,58 @@
       <version>6.0.0</version>
     </dependency>
     <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>talendcsv</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
       <groupId>org.example.sfcc.code</groupId>
       <artifactId>routines</artifactId>
       <version>7.3.1</version>
     </dependency>
     <dependency>
       <groupId>org.example.sfcc.job</groupId>
-      <artifactId>J_PIV_ART_SFC_408_LOA_ARTICLE_COLOR_SIZE</artifactId>
+      <artifactId>PKJ_PIV_ART_SFC_408_LOA_ARTICLE_COLOR_SIZE</artifactId>
       <version>0.2.0</version>
     </dependency>
     <dependency>
       <groupId>org.example.sfcc.job</groupId>
-      <artifactId>J_PIV_ART_SFC_406_LOA_VARIANT_COLOR_SIZE</artifactId>
+      <artifactId>PKJ_PIV_ART_SFC_406_LOA_VARIANT_COLOR_SIZE</artifactId>
       <version>0.2.0</version>
     </dependency>
     <dependency>
       <groupId>org.example.sfcc.job</groupId>
-      <artifactId>J_PIV_ART_SFC_412_LOA_SIZE</artifactId>
+      <artifactId>PKJ_PIV_ART_SFC_412_LOA_SIZE</artifactId>
       <version>0.2.0</version>
     </dependency>
     <dependency>
       <groupId>org.example.sfcc.job</groupId>
-      <artifactId>J_PIV_ART_SFC_402_LOA_DATA_NO_LANG</artifactId>
+      <artifactId>PKJ_PIV_ART_SFC_402_LOA_DATA_NO_LANG</artifactId>
       <version>0.2.0</version>
     </dependency>
     <dependency>
       <groupId>org.example.sfcc.job</groupId>
-      <artifactId>J_PIV_ART_SFC_404_LOA_DATA_LANG</artifactId>
+      <artifactId>PKJ_PIV_ART_SFC_404_LOA_DATA_LANG</artifactId>
       <version>0.2.0</version>
     </dependency>
     <dependency>
       <groupId>org.example.sfcc.job</groupId>
-      <artifactId>J_PIV_ART_SFC_403_LOA_DATA_LANG_DEFAULT</artifactId>
+      <artifactId>PKJ_PIV_ART_SFC_403_LOA_DATA_LANG_DEFAULT</artifactId>
       <version>0.2.0</version>
     </dependency>
     <dependency>
       <groupId>org.example.sfcc.job</groupId>
-      <artifactId>J_PIV_ART_SFC_411_LOA_COLOR</artifactId>
+      <artifactId>PKJ_PIV_ART_SFC_411_LOA_COLOR</artifactId>
       <version>0.2.0</version>
     </dependency>
     <dependency>
       <groupId>org.example.sfcc.job</groupId>
-      <artifactId>J_PIV_ART_SFC_405_LOA_VARIANT_COLOR</artifactId>
+      <artifactId>PKJ_PIV_ART_SFC_405_LOA_VARIANT_COLOR</artifactId>
       <version>0.2.0</version>
     </dependency>
     <dependency>
       <groupId>org.example.sfcc.job</groupId>
-      <artifactId>J_PIV_ART_SFC_410_LOA_CROSS_SELL</artifactId>
+      <artifactId>PKJ_PIV_ART_SFC_410_LOA_CROSS_SELL</artifactId>
       <version>0.2.0</version>
     </dependency>
     <dependency>
@@ -174,12 +179,12 @@
     </dependency>
     <dependency>
       <groupId>org.example.sfcc.job</groupId>
-      <artifactId>J_PIV_ART_SFC_409_LOA_IMG</artifactId>
+      <artifactId>PKJ_PIV_ART_SFC_409_LOA_IMG</artifactId>
       <version>0.2.0</version>
     </dependency>
     <dependency>
       <groupId>org.example.sfcc.job</groupId>
-      <artifactId>J_PIV_ART_SFC_407_LOA_ARTICLE_COLOR</artifactId>
+      <artifactId>PKJ_PIV_ART_SFC_407_LOA_ARTICLE_COLOR</artifactId>
       <version>0.2.0</version>
     </dependency>
   </dependencies>

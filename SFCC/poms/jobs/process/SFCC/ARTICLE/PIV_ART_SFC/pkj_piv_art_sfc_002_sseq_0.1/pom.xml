@@ -123,28 +123,33 @@
       <version>6.0.0</version>
     </dependency>
     <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>talendcsv</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
       <groupId>org.example.sfcc.code</groupId>
       <artifactId>routines</artifactId>
       <version>7.3.1</version>
     </dependency>
     <dependency>
       <groupId>org.example.sfcc.job</groupId>
-      <artifactId>J_PIV_ART_SFC_401_LOA_PIVOT_SFCC</artifactId>
+      <artifactId>PKJ_PIV_ART_SFC_401_LOA_PIVOT_SFCC</artifactId>
       <version>0.2.0</version>
     </dependency>
     <dependency>
       <groupId>org.example.sfcc.job</groupId>
-      <artifactId>J_PIV_ART_SFC_411_LOA_COLOR</artifactId>
+      <artifactId>PKJ_PIV_ART_SFC_411_LOA_COLOR</artifactId>
       <version>0.2.0</version>
     </dependency>
     <dependency>
       <groupId>org.example.sfcc.job</groupId>
-      <artifactId>J_PIV_ART_SFC_412_LOA_SIZE</artifactId>
+      <artifactId>PKJ_PIV_ART_SFC_412_LOA_SIZE</artifactId>
       <version>0.2.0</version>
     </dependency>
     <dependency>
       <groupId>org.example.sfcc.job</groupId>
-      <artifactId>J_PIV_ART_SFC_410_LOA_CROSS_SELL</artifactId>
+      <artifactId>PKJ_PIV_ART_SFC_410_LOA_CROSS_SELL</artifactId>
       <version>0.2.0</version>
     </dependency>
     <dependency>

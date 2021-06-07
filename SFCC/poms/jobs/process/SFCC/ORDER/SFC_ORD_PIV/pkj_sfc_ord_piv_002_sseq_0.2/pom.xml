@@ -123,28 +123,33 @@
       <version>6.0.0</version>
     </dependency>
     <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>talendcsv</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
       <groupId>org.example.sfcc.code</groupId>
       <artifactId>routines</artifactId>
       <version>7.3.1</version>
     </dependency>
     <dependency>
       <groupId>org.example.sfcc.job</groupId>
-      <artifactId>J_SFC_ORD_PIV_503_ETL_MOVE_TO_ORDER_STATUS</artifactId>
+      <artifactId>PKJ_SFC_ORD_PIV_503_ETL_MOVE_TO_ORDER_STATUS</artifactId>
       <version>0.2.0</version>
     </dependency>
     <dependency>
       <groupId>org.example.sfcc.job</groupId>
-      <artifactId>J_SFC_ORD_PIV_504_ETL_RENAME_BAD</artifactId>
+      <artifactId>PKJ_SFC_ORD_PIV_504_ETL_RENAME_BAD</artifactId>
       <version>0.2.0</version>
     </dependency>
     <dependency>
       <groupId>org.example.sfcc.job</groupId>
-      <artifactId>J_SFC_ORD_PIV_501_ETL_PRINCIPAL</artifactId>
+      <artifactId>PKJ_SFC_ORD_PIV_501_ETL_PRINCIPAL</artifactId>
       <version>0.2.0</version>
     </dependency>
     <dependency>
       <groupId>org.example.sfcc.job</groupId>
-      <artifactId>J_SFC_ORD_PIV_502_ETL_ARRONDI</artifactId>
+      <artifactId>PKJ_SFC_ORD_PIV_502_ETL_ARRONDI</artifactId>
       <version>0.2.0</version>
     </dependency>
     <dependency>
